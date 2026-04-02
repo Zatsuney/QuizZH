@@ -1,0 +1,22 @@
+# Général
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node (si jamais utilisé)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dossiers personnels
+/temp/
+/test/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Classement Final</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="leaderboard-section">
+        <div class="leaderboard-header">
+            <h1>Quiz<span class="highlight">ZH</span></h1>
+        </div>
+
+        <div class="leaderboard-content">
+            <h2 class="leaderboard-title">🏆 Classement Final</h2>
+
+            <table class="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th>Rang</th>
+                        <th>Joueur</th>
+                        <th>Score</th>
+                        <th>Temps</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboardTableBody">
+                    <tr>
+                        <td colspan="4" style="text-align: center; padding: 30px;">
+                            <p>Chargement du classement...</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="leaderboard-footer">
+                <p id="tournamentStatus"></p>
+                <p class="timestamp">Actualisation: <span id="refreshTime">--:--</span></p>
+            </div>
+
+            <button id="backHomeBtn" class="btn-back-home">🏠 Retour à l'accueil</button>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/app-leaderboard.js"></script>
+</body>
+</html>

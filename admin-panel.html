@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Panel Admin</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <div class="admin-header">
+            <h1>Quiz<span class="highlight">ZH</span> Admin</h1>
+            <button id="adminLogoutBtn" class="btn-logout">Déconnexion</button>
+        </div>
+
+        <div class="admin-content">
+            <!-- LAYOUT FLEX: GAUCHE (MANCHES) ET DROITE (JOUEURS) -->
+            <div class="admin-layout">
+                <!-- SECTION GAUCHE - GESTION DES MANCHES -->
+                <div class="admin-left-panel">
+                    <div class="admin-section rounds-management">
+                        <h3>📊 Manches</h3>
+                        
+                        <div class="rounds-grid">
+                            <div class="round-card" id="round1">
+                                <div class="round-header">
+                                    <h4>Manche 1</h4>
+                                    <span class="round-status">Inactive</span>
+                                </div>
+                                <button class="btn-start-round" data-round="1">🚀 Lancer</button>
+                            </div>
+
+                            <div class="round-card" id="round2">
+                                <div class="round-header">
+                                    <h4>Manche 2</h4>
+                                    <span class="round-status">Inactive</span>
+                                </div>
+                                <button class="btn-start-round" data-round="2">🚀 Lancer</button>
+                            </div>
+
+                            <div class="round-card" id="round3">
+                                <div class="round-header">
+                                    <h4>Manche 3</h4>
+                                    <span class="round-status">Inactive</span>
+                                </div>
+                                <button class="btn-start-round" data-round="3">🚀 Lancer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION MILIEU - GESTION DES RÉPONSES (AFFICHÉE QUAND UNE MANCHE EST ACTIVE) -->
+                <div class="admin-middle-panel" id="questionManagement" style="display: none;">
+                    <h3>❓ Gestion des Réponses</h3>
+                    
+                    <div class="question-display">
+                        <div class="current-question">
+                            <span class="question-label">Question actuelle:</span>
+                            <p id="currentQuestionText">-</p>
+                            <span class="question-number">Question <span id="questionNumber">-</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="answers-container">
+                        <div class="answers-header">
+                            <h4>Réponses des joueurs</h4>
+                            <span class="answers-count" id="answersCount">0 joueurs ont répondu</span>
+                        </div>
+                        
+                        <div class="answers-list" id="answersList">
+                            <div class="empty-state">En attente des réponses des joueurs...</div>
+                        </div>
+                    </div>
+                    
+                    <div class="question-controls">
+                        <button class="btn-next-question" id="nextQuestionBtn">➡️ Question Suivante</button>
+                        <button class="btn-finish-round" id="finishRoundBtn" style="display: none;">✅ Finaliser Manche (Éliminer 5 derniers)</button>
+                    </div>
+
+                    <!-- CLASSEMENT EN DIRECT -->
+                    <div class="leaderboard-section">
+                        <h4>🏆 Classement en direct</h4>
+                        <div class="leaderboard-grid" id="adminLeaderboard">
+                            <div class="empty-state">Classement à venir...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION DROITE - JOUEURS CONNECTÉS -->
+                <div class="admin-right-panel" id="playersPanel">
+                    <div class="admin-section players-management">
+                        <div class="players-header">
+                            <h3>👥 Joueurs</h3>
+                            <button class="btn-refresh-players" id="refreshPlayersBtn">🔄</button>
+                        </div>
+                        
+                        <div class="players-info-bar">
+                            <div class="info-item">
+                                <span class="info-label">Total</span>
+                                <span class="info-value" id="totalPlayers">0</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Attente</span>
+                                <span class="info-value" id="waitingPlayers">0</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">En jeu</span>
+                                <span class="info-value" id="playingPlayers">0</span>
+                            </div>
+                        </div>
+
+                        <div class="players-grid" id="playersGrid">
+                            <div class="empty-state">Aucun joueur connecté</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="admin-footer">
+            <p>Session Admin ID: <span id="adminSessionId">-</span></p>
+            <p><small>Connecté à: <span id="adminLoginTime">-</span></small></p>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/app-admin.js"></script>
+</body>
+</html>

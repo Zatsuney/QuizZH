@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Manche 1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="round-container">
+        <div class="round-header">
+            <h1>Quiz<span class="highlight">ZH</span></h1>
+            <div class="header-actions">
+                <div class="timer-badge">
+                    <span class="timer-icon">⏰</span>
+                    <span id="timerValue" class="timer-countdown">15</span>s
+                </div>
+                <button id="leaderboardBtn" class="btn-leaderboard">🏆 Classement</button>
+                <button id="quitBtn" class="btn-quit">❌ Quitter</button>
+            </div>
+        </div>
+
+        <!-- LEADERBOARD MODAL -->
+        <div id="leaderboardModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>🏆 Classement</h2>
+                    <button id="closeLeaderboardBtn" class="btn-close">✕</button>
+                </div>
+                <div id="leaderboardList" class="leaderboard-list">
+                    <p>Chargement...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- RULES MODAL -->
+        <div id="rulesModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>📋 Règles de la Manche</h2>
+                </div>
+                <div id="rulesList" class="rules-list">
+                    <p>Chargement des règles...</p>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+                    <button id="readyBtn" class="btn-primary">✅ Prêt</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="round-content">
+            <div class="round-title">
+                <h2>Manche 1</h2>
+                <div class="progress-section">
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                    <p class="progress-text" id="questionProgress">-/-</p>
+                </div>
+            </div>
+
+            <div class="round-info">
+                <div class="info-card">
+                    <span class="info-icon">👤</span>
+                    <span id="playerNameDisplay">Joueur</span>
+                </div>
+            </div>
+
+            <!-- QUESTION DISPLAY -->
+            <div id="questionContainer" class="question-container" style="display: none;">
+                <div class="question-card">
+                    <h3 id="questionText">Chargement de la question...</h3>
+                </div>
+
+                <form id="answerForm" class="answer-form" style="display: none;">
+                    <div class="form-group">
+                        <label for="answerInput">Votre réponse:</label>
+                        <input 
+                            type="text" 
+                            id="answerInput" 
+                            class="form-input" 
+                            placeholder="Entrez votre réponse" 
+                            autocomplete="off"
+                        >
+                        <div id="answerStatus" style="display: none; margin-top: 10px; text-align: center;"></div>
+                    </div>
+                    <div class="button-group">
+                        <button type="submit" class="btn-primary">📤 Soumettre</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- WAITING MESSAGE -->
+            <div id="waitingMessage" class="waiting-message" style="display: none;">
+                <p>⏳ En attente de la question suivante...</p>
+            </div>
+
+            <!-- GAME END CARD -->
+            <div id="gameEndCard" class="game-end-card" style="display: none;">
+                <h2>🎉 Manche terminée!</h2>
+                <p>Excellente performance! La manche s'est bien déroulée.</p>
+                <p class="small-text">Attendez les instructions suivantes...</p>
+            </div>
+
+            <!-- LOADING STATE -->
+            <div class="round-footer" id="roundFooter" style="display: none;">
+                <p id="roundMessage">En attente...</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/app-rounds.js"></script>
+    <script type="module" src="assets/js/leaderboard.js"></script>
+</body>
+</html>

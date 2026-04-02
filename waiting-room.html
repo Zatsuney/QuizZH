@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Salle d'attente</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="waiting-room">
+        <div class="waiting-header">
+            <h1>Quiz<span class="highlight">ZH</span></h1>
+            <button id="logoutBtn" class="btn-logout">Déconnexion</button>
+        </div>
+
+        <div class="waiting-content">
+            <div class="player-card">
+                <div class="player-avatar">👤</div>
+                <h2 id="playerDisplay">Joueur</h2>
+                <p class="status">En attente du quiz...</p>
+            </div>
+
+            <div class="waiting-animation">
+                <div class="spinner"></div>
+                <p>Veuillez patienter</p>
+                <p class="player-count" id="playerCount">Joueurs en attente: 1</p>
+            </div>
+
+            <div class="info-section">
+                <h3>ℹ️ Informations</h3>
+                <ul>
+                    <li>Le quiz commencera lorsqu'il y aura assez de joueurs</li>
+                    <li>Assurez-vous d'avoir une bonne connexion Internet</li>
+                    <li>Ne fermez pas cette page</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="waiting-footer">
+            <p>Session ID: <span id="sessionId">-</span></p>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/app-waiting-room.js"></script>
+</body>
+</html>
