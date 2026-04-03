@@ -1,6 +1,6 @@
 // Solo Game Mode Logic
 import { auth, db } from './firebase-config.js';
-import { doc, updateDoc, getDoc } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+import { doc, updateDoc, getDoc, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 
 // Import all question sets
 import { questionsSciencesFacile } from './questions/sciences-facile.js';
@@ -60,6 +60,9 @@ const gameState = {
     gameActive: true,
     answers: []
 };
+
+// Current question being reported (for error reporting feature)
+let currentReportingQuestion = null;
 
 // Theme names mapping
 const themeNames = {
@@ -142,6 +145,66 @@ function calculateXP(difficulty, correctAnswers, totalQuestions, timeSpent) {
         timeMultiplier: timeBonus.toFixed(2)
     };
 }
+
+// ===== ERROR REPORTING FUNCTIONS =====
+// Open report modal
+window.openReportModal = function(question) {
+    currentReportingQuestion = question;
+    document.getElementById('reportErrorModal').style.display = 'flex';
+    document.getElementById('errorDescription').value = '';
+};
+
+// Close report modal
+window.closeReportModal = function() {
+    document.getElementById('reportErrorModal').style.display = 'none';
+    document.getElementById('errorDescription').value = '';
+    currentReportingQuestion = null;
+};
+
+// Submit error report to Firebase
+window.submitErrorReport = async function() {
+    if (!currentReportingQuestion) return;
+    
+    const playerUID = localStorage.getItem('quizZH_playerUID');
+    const playerName = localStorage.getItem('quizZH_playerName');
+    const description = document.getElementById('errorDescription').value.trim();
+    const theme = localStorage.getItem('quizZH_selectedTheme');
+    const difficulty = localStorage.getItem('quizZH_difficulty');
+    
+    try {
+        // Add error report to Firestore
+        const reportsRef = collection(db, 'errorReports');
+        await addDoc(reportsRef, {
+            questionId: currentReportingQuestion.id,
+            questionText: currentReportingQuestion.question,
+            theme: theme,
+            difficulty: difficulty,
+            correctAnswer: currentReportingQuestion.correctAnswer,
+            answers: currentReportingQuestion.answers,
+            description: description,
+            reportedBy: playerUID,
+            reporterName: playerName,
+            timestamp: serverTimestamp(),
+            status: 'pending'
+        });
+        
+        console.log('✅ Erreur signalée avec succès');
+        
+        // Show success notification
+        const notif = document.getElementById('reportSuccessNotif');
+        notif.style.display = 'block';
+        setTimeout(() => {
+            notif.style.display = 'none';
+        }, 3000);
+        
+        // Close modal
+        closeReportModal();
+        
+    } catch (error) {
+        console.error('❌ Erreur lors du signalement:', error);
+        alert('Erreur lors du signalement');
+    }
+};
 
 // Check if player is logged in
 function checkPlayerLoggedIn() {
@@ -297,6 +360,7 @@ function displayQuestion() {
             
             <div class="question-footer">
                 <p>Question ${gameState.currentQuestionIndex + 1}/${gameState.questions.length}</p>
+                <button class="btn-report-error" onclick="openReportModal(gameState.questions[gameState.currentQuestionIndex])" title="Signaler une erreur">🚩 Signaler une erreur</button>
             </div>
         </div>
     `;
