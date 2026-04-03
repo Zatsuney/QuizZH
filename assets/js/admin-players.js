@@ -1,6 +1,6 @@
 // Admin Players Management
 import { auth, db } from './firebase-config.js';
-import { collection, getDocs, doc, updateDoc } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+import { collection, getDocs, doc, updateDoc, writeBatch } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 import { signOut } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
 
 // Check if admin is logged in
@@ -65,21 +65,24 @@ async function resetPlayerData(uid, playerName) {
         const themes = ['all', 'sciences', 'tech', 'geo', 'culture-pop', 'histoire', 'arts', 'musique', 'jeux-videos'];
         const difficulties = ['easy', 'medium', 'hard'];
         
-        console.log('🔄 Resetting stats for:', uid);
+        // Create a batch for atomic updates
+        const batch = writeBatch(db);
+        const userDocRef = doc(db, 'users', uid);
         
-        // Step 1: Reset main user stats
-        await updateDoc(userDocRef, {
+        console.log('🔄 Starting batch reset for:', uid);
+        
+        // Reset main user stats
+        batch.update(userDocRef, {
             level: 1,
             totalXP: 0,
             lastPlayedDate: null
         });
-        console.log('✅ Main stats reset');
         
-        // Step 2: Reset all theme/difficulty stats individually
-        for (const theme of themes) {
-            for (const difficulty of difficulties) {
+        // Reset all theme/difficulty stats in batch
+        themes.forEach(theme => {
+            difficulties.forEach(difficulty => {
                 const statsKey = `stats_${theme}_${difficulty}`;
-                await updateDoc(userDocRef, {
+                batch.update(userDocRef, {
                     [statsKey]: {
                         played: 0,
                         correctAnswers: 0,
@@ -87,11 +90,12 @@ async function resetPlayerData(uid, playerName) {
                         totalXP: 0
                     }
                 });
-                console.log(`✅ Reset ${statsKey}`);
-            }
-        }
+            });
+        });
         
-        console.log('✅ All stats reset completed for:', uid);
+        // Commit batch atomically
+        await batch.commit();
+        console.log('✅ Batch reset completed for:', uid);
         
         showNotification(`Données de ${playerName} réinitialisées complètement! ✅`, 'success');
         await loadAndDisplayPlayers();
