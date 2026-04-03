@@ -5,10 +5,8 @@ import {
 } from './firebase-config.js';
 import { 
   doc, 
-  updateDoc, 
-  deleteDoc,
-  collection,
-  getDocs
+  updateDoc,
+  collection
 } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 import { 
   setActiveRound,
@@ -450,134 +448,6 @@ window.toggleAnswerValidation = async function(playerName, questionNumber, curre
   showNotification(`Réponse de ${playerName} changée en ${newStatus ? '✓ validée' : '✗ rejetée'}`, 'info');
 };
 
-// ===== ADMIN LEADERBOARD MANAGEMENT FUNCTIONS =====
-async function loadPlayersInSelect() {
-  const select = document.getElementById('playerSelect');
-  if (!select) return;
-  
-  try {
-    const usersRef = collection(db, 'users');
-    const snapshot = await getDocs(usersRef);
-    
-    select.innerHTML = '<option value="">-- Choisir un joueur --</option>';
-    
-    snapshot.forEach(doc => {
-      const playerUID = doc.id;
-      const playerData = doc.data();
-      const playerName = playerData.displayName || playerUID;
-      const option = document.createElement('option');
-      option.value = playerUID;
-      option.textContent = playerName;
-      select.appendChild(option);
-    });
-  } catch (error) {
-    console.error('Error loading players:', error);
-    showNotification('Erreur lors du chargement des joueurs', 'error');
-  }
-}
-
-async function resetPlayerScore(playerUID) {
-  if (!playerUID) {
-    showNotification('Veuillez sélectionner un joueur', 'error');
-    return;
-  }
-  
-  const playerSelect = document.getElementById('playerSelect');
-  const playerName = playerSelect ? playerSelect.options[playerSelect.selectedIndex].text : playerUID;
-  
-  if (confirm(`Êtes-vous sûr de vouloir réinitialiser le score de ${playerName} ?`)) {
-    try {
-      const playerRef = doc(db, 'users', playerUID);
-      await updateDoc(playerRef, {
-        totalXP: 0,
-        level: 1,
-        totalQuestions: 0,
-        correctAnswers: 0,
-        accuracy: 0
-      });
-      
-      showNotification(`✅ Score de ${playerName} réinitialisé`, 'success');
-      await loadPlayersInSelect();
-      document.getElementById('playerSelect').value = '';
-    } catch (error) {
-      console.error('Error resetting player score:', error);
-      showNotification('Erreur lors de la réinitialisation', 'error');
-    }
-  }
-}
-
-async function deletePlayer(playerUID) {
-  if (!playerUID) {
-    showNotification('Veuillez sélectionner un joueur', 'error');
-    return;
-  }
-  
-  const playerSelect = document.getElementById('playerSelect');
-  const playerName = playerSelect ? playerSelect.options[playerSelect.selectedIndex].text : playerUID;
-  
-  if (confirm(`⚠️ Êtes-vous sûr de vouloir SUPPRIMER le joueur ${playerName} ? Cette action est irréversible !`)) {
-    try {
-      const playerRef = doc(db, 'users', playerUID);
-      await deleteDoc(playerRef);
-      
-      showNotification(`✅ Joueur ${playerName} supprimé`, 'success');
-      await loadPlayersInSelect();
-      document.getElementById('playerSelect').value = '';
-    } catch (error) {
-      console.error('Error deleting player:', error);
-      showNotification('Erreur lors de la suppression', 'error');
-    }
-  }
-}
-
-async function resetAllPlayersScores() {
-  if (confirm('⚠️ Êtes-vous sûr de vouloir réinitialiser les scores de TOUS les joueurs ?')) {
-    try {
-      const usersRef = collection(db, 'users');
-      const snapshot = await getDocs(usersRef);
-      
-      for (const playerDoc of snapshot.docs) {
-        const playerRef = doc(db, 'users', playerDoc.id);
-        await updateDoc(playerRef, {
-          totalXP: 0,
-          level: 1,
-          totalQuestions: 0,
-          correctAnswers: 0,
-          accuracy: 0
-        });
-      }
-      
-      showNotification('✅ Tous les scores ont été réinitialisés', 'success');
-      await loadPlayersInSelect();
-    } catch (error) {
-      console.error('Error resetting all scores:', error);
-      showNotification('Erreur lors de la réinitialisation', 'error');
-    }
-  }
-}
-
-async function deleteAllPlayers() {
-  if (confirm('🚨 ATTENTION: Cette action va SUPPRIMER TOUS les joueurs !\n\nCette action est IRRÉVERSIBLE. Êtes-vous vraiment sûr ?')) {
-    if (confirm('Confirmez-vous vraiment ?')) {
-      try {
-        const usersRef = collection(db, 'users');
-        const snapshot = await getDocs(usersRef);
-        
-        for (const playerDoc of snapshot.docs) {
-          const playerRef = doc(db, 'users', playerDoc.id);
-          await deleteDoc(playerRef);
-        }
-        
-        showNotification('✅ Tous les joueurs ont été supprimés', 'success');
-        await loadPlayersInSelect();
-      } catch (error) {
-        console.error('Error deleting all players:', error);
-        showNotification('Erreur lors de la suppression', 'error');
-      }
-    }
-  }
-}
-
 async function moveToNextQuestion() {
   if (!adminCurrentRound) return;
 
@@ -681,35 +551,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       await updatePlayersDisplay();
       console.log('🔄 Players refreshed');
     });
-  }
-
-  // Setup admin leaderboard management
-  await loadPlayersInSelect();
-  
-  const resetPlayerScoreBtn = document.getElementById('resetPlayerScoreBtn');
-  if (resetPlayerScoreBtn) {
-    resetPlayerScoreBtn.addEventListener('click', () => {
-      const playerUID = document.getElementById('playerSelect').value;
-      resetPlayerScore(playerUID);
-    });
-  }
-  
-  const deletePlayerBtn = document.getElementById('deletePlayerBtn');
-  if (deletePlayerBtn) {
-    deletePlayerBtn.addEventListener('click', () => {
-      const playerUID = document.getElementById('playerSelect').value;
-      deletePlayer(playerUID);
-    });
-  }
-  
-  const resetAllPlayersBtn = document.getElementById('resetAllPlayersBtn');
-  if (resetAllPlayersBtn) {
-    resetAllPlayersBtn.addEventListener('click', resetAllPlayersScores);
-  }
-  
-  const deleteAllPlayersBtn = document.getElementById('deleteAllPlayersBtn');
-  if (deleteAllPlayersBtn) {
-    deleteAllPlayersBtn.addEventListener('click', deleteAllPlayers);
   }
 
   // Restore active round state
