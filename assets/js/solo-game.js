@@ -200,6 +200,8 @@ function shuffleAnswerOptions(question) {
 async function getQuestions(theme, difficulty) {
     let questions = [];
     
+    console.log('🚀 getQuestions called with theme:', theme, 'difficulty:', difficulty);
+    
     try {
         if (theme === 'all') {
             // Load pre-combined all-questions file
@@ -221,14 +223,11 @@ async function getQuestions(theme, difficulty) {
         }
         
         // Shuffle answer options for each question
-        console.log('🔄 Shuffling answers for all questions...');
-        questions = questions.map((q, idx) => {
-            const shuffled = shuffleAnswerOptions(q);
-            if (idx < 2) console.log(`Question ${idx + 1} shuffled successfully`);
-            return shuffled;
-        });
+        console.log('🔄 BEFORE SHUFFLE - First question answers:', questions[0].answers);
+        questions = questions.map((q, idx) => shuffleAnswerOptions(q));
+        console.log('🔄 AFTER SHUFFLE - First question answers:', questions[0].answers);
         
-        console.log('✅ Questions loaded with shuffled answers:', questions);
+        console.log('✅ Questions loaded with shuffled answers - total:', questions.length);
     } catch (error) {
         console.error('❌ Error loading questions:', error);
         // Fallback: try using the old library
