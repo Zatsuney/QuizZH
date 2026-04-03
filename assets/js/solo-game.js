@@ -195,6 +195,15 @@ async function getQuestions(theme, difficulty) {
     console.log('🚀 getQuestions called with theme:', theme, 'difficulty:', difficulty);
     
     try {
+        // Map theme names to actual JSON file names
+        const themeFileMap = {
+            'culture-pop': 'pop',
+            'arts': 'art',
+            'jeux-videos': 'jeuxvideos'
+        };
+        
+        let fileTheme = themeFileMap[theme] || theme;
+        
         if (theme === 'all') {
             // Load pre-combined all-questions file
             const response = await fetch(`assets/json/all-${difficulty}.json`);
@@ -206,7 +215,7 @@ async function getQuestions(theme, difficulty) {
             }));
         } else {
             // Get questions for specific theme
-            const response = await fetch(`assets/json/${theme}-${difficulty}.json`);
+            const response = await fetch(`assets/json/${fileTheme}-${difficulty}.json`);
             const data = await response.json();
             questions = (data.questions || []).map(q => ({
                 ...q,
