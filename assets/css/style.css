@@ -5180,7 +5180,7 @@ body {
     background: white;
     border-radius: var(--border-radius);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-    max-width: 500px;
+    max-width: 380px;
     width: 90%;
     animation: slideUp 0.3s ease;
     overflow: hidden;
@@ -5190,14 +5190,14 @@ body {
 .modal-header {
     background: linear-gradient(135deg, #f59e0b, #d97706);
     color: white;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .modal-header h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
     margin: 0;
 }
@@ -5224,15 +5224,15 @@ body {
 
 /* Modal Body */
 .modal-body {
-    padding: 20px;
-    max-height: 400px;
+    padding: 15px;
+    max-height: 300px;
     overflow-y: auto;
 }
 
 .modal-body p {
     color: var(--text-dark);
-    margin: 0 0 15px 0;
-    font-size: 0.95em;
+    margin: 0 0 12px 0;
+    font-size: 0.9em;
 }
 
 /* Form Group */
@@ -5250,11 +5250,11 @@ body {
 
 .form-group textarea {
     width: 100%;
-    padding: 10px 12px;
+    padding: 8px 10px;
     border: 2px solid #e5e7eb;
     border-radius: 6px;
     font-family: inherit;
-    font-size: 0.9em;
+    font-size: 0.85em;
     resize: vertical;
     transition: var(--transition);
 }
@@ -5267,10 +5267,10 @@ body {
 
 /* Modal Footer */
 .modal-footer {
-    padding: 15px 20px;
+    padding: 12px 15px;
     background: #f9fafb;
     display: flex;
-    gap: 10px;
+    gap: 8px;
     justify-content: flex-end;
     border-top: 1px solid #e5e7eb;
 }
@@ -5279,9 +5279,10 @@ body {
     background: #e5e7eb;
     color: var(--text-dark);
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 6px;
     font-weight: 600;
+    font-size: 0.9em;
     cursor: pointer;
     transition: var(--transition);
 }
@@ -5294,9 +5295,10 @@ body {
     background: linear-gradient(135deg, #f59e0b, #d97706);
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 6px;
     font-weight: 600;
+    font-size: 0.9em;
     cursor: pointer;
     transition: var(--transition);
 }
