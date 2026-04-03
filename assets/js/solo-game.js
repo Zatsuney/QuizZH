@@ -181,19 +181,11 @@ function shuffleAnswerOptions(question) {
     const newAnswers = shuffled.map(item => item.answer);
     const newCorrectAnswer = shuffled.findIndex(item => item.isCorrect);
     
-    const result = {
+    return {
         ...question,
         answers: newAnswers,
         correctAnswer: newCorrectAnswer
     };
-    
-    console.log('🔀 Shuffled question:', {
-        question: question.question,
-        before: { options, correctAnswer: question.correctAnswer },
-        after: { answers: newAnswers, correctAnswer: newCorrectAnswer }
-    });
-    
-    return result;
 }
 
 // Get questions based on theme and difficulty
@@ -202,6 +194,12 @@ async function getQuestions(theme, difficulty) {
     
     console.log('🚀 getQuestions called with theme:', theme, 'difficulty:', difficulty);
     
+    try {
+        if (theme === 'all') {
+            // Load pre-combined all-questions file
+            const response = await fetch(`assets/json/all-${difficulty}.json`);
+            const data = await response.json();
+            questions = (data.questions || []).map(q => ({
     try {
         if (theme === 'all') {
             // Load pre-combined all-questions file
@@ -223,19 +221,9 @@ async function getQuestions(theme, difficulty) {
         }
         
         // Shuffle answer options for each question
-        console.log('🔄 BEFORE SHUFFLE - First question answers:', questions[0].answers);
-        questions = questions.map((q, idx) => shuffleAnswerOptions(q));
-        console.log('🔄 AFTER SHUFFLE - First question answers:', questions[0].answers);
+        questions = questions.map(q => shuffleAnswerOptions(q));
         
-        console.log('✅ Questions loaded with shuffled answers - total:', questions.length);
-    } catch (error) {
-        console.error('❌ Error loading questions:', error);
-        // Fallback: try using the old library
-        const key = `${theme}-${difficulty}`;
-        questions = questionsLibrary[key] || [];
-    }
-    
-    // Return first 10 questions (shuffled order)
+        console.log('✅ Questions loaded with shuffled answers
     return shuffleArray(questions).slice(0, 10);
 }
 
@@ -266,9 +254,7 @@ function displayQuestion() {
     console.log('📝 Answers for this question:', question.answers);
     console.log('✓ Correct answer index:', question.correctAnswer);
     
-    const gameArea = document.getElementById('gameArea');
-    const answeredCount = gameState.answered;
-    const totalQuestions = gameState.questions.length;
+    const gameArea = document.getElementById('gameAre
     
     // Ensure answers exist
     const answers = question.answers || question.options || [];
