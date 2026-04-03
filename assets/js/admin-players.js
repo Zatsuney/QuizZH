@@ -65,31 +65,33 @@ async function resetPlayerData(uid, playerName) {
         const themes = ['all', 'sciences', 'tech', 'geo', 'culture-pop', 'histoire', 'arts', 'musique', 'jeux-videos'];
         const difficulties = ['easy', 'medium', 'hard'];
         
-        // Build reset object for all theme/difficulty combinations
-        const resetStats = {
+        console.log('🔄 Resetting stats for:', uid);
+        
+        // Step 1: Reset main user stats
+        await updateDoc(userDocRef, {
             level: 1,
             totalXP: 0,
             lastPlayedDate: null
-        };
-        
-        // Reset all theme statistics to 0
-        themes.forEach(theme => {
-            difficulties.forEach(difficulty => {
-                const statsKey = `stats_${theme}_${difficulty}`;
-                resetStats[statsKey] = {
-                    played: 0,
-                    correctAnswers: 0,
-                    totalQuestions: 0,
-                    totalXP: 0
-                };
-            });
         });
+        console.log('✅ Main stats reset');
         
-        console.log('🔄 Resetting stats for:', uid);
+        // Step 2: Reset all theme/difficulty stats individually
+        for (const theme of themes) {
+            for (const difficulty of difficulties) {
+                const statsKey = `stats_${theme}_${difficulty}`;
+                await updateDoc(userDocRef, {
+                    [statsKey]: {
+                        played: 0,
+                        correctAnswers: 0,
+                        totalQuestions: 0,
+                        totalXP: 0
+                    }
+                });
+                console.log(`✅ Reset ${statsKey}`);
+            }
+        }
         
-        // Update user document with all reset values
-        await updateDoc(userDocRef, resetStats);
-        console.log('✅ Reset completed for:', uid);
+        console.log('✅ All stats reset completed for:', uid);
         
         showNotification(`Données de ${playerName} réinitialisées complètement! ✅`, 'success');
         await loadAndDisplayPlayers();
