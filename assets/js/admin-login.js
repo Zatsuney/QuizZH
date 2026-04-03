@@ -9,8 +9,8 @@ import {
 
 // Check if already logged in
 onAuthStateChanged(auth, function(user) {
-  if (user && localStorage.getItem('quizZH_isAdmin')) {
-    window.location.href = 'admin-panel.html';
+  if (user && localStorage.getItem('adminSessionId')) {
+    window.location.href = 'admin-menu.html';
   }
 });
 
@@ -45,11 +45,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const userCredential = await signInAnonymously(auth);
 
       // Mark as admin in localStorage
-      localStorage.setItem('quizZH_isAdmin', 'true');
-      localStorage.setItem('quizZH_adminUID', userCredential.user.uid);
+      localStorage.setItem('adminSessionId', userCredential.user.uid);
 
-      // Redirect to admin panel
-      window.location.href = 'admin-panel.html';
+      // Redirect to admin menu
+      window.location.href = 'admin-menu.html';
     } catch (error) {
       console.error('Login error:', error);
       

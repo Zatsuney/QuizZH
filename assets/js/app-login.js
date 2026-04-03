@@ -1,6 +1,6 @@
 // Login/Signup page logic with Firebase
 import { auth, googleProvider } from './firebase-config.js';
-import { createPlayer, registerPlayer } from './firebase-db.js';
+import { createPlayer } from './firebase-db.js';
 import { 
     signInAnonymously,
     signInWithPopup,
@@ -33,14 +33,12 @@ function toggleAuthMode() {
     isSignupMode = !isSignupMode;
     const form = document.getElementById('loginForm');
     const toggle = document.getElementById('authModeToggle');
-    const displayNameGroup = document.getElementById('displayNameGroup');
     const submitBtn = document.querySelector('#loginForm button[type="submit"]');
     const toggleText = document.getElementById('toggleText');
     const toggleLink = document.getElementById('toggleLink');
 
     if (isSignupMode) {
         // Signup mode
-        displayNameGroup.style.display = 'block';
         submitBtn.textContent = 'Créer un compte';
         submitBtn.classList.add('btn-signup');
         submitBtn.classList.remove('btn-login');
@@ -48,7 +46,6 @@ function toggleAuthMode() {
         toggleLink.textContent = 'Se connecter';
     } else {
         // Login mode
-        displayNameGroup.style.display = 'none';
         submitBtn.textContent = 'Se connecter';
         submitBtn.classList.remove('btn-signup');
         submitBtn.classList.add('btn-login');
@@ -72,13 +69,33 @@ async function signInWithGoogle() {
         const result = await signInWithPopup(auth, googleProvider);
         const user = result.user;
 
-        // Store temporarily in localStorage for next page
-        localStorage.setItem('quizZH_tempGoogleUID', user.uid);
-        localStorage.setItem('quizZH_tempGoogleEmail', user.email);
-        localStorage.setItem('quizZH_tempGoogleName', user.displayName || '');
+        // Check if user already exists in Firestore
+        const userDocSnap = await getDoc(doc(db, 'users', user.uid));
+        let displayName;
+        
+        if (userDocSnap.exists()) {
+            // User exists - use stored displayName
+            displayName = userDocSnap.data().displayName;
+            console.log('✓ Returning user, using stored displayName:', displayName);
+        } else {
+            // New user - generate from Google display name or email
+            displayName = user.displayName || user.email.split('@')[0];
+            console.log('✓ New user, generated displayName:', displayName);
+        }
 
-        // Redirect to choose display name page
-        window.location.href = 'choose-display-name.html';
+        // Create/update user record in Firestore (won't overwrite existing data)
+        await createPlayer(user.uid, user.email, displayName);
+
+        // Save to localStorage
+        localStorage.setItem('quizZH_playerName', displayName);
+        localStorage.setItem('quizZH_playerUID', user.uid);
+        localStorage.setItem('quizZH_userEmail', user.email);
+
+        showNotification(`Bienvenue ${displayName}! 🎉`, 'success');
+
+        setTimeout(() => {
+            window.location.href = 'game-mode-selection.html';
+        }, 1000);
     } catch (error) {
         console.error('Google sign-in error:', error);
         if (error.code === 'auth/popup-blocked') {
@@ -90,7 +107,7 @@ async function signInWithGoogle() {
 }
 
 // Signup function
-async function signup(email, password, displayName) {
+async function signup(email, password) {
     if (!isValidEmail(email)) {
         showNotification('Email invalide', 'error');
         return;
@@ -101,30 +118,25 @@ async function signup(email, password, displayName) {
         return;
     }
 
-    if (displayName.trim().length < 2) {
-        showNotification('Le nom doit avoir au moins 2 caractères', 'error');
-        return;
-    }
-
     try {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
         const user = userCredential.user;
 
-        // Create user record in Firestore
-        await createPlayer(user.uid, email, displayName.trim());
+        // Generate display name from email (part before @)
+        const displayName = email.split('@')[0];
 
-        // Register player in game
-        await registerPlayer(displayName.trim());
+        // Create user record in Firestore
+        await createPlayer(user.uid, email, displayName);
 
         // Save to localStorage
-        localStorage.setItem('quizZH_playerName', displayName.trim());
+        localStorage.setItem('quizZH_playerName', displayName);
         localStorage.setItem('quizZH_playerUID', user.uid);
         localStorage.setItem('quizZH_userEmail', email);
 
         showNotification(`Compte créé! Bienvenue ${displayName}! 🎉`, 'success');
 
         setTimeout(() => {
-            window.location.href = 'waiting-room.html';
+            window.location.href = 'game-mode-selection.html';
         }, 1000);
     } catch (error) {
         console.error('Signup error:', error);
@@ -158,9 +170,6 @@ async function login(email, password) {
         const userDoc = await getDoc(doc(db, 'users', user.uid));
         const displayName = userDoc.data()?.displayName || user.email.split('@')[0];
 
-        // Register player in game
-        await registerPlayer(displayName);
-
         // Save to localStorage
         localStorage.setItem('quizZH_playerName', displayName);
         localStorage.setItem('quizZH_playerUID', user.uid);
@@ -169,7 +178,7 @@ async function login(email, password) {
         showNotification(`Bienvenue ${displayName}! 🎉`, 'success');
 
         setTimeout(() => {
-            window.location.href = 'waiting-room.html';
+            window.location.href = 'game-mode-selection.html';
         }, 1000);
     } catch (error) {
         console.error('Login error:', error);
@@ -191,14 +200,13 @@ import { db } from './firebase-config.js';
 document.addEventListener('DOMContentLoaded', async () => {
     // Redirect if already logged in
     if (isPlayerLoggedIn()) {
-        window.location.href = 'waiting-room.html';
+        window.location.href = 'game-mode-selection.html';
         return;
     }
 
     const loginForm = document.getElementById('loginForm');
     const emailInput = document.getElementById('email');
     const passwordInput = document.getElementById('password');
-    const displayNameInput = document.getElementById('displayName');
     const googleSignInBtn = document.getElementById('googleSignInBtn');
     const toggleLink = document.getElementById('toggleLink');
 
@@ -208,10 +216,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             const email = emailInput.value.trim();
             const password = passwordInput.value;
-            const displayName = displayNameInput?.value.trim();
 
             if (isSignupMode) {
-                await signup(email, password, displayName);
+                await signup(email, password);
             } else {
                 await login(email, password);
             }

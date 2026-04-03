@@ -30,15 +30,40 @@ document.addEventListener('DOMContentLoaded', async () => {
     const playerName = localStorage.getItem('quizZH_playerName');
     const playerDisplay = document.getElementById('playerDisplay');
     const logoutBtn = document.getElementById('logoutBtn');
+    const backBtn = document.getElementById('backBtn');
 
     // Update player display
     if (playerDisplay) {
         playerDisplay.textContent = playerName;
     }
 
+    // Back button - return to mode selection
+    if (backBtn) {
+        backBtn.addEventListener('click', async function() {
+            try {
+                // Unregister player from Firestore
+                const { unregisterPlayer } = await import('./firebase-db.js');
+                await unregisterPlayer(playerName);
+                
+                // Clear game mode
+                localStorage.removeItem('quizZH_gameMode');
+                
+                showNotification('Retour aux menus', 'info');
+                
+                // Redirect to game mode selection
+                setTimeout(() => {
+                    window.location.href = 'game-mode-selection.html';
+                }, 500);
+            } catch (error) {
+                console.error('Back button error:', error);
+                showNotification('Erreur lors du retour', 'error');
+            }
+        });
+    }
+
     // Register player in game (ensure they exist in Firebase)
     console.log(`👤 Player entered waiting room: ${playerName}`);
-    await registerPlayer(playerName);
+    await registerPlayer(playerName, 'tournament');
 
     // Update player status to waiting
     await updatePlayerStatus(playerName, 'waiting', 'Salle d\'attente');

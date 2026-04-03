@@ -1,6 +1,6 @@
 // Choose display name for Google users
 import { auth, db } from './firebase-config.js';
-import { createPlayer, registerPlayer } from './firebase-db.js';
+import { createPlayer } from './firebase-db.js';
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
 import { doc, getDoc } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 
@@ -55,13 +55,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         localStorage.removeItem('quizZH_tempGoogleEmail');
         localStorage.removeItem('quizZH_tempGoogleName');
 
-        // Register player in game
-        await registerPlayer(existingDisplayName);
-
         showNotification(`Bienvenue ${existingDisplayName}! 🎉`, 'success');
 
         setTimeout(() => {
-            window.location.href = 'waiting-room.html';
+            window.location.href = 'game-mode-selection.html';
         }, 1000);
         return;
     }
@@ -98,9 +95,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Create user record in Firestore
             await createPlayer(googleUID, googleEmail, displayName);
 
-            // Register player in game
-            await registerPlayer(displayName);
-
             // Save to localStorage
             localStorage.setItem('quizZH_playerName', displayName);
             localStorage.setItem('quizZH_playerUID', googleUID);
@@ -114,7 +108,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             showNotification(`Bienvenue ${displayName}! 🎉`, 'success');
 
             setTimeout(() => {
-                window.location.href = 'waiting-room.html';
+                window.location.href = 'game-mode-selection.html';
             }, 1000);
         } catch (error) {
             console.error('Error setting display name:', error);

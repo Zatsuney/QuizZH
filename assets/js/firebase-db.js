@@ -15,15 +15,51 @@ import {
   serverTimestamp
 } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 
+// Avatar images array
+const AVATAR_IMAGES = [
+  'alien1.png',
+  'boy1.png',
+  'boy2.png',
+  'boy3.png',
+  'detective1.png',
+  'einstein.png',
+  'girl1.png',
+  'girl2.png',
+  'girl3.png',
+  'pirategirl1.png'
+];
+
+// Generate avatar image - default to boy1.png
+function generateAvatarImage(name) {
+  return 'boy1.png';
+}
+
 // ====== JOUEURS ======
 export async function createPlayer(uid, email, displayName) {
   try {
-    await setDoc(doc(db, 'users', uid), {
-      email: email,
-      displayName: displayName,
-      createdAt: serverTimestamp(),
-      role: 'player'
-    });
+    // Check if user already exists
+    const existingUser = await getDoc(doc(db, 'users', uid));
+    
+    if (existingUser.exists()) {
+      // User exists - don't overwrite existing data
+      // Only update email if it changed
+      await updateDoc(doc(db, 'users', uid), {
+        email: email
+      });
+      console.log('✓ User already exists, preserving all data');
+    } else {
+      // New user - create with initial data
+      await setDoc(doc(db, 'users', uid), {
+        email: email,
+        displayName: displayName,
+        createdAt: serverTimestamp(),
+        role: 'player',
+        avatarImage: generateAvatarImage(displayName),
+        level: 1,
+        totalXP: 0
+      });
+      console.log('✓ New user created successfully');
+    }
   } catch (error) {
     console.error('Error creating user:', error);
     throw error;
@@ -45,14 +81,15 @@ export async function getPlayers() {
   }
 }
 
-export async function registerPlayer(playerName) {
+export async function registerPlayer(playerName, gameMode = 'tournament') {
   try {
-    console.log(`📝 Registering player: ${playerName}`);
+    console.log(`📝 Registering player: ${playerName} (gameMode: ${gameMode})`);
     const playerRef = doc(db, 'players', playerName);
     await setDoc(playerRef, {
       name: playerName,
       status: 'waiting',
       room: 'Salle d\'attente',
+      gameMode: gameMode,
       joinedAt: serverTimestamp()
     });
     console.log(`✅ Player registered successfully: ${playerName}`);
