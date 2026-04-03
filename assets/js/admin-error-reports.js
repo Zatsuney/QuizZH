@@ -31,7 +31,11 @@ const difficultyNames = {
 function checkAdminLoggedIn() {
     const adminSession = localStorage.getItem('adminSessionId');
     if (!adminSession) {
-        window.location.href = 'admin-login.html';
+        console.warn('⚠️ No admin session found');
+        // Redirige vers le menu admin qui lui-même redirige vers login si nécessaire
+        setTimeout(() => {
+            window.location.href = 'admin-menu.html';
+        }, 500);
         return null;
     }
     return adminSession;
@@ -298,9 +302,15 @@ function setupEventListeners() {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('📄 Chargement page error-reports');
+    console.log('localStorage items:', Object.keys(localStorage));
     const sessionId = checkAdminLoggedIn();
-    if (!sessionId) return;
+    if (!sessionId) {
+        console.warn('⚠️ !!! Pas de session admin trouvée, redirection en 500ms');
+        return;
+    }
 
+    console.log('✅ Session admin trouvée:', sessionId);
     setupLogout();
     setupEventListeners();
     loadReports();
