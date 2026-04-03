@@ -72,18 +72,23 @@ async function resetPlayerData(uid, playerName) {
             lastPlayedDate: null
         };
         
-        // Reset all theme statistics
+        // First update: reset main stats
+        await updateDoc(userDocRef, resetStats);
+        console.log('✅ Main stats reset:', resetStats);
+        
+        // Second update: delete all theme-based stats
+        const statsToDelete = {};
         themes.forEach(theme => {
             difficulties.forEach(difficulty => {
                 const statsKey = `stats_${theme}_${difficulty}`;
-                resetStats[statsKey] = deleteField();
+                statsToDelete[statsKey] = deleteField();
             });
         });
         
-        console.log('🔄 Reset object:', resetStats);
+        console.log('🔄 Stats fields to delete:', Object.keys(statsToDelete));
         
-        // Update user document with all reset values
-        await updateDoc(userDocRef, resetStats);
+        // Delete theme statistics
+        await updateDoc(userDocRef, statsToDelete);
         console.log('✅ Reset completed for:', uid);
         
         showNotification(`Données de ${playerName} réinitialisées complètement! ✅`, 'success');
