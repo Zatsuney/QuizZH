@@ -163,6 +163,31 @@ function shuffleArray(array) {
     return shuffled;
 }
 
+// Shuffle answer options and update correct answer index
+function shuffleAnswerOptions(question) {
+    const options = question.answers || question.options || [];
+    if (options.length === 0) return question;
+    
+    // Create array of {answer, isCorrect} pairs
+    const answersWithIndicators = options.map((answer, index) => ({
+        answer,
+        isCorrect: index === question.correctAnswer
+    }));
+    
+    // Shuffle the pairs
+    const shuffled = shuffleArray(answersWithIndicators);
+    
+    // Extract shuffled answers and find new correct index
+    const newAnswers = shuffled.map(item => item.answer);
+    const newCorrectAnswer = shuffled.findIndex(item => item.isCorrect);
+    
+    return {
+        ...question,
+        answers: newAnswers,
+        correctAnswer: newCorrectAnswer
+    };
+}
+
 // Get questions based on theme and difficulty
 async function getQuestions(theme, difficulty) {
     let questions = [];
@@ -187,7 +212,10 @@ async function getQuestions(theme, difficulty) {
             }));
         }
         
-        console.log('✅ Questions loaded:', questions);
+        // Shuffle answer options for each question
+        questions = questions.map(q => shuffleAnswerOptions(q));
+        
+        console.log('✅ Questions loaded with shuffled answers:', questions);
     } catch (error) {
         console.error('❌ Error loading questions:', error);
         // Fallback: try using the old library
@@ -195,7 +223,7 @@ async function getQuestions(theme, difficulty) {
         questions = questionsLibrary[key] || [];
     }
     
-    // Return first 10 questions (shuffled)
+    // Return first 10 questions (shuffled order)
     return shuffleArray(questions).slice(0, 10);
 }
 
