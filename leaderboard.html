@@ -3,45 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz ZH - Classement Final</title>
+    <title>Quiz ZH - Classement</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="leaderboard-section">
-        <div class="leaderboard-header">
-            <h1>Quiz<span class="highlight">ZH</span></h1>
-        </div>
-
-        <div class="leaderboard-content">
-            <h2 class="leaderboard-title">🏆 Classement Final</h2>
-
-            <table class="leaderboard-table">
-                <thead>
-                    <tr>
-                        <th>Rang</th>
-                        <th>Joueur</th>
-                        <th>Score</th>
-                        <th>Temps</th>
-                    </tr>
-                </thead>
-                <tbody id="leaderboardTableBody">
-                    <tr>
-                        <td colspan="4" style="text-align: center; padding: 30px;">
-                            <p>Chargement du classement...</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class="leaderboard-footer">
-                <p id="tournamentStatus"></p>
-                <p class="timestamp">Actualisation: <span id="refreshTime">--:--</span></p>
+    <div class="leaderboard-container">
+        <div class="leaderboard-card">
+            <div class="leaderboard-header">
+                <h1>Quiz<span class="highlight">ZH</span></h1>
+                <button id="logoutBtn" class="btn-logout">Déconnexion</button>
             </div>
 
-            <button id="backHomeBtn" class="btn-back-home">🏠 Retour à l'accueil</button>
+            <div class="leaderboard-tabs">
+                <button class="tab-btn active" data-tab="global">📊 Classement Global</button>
+                <button class="tab-btn" data-tab="theme">🎯 Par Thème/Difficulté</button>
+            </div>
+
+            <!-- Global Leaderboard Tab -->
+            <div id="globalTab" class="tab-content active">
+                <h2>Classement Global</h2>
+                <p class="tab-subtitle">Les meilleurs joueurs par niveau</p>
+                
+                <div class="level-selector">
+                    <label for="levelFilter">Filtrer par niveau:</label>
+                    <select id="levelFilter">
+                        <option value="all">Tous les niveaux</option>
+                        <option value="1">Niveau 1</option>
+                        <option value="2">Niveau 2</option>
+                        <option value="3">Niveau 3</option>
+                        <option value="4">Niveau 4</option>
+                        <option value="5">Niveau 5</option>
+                        <option value="6">Niveau 6</option>
+                        <option value="7">Niveau 7</option>
+                        <option value="8">Niveau 8</option>
+                        <option value="9">Niveau 9</option>
+                        <option value="10">Niveau 10</option>
+                    </select>
+                </div>
+                
+                <div id="globalLeaderboard" class="leaderboard-list">
+                    <!-- Leaderboard will be inserted here -->
+                </div>
+            </div>
+
+            <!-- Theme Leaderboard Tab -->
+            <div id="themeTab" class="tab-content">
+                <h2>Classement par Thème</h2>
+                <p class="tab-subtitle">Les meilleurs scores pour chaque thème et difficulté</p>
+                
+                <div class="theme-difficulty-selector">
+                    <div class="selector-group">
+                        <label for="themeFilter">Choisir un thème:</label>
+                        <select id="themeFilter">
+                            <option value="all">Tous les Thèmes</option>
+                            <option value="sciences">Sciences</option>
+                            <option value="tech">Tech</option>
+                            <option value="geo">Géographie</option>
+                            <option value="culture-pop">Culture Pop</option>
+                            <option value="histoire">Histoire</option>
+                            <option value="arts">Arts & Divertissement</option>
+                            <option value="musique">Musique</option>
+                            <option value="jeux-videos">Jeux-Vidéos</option>
+                        </select>
+                    </div>
+                    
+                    <div class="selector-group">
+                        <label for="difficultyFilter">Choisir la difficulté:</label>
+                        <select id="difficultyFilter">
+                            <option value="easy">Facile</option>
+                            <option value="medium">Moyen</option>
+                            <option value="hard">Difficile</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div id="themeLeaderboard" class="leaderboard-list">
+                    <!-- Leaderboard will be inserted here -->
+                </div>
+            </div>
+
+            <div class="leaderboard-footer">
+                <a href="game-mode-selection.html" class="btn-back-lb">← Retour au menu</a>
+            </div>
         </div>
     </div>
 
-    <script type="module" src="assets/js/app-leaderboard.js"></script>
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/leaderboard.js"></script>
 </body>
 </html>

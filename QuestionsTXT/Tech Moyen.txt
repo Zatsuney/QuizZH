@@ -1,0 +1,308 @@
+🖥️ Matériel (Hardware)
+Quel composant gère l’affichage graphique ?
+A. CPU
+B. RAM
+C. GPU
+D. SSD
+Réponse : C
+Quelle mémoire est volatile ?
+A. SSD
+B. HDD
+C. RAM
+D. Clé USB
+Réponse : C
+Quelle est la différence principale entre SSD et HDD ?
+A. Le SSD est mécanique
+B. Le HDD est plus rapide
+C. Le SSD est plus rapide
+D. Aucune différence
+Réponse : C
+Quel port est utilisé pour connecter un écran moderne ?
+A. HDMI
+B. USB
+C. Ethernet
+D. Jack
+Réponse : A
+À quoi sert une alimentation (PSU) ?
+A. Stocker
+B. Alimenter les composants
+C. Refroidir
+D. Afficher
+Réponse : B
+Que fait un ventilateur dans un PC ?
+A. Augmente la vitesse
+B. Refroidit les composants
+C. Stocke des données
+D. Améliore Internet
+Réponse : B
+Quel composant influence le plus les performances en jeu ?
+A. RAM
+B. GPU
+C. Disque dur
+D. Clavier
+Réponse : B
+🌐 Réseaux & Internet
+Que signifie “IP” ?
+A. Internet Protocol
+B. Internal Program
+C. Input Port
+D. Internet Page
+Réponse : A
+Une adresse IP sert à :
+A. Identifier un appareil
+B. Stocker des données
+C. Imprimer
+D. Programmer
+Réponse : A
+Que fait un routeur ?
+A. Stocke
+B. Dirige le trafic réseau
+C. Affiche
+D. Imprime
+Réponse : B
+Quelle est la différence entre HTTP et HTTPS ?
+A. HTTPS est sécurisé
+B. HTTP est plus rapide
+C. HTTPS est plus ancien
+D. Aucune
+Réponse : A
+DNS sert à :
+A. Traduire un nom de domaine en IP
+B. Protéger
+C. Stocker
+D. Imprimer
+Réponse : A
+Le ping mesure :
+A. La mémoire
+B. La latence réseau
+C. Le stockage
+D. Le CPU
+Réponse : B
+Que signifie LAN ?
+A. Large Area Network
+B. Local Area Network
+C. Long Access Network
+D. Light Area Network
+Réponse : B
+💻 Logiciels & Systèmes
+Qu’est-ce qu’un logiciel open source ?
+A. Payant
+B. Code accessible
+C. Interdit
+D. Fermé
+Réponse : B
+Quel système est basé sur Linux ?
+A. Windows
+B. macOS
+C. Android
+D. Excel
+Réponse : C
+Un processus est :
+A. Un fichier
+B. Un programme en cours
+C. Un virus
+D. Un câble
+Réponse : B
+À quoi sert le gestionnaire des tâches ?
+A. Jouer
+B. Gérer les programmes actifs
+C. Imprimer
+D. Naviguer
+Réponse : B
+Une mise à jour logicielle permet :
+A. De ralentir
+B. D’ajouter des correctifs
+C. De supprimer
+D. D’éteindre
+Réponse : B
+Un pilote (driver) sert à :
+A. Jouer
+B. Faire fonctionner un matériel
+C. Imprimer
+D. Stocker
+Réponse : B
+🔐 Sécurité informatique
+Qu’est-ce qu’un firewall ?
+A. Un virus
+B. Un pare-feu
+C. Un logiciel de jeu
+D. Un câble
+Réponse : B
+Le chiffrement sert à :
+A. Accélérer
+B. Protéger les données
+C. Supprimer
+D. Imprimer
+Réponse : B
+Un malware est :
+A. Un matériel
+B. Un logiciel malveillant
+C. Un câble
+D. Un jeu
+Réponse : B
+Que fait un VPN ?
+A. Accélère le PC
+B. Sécurise la connexion
+C. Imprime
+D. Supprime
+Réponse : B
+Une attaque brute force consiste à :
+A. Deviner un mot de passe
+B. Supprimer
+C. Scanner
+D. Stocker
+Réponse : A
+L’authentification à deux facteurs ajoute :
+A. Une sécurité supplémentaire
+B. Une lenteur
+C. Un virus
+D. Un câble
+Réponse : A
+📱 Technologies modernes
+Qu’est-ce que le cloud computing ?
+A. Un stockage physique
+B. Des services en ligne
+C. Un câble
+D. Un virus
+Réponse : B
+L’IA signifie :
+A. Internet Access
+B. Intelligence Artificielle
+C. Internal App
+D. Input Analysis
+Réponse : B
+La 5G est :
+A. Un logiciel
+B. Une technologie réseau
+C. Un câble
+D. Un virus
+Réponse : B
+Une API sert à :
+A. Jouer
+B. Connecter des logiciels
+C. Imprimer
+D. Stocker
+Réponse : B
+Le Bluetooth utilise :
+A. Internet
+B. Ondes radio
+C. Câbles
+D. Satellite
+Réponse : B
+🧠 Programmation & bases
+HTML sert à :
+A. Programmer des jeux
+B. Structurer une page web
+C. Stocker
+D. Imprimer
+Réponse : B
+CSS sert à :
+A. Programmer
+B. Styliser une page web
+C. Stocker
+D. Compiler
+Réponse : B
+JavaScript permet :
+A. Le style
+B. L’interactivité
+C. Le stockage
+D. L’impression
+Réponse : B
+Une variable est :
+A. Une constante
+B. Une valeur modifiable
+C. Un virus
+D. Un câble
+Réponse : B
+Une boucle sert à :
+A. Arrêter
+B. Répéter une action
+C. Supprimer
+D. Scanner
+Réponse : B
+Un bug est :
+A. Une amélioration
+B. Une erreur
+C. Un câble
+D. Un jeu
+Réponse : B
+📊 Données & fichiers
+Une base de données sert à :
+A. Jouer
+B. Stocker et organiser
+C. Imprimer
+D. Scanner
+Réponse : B
+SQL est utilisé pour :
+A. Programmer des jeux
+B. Gérer des bases de données
+C. Imprimer
+D. Scanner
+Réponse : B
+JSON est :
+A. Un langage
+B. Un format de données
+C. Un virus
+D. Un câble
+Réponse : B
+CSV est utilisé pour :
+A. Images
+B. Tableaux
+C. Jeux
+D. Audio
+Réponse : B
+⚙️ Divers
+Une adresse MAC est :
+A. Une IP
+B. Un identifiant matériel
+C. Un virus
+D. Un logiciel
+Réponse : B
+Le multitâche permet :
+A. Une seule tâche
+B. Plusieurs tâches simultanées
+C. Supprimer
+D. Imprimer
+Réponse : B
+Un serveur est :
+A. Un client
+B. Une machine qui fournit des services
+C. Un câble
+D. Un virus
+Réponse : B
+Git sert à :
+A. Jouer
+B. Versionner du code
+C. Imprimer
+D. Scanner
+Réponse : B
+Une adresse email contient :
+A. @
+B. #
+C. &
+D. %
+Réponse : A
+Le streaming permet :
+A. Télécharger complet
+B. Lire en continu
+C. Supprimer
+D. Scanner
+Réponse : B
+Une extension de fichier indique :
+A. La taille
+B. Le type
+C. Le nom
+D. Le poids
+Réponse : B
+Un backup est :
+A. Une suppression
+B. Une sauvegarde
+C. Un virus
+D. Un câble
+Réponse : B
+Virtualisation signifie :
+A. Supprimer
+B. Simuler un système
+C. Imprimer
+D. Scanner
+Réponse : B

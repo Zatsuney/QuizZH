@@ -1,0 +1,407 @@
+{
+  "theme": "musique",
+  "difficulty": "medium",
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel groupe britannique a sorti l'album A Night at the Opera en 1975 ?",
+      "options": ["The Beatles", "Queen", "Pink Floyd", "Led Zeppelin"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 2,
+      "question": "Qui a remporté le plus de Grammy Awards dans l'histoire de la musique (jusqu'en 2020) ?",
+      "options": ["Beyoncé", "Michael Jackson", "Quincy Jones", "Adele"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 3,
+      "question": "Quel chanteur canadien a popularisé le titre Blinding Lights ?",
+      "options": ["Drake", "Justin Bieber", "The Weeknd", "Shawn Mendes"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 4,
+      "question": "Quel groupe est associé au mouvement grunge dans les années 1990 ?",
+      "options": ["Nirvana", "Green Day", "Pearl Jam", "Les deux A et C"],
+      "correctAnswer": 3,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 5,
+      "question": "Qui est surnommé le Boss et a chanté Born in the U.S.A. ?",
+      "options": ["Bruce Springsteen", "Bob Dylan", "Billy Joel", "Jon Bon Jovi"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 6,
+      "question": "Quel chanteur britannique est connu pour Thinking Out Loud ?",
+      "options": ["Ed Sheeran", "Sam Smith", "George Ezra", "Harry Styles"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 7,
+      "question": "Quelle chanteuse américaine a popularisé Rolling in the Deep ?",
+      "options": ["Beyoncé", "Adele", "Taylor Swift", "Lady Gaga"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 8,
+      "question": "Quel groupe a interprété Stairway to Heaven ?",
+      "options": ["Led Zeppelin", "The Who", "Pink Floyd", "Queen"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 9,
+      "question": "Quel artiste a sorti l'album Thriller en 1982 ?",
+      "options": ["Michael Jackson", "Prince", "Madonna", "Lionel Richie"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 10,
+      "question": "Quel groupe suédois a chanté Mamma Mia ?",
+      "options": ["ABBA", "Ace of Base", "Roxette", "Europe"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 11,
+      "question": "Quel instrument à cordes a été inventé avant le piano ?",
+      "options": ["Clavecin", "Violon", "Guitare électrique", "Orgue"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 12,
+      "question": "Quel instrument de percussion est souvent utilisé dans le jazz et appelé ride ?",
+      "options": ["Batterie", "Cymbale", "Tambour", "Xylophone"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 13,
+      "question": "Quel instrument à vent appartient à la famille des cuivres et a un piston ?",
+      "options": ["Trompette", "Flûte", "Clarinette", "Hautbois"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 14,
+      "question": "Lequel de ces instruments n'est pas à cordes ?",
+      "options": ["Harpe", "Violon", "Trombone", "Guitare"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 15,
+      "question": "Quel instrument de musique traditionnelle écossaise est un instrument à vent ?",
+      "options": ["Cornemuse", "Fiddle", "Bodhrán", "Clarinette"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 16,
+      "question": "Quel instrument est caractéristique du tango argentin ?",
+      "options": ["Bandoneón", "Violin", "Guitare", "Maracas"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 17,
+      "question": "Quel instrument italien a inspiré les premiers violons modernes ?",
+      "options": ["Luth", "Viole de gambe", "Mandoline", "Clavecin"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 18,
+      "question": "Quel instrument produit du son par vibration de l'air dans un tube et se joue à l'embouchure ?",
+      "options": ["Trompette", "Flûte", "Saxophone", "Hautbois"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 19,
+      "question": "Quel instrument est souvent utilisé pour accompagner le chant baroque ?",
+      "options": ["Clavecin", "Guitare électrique", "Batterie", "Synthétiseur"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 20,
+      "question": "Lequel de ces instruments est polyphonique et peut produire plusieurs notes simultanément ?",
+      "options": ["Flûte", "Clavier", "Trompette", "Saxophone"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 21,
+      "question": "Le jazz fusion mélange principalement :",
+      "options": ["Jazz et rock", "Blues et reggae", "Pop et classique", "Rap et funk"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 22,
+      "question": "Quel style musical brésilien est rythmé et chanté pendant le carnaval ?",
+      "options": ["Samba", "Bossa nova", "Tango", "Reggae"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 23,
+      "question": "Le reggae est associé à quel message culturel ou social ?",
+      "options": ["Politique et spiritualité", "Romance et mélancolie", "Rébellion contre le jazz", "Musique de danse disco"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 24,
+      "question": "Quel genre a émergé dans les années 1970 avec Kraftwerk et Giorgio Moroder ?",
+      "options": ["Disco", "Electro / musique électronique", "Punk", "Rock progressif"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 25,
+      "question": "Le punk rock a commencé dans quelle ville ?",
+      "options": ["Londres et New York", "Los Angeles", "Berlin", "Paris"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 26,
+      "question": "La country moderne s'inspire principalement de :",
+      "options": ["Folk et blues", "Jazz", "Reggae", "Rock psychédélique"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 27,
+      "question": "Le rap a émergé dans les années 1970 dans :",
+      "options": ["Los Angeles", "Bronx, New York", "Chicago", "Miami"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 28,
+      "question": "Le flamenco est caractérisé par :",
+      "options": ["Guitare, chant et danse", "Synthétiseur et DJ", "Batterie et basse électrique", "Orgue et violon"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 29,
+      "question": "Le blues est souvent structuré en :",
+      "options": ["12 mesures", "8 mesures", "16 mesures", "4 mesures"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 30,
+      "question": "Le disco est né dans quel contexte ?",
+      "options": ["Clubs américains des années 1970", "Festivals européens du XIXe siècle", "Studios japonais", "Concerts de rock britannique"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 31,
+      "question": "Quel compositeur allemand est célèbre pour Les Variations Goldberg ?",
+      "options": ["Bach", "Beethoven", "Handel", "Brahms"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 32,
+      "question": "Qui a composé Le Sacre du printemps ?",
+      "options": ["Stravinsky", "Ravel", "Debussy", "Tchaïkovski"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 33,
+      "question": "Quel compositeur est célèbre pour ses concertos pour piano et symphonies ?",
+      "options": ["Mozart", "Beethoven", "Chopin", "Tous les trois"],
+      "correctAnswer": 3,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 34,
+      "question": "La Marche nuptiale est une œuvre de :",
+      "options": ["Mendelssohn", "Wagner", "Tchaïkovski", "Bach"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 35,
+      "question": "Qui a composé Clair de Lune ?",
+      "options": ["Debussy", "Ravel", "Chopin", "Saint-Saëns"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 36,
+      "question": "Quel compositeur italien est connu pour La Traviata et Aida ?",
+      "options": ["Verdi", "Puccini", "Rossini", "Bellini"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 37,
+      "question": "Quel compositeur russe a écrit Le Lac des cygnes ?",
+      "options": ["Tchaïkovski", "Stravinsky", "Prokofiev", "Rachmaninov"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 38,
+      "question": "Quel compositeur français est connu pour Boléro ?",
+      "options": ["Ravel", "Debussy", "Saint-Saëns", "Fauré"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 39,
+      "question": "Lequel a été un pionnier de la musique minimaliste au XXe siècle ?",
+      "options": ["Philip Glass", "Beethoven", "Bach", "Chopin"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 40,
+      "question": "Qui a composé L'Oiseau de feu ?",
+      "options": ["Stravinsky", "Tchaïkovski", "Prokofiev", "Ravel"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 41,
+      "question": "Quel instrument japonais est une cithare à 13 cordes ?",
+      "options": ["Shamisen", "Koto", "Biwa", "Shakuhachi"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 42,
+      "question": "La bossa nova est originaire de :",
+      "options": ["Brésil", "Cuba", "Argentine", "Portugal"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 43,
+      "question": "Quel pays est célèbre pour le tango ?",
+      "options": ["Argentine", "Mexique", "Espagne", "Brésil"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 44,
+      "question": "La musique celtique est typique de :",
+      "options": ["Irlande et Écosse", "France et Belgique", "Allemagne et Suisse", "Espagne et Portugal"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 45,
+      "question": "Quel style musical jamaïcain a été popularisé par Bob Marley ?",
+      "options": ["Reggae", "Ska", "Dancehall", "Calypso"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 46,
+      "question": "Le steel drum est originaire de :",
+      "options": ["Trinité-et-Tobago", "Jamaïque", "Cuba", "Brésil"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 47,
+      "question": "Quel style musical cubain a influencé la salsa ?",
+      "options": ["Son cubano", "Rumba", "Mambo", "Tous les trois"],
+      "correctAnswer": 3,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 48,
+      "question": "Qui a interprété Imagine ?",
+      "options": ["John Lennon", "Paul McCartney", "Elton John", "David Bowie"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 49,
+      "question": "Quel compositeur a popularisé le genre mariachi au Mexique ?",
+      "options": ["Vicente Fernández", "José Alfredo Jiménez", "Mariachi Vargas de Tecalitlán", "Tous les trois"],
+      "correctAnswer": 3,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 50,
+      "question": "La chanson We Are the World a été créée pour :",
+      "options": ["La famine en Afrique", "La lutte contre le sida", "La protection de l'environnement", "La paix mondiale"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique du monde et chansons célèbres"
+    }
+  ]
+}

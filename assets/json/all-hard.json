@@ -1,0 +1,407 @@
+{
+  "theme": "all",
+  "difficulty": "hard",
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la nombre de bits par pixel en profondeur de couleur True Color ?",
+      "options": ["8 bits", "16 bits", "24 bits", "32 bits"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 2,
+      "question": "Quel est l'algorithme RSA utilisé pour ?",
+      "options": ["Compression de données", "Chiffrement asymétrique", "Détection d'erreurs", "Compression d'images"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 3,
+      "question": "Quel est l'ordre de la Big O Notation pour une recherche binaire ?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 4,
+      "question": "Quel est la altitude exacte du Mont Everest en mètres ?",
+      "options": ["8748m", "8849m", "8950m", "9000m"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 5,
+      "question": "Quel est le pays avec le plus grand nombre de fuseaux horaires ?",
+      "options": ["Russie", "États-Unis", "France", "Chine"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 6,
+      "question": "Quels sont les deux pôles géographiques et magnétiques différents en raison de la structure ?",
+      "options": ["Core", "Manteau", "Croûte terrestre", "Noyau externe"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 7,
+      "question": "Quel réalisateur a gagné l'Oscar du meilleur réalisateur 3 fois pour Oscars ?",
+      "options": ["Billy Wilder", "Frank Capra", "William Wyler", "Frank Lloyd"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 8,
+      "question": "Quel film de Tarkovsky a remporté la Palme d'Or 1975 ?",
+      "options": ["Le Sacrifice", "Andrei Rublev", "Miroir", "Stalker"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 9,
+      "question": "Combien de films Scorsese a remporté l'Oscar en tant que réalisateur ?",
+      "options": ["0", "1", "2", "3"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 10,
+      "question": "En quelle année la Bastille a-t-elle été prise ?",
+      "options": ["1787", "1788", "1789", "1790"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Histoire"
+    },
+    {
+      "id": 11,
+      "question": "Quel traité a mis fin à la Première Guerre Mondiale ?",
+      "options": ["Traité de Westphalie", "Traité de Versailles", "Traité de Paris", "Traité de Brest-Litovsk"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Histoire"
+    },
+    {
+      "id": 12,
+      "question": "Combien de victimes les attaques du 11 septembre 2001 ont-elles fait ?",
+      "options": ["2606", "2977", "3000", "3500"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Histoire"
+    },
+    {
+      "id": 13,
+      "question": "Quel mouvement artistique a précédé directement l'Impressionnisme ?",
+      "options": ["Romantisme", "Réalisme", "Baroque", "Renaissance"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Arts"
+    },
+    {
+      "id": 14,
+      "question": "Quel artiste a cofondé le mouvement Cubisme ?",
+      "options": ["Matisse", "Kandinsky", "Braque", "Modigliani"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Arts"
+    },
+    {
+      "id": 15,
+      "question": "Quel bâtiment gothique a pris 182 ans à construire ?",
+      "options": ["Notre-Dame", "Cathédrale de Cologne", "Cathédrale de Chartres", "Palazzo Ducale"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Arts"
+    },
+    {
+      "id": 16,
+      "question": "Quel compositeur a écrit la symphonie Pathétique ?",
+      "options": ["Chopin", "Brahms", "Tchaikovsky", "Dvořák"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 17,
+      "question": "Quel est l'intervalle musical entre do et sol en demi-tons ?",
+      "options": ["5", "7", "8", "10"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 18,
+      "question": "Quel compositeur a composé l'opéra The Ring Cycle de 14+ heures ?",
+      "options": ["Verdi", "Wagner", "Puccini", "Debussy"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 19,
+      "question": "Dans Dark Souls, quel boss est connu pour sa difficulté extrême de base ?",
+      "options": ["Ornstein and Smough", "O&S", "Artorias", "Kalameet"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 20,
+      "question": "Quel jeu vidéo a lancé le genre des souls-like ?",
+      "options": ["Demon's Souls", "Dark Souls", "Bloodborne", "Elden Ring"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 21,
+      "question": "Combien de développeurs ont travaillé sur The Legend of Zelda: Breath of the Wild ?",
+      "options": ["30", "60", "100", "200"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 22,
+      "question": "Quel jeu Metroid Prime a gagné le GameSpot Game of the Year ?",
+      "options": ["2002", "2003", "2004", "2005"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 23,
+      "question": "Quel studio a créé la série Bloodborne ?",
+      "options": ["FromSoftware", "Bandai Namco", "Sony Interactive", "Platinum Games"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 24,
+      "question": "Combien de champions jouables avait League of Legends à sa sortie ?",
+      "options": ["40", "50", "60", "80"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 25,
+      "question": "Quel joueur de tennis a remporté le \"Golden Slam\" en 1969 ?",
+      "options": ["Björn Borg", "Rod Laver", "Stefan Edberg", "Pete Sampras"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Sports"
+    },
+    {
+      "id": 26,
+      "question": "Quel est le système d'exploitation Linux qui a été créé pour les serveurs ?",
+      "options": ["Debian", "Red Hat", "Ubuntu", "Fedora"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 27,
+      "question": "Quelle est la bande passante requise pour une seule connexion MIDI ?",
+      "options": ["9600 bauds", "19200 bauds", "31250 bauds", "57600 bauds"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 28,
+      "question": "Quel film a gagné Best Picture sans nomination du réalisateur ?",
+      "options": ["Slumdog Millionaire", "The Artist", "Parasite", "Everything Everywhere All at Once"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 29,
+      "question": "En quelle année a eu lieu le Massacre de Tian'anmen ?",
+      "options": ["1987", "1988", "1989", "1990"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Histoire"
+    },
+    {
+      "id": 30,
+      "question": "Quel historien français a fondé École des Annales ?",
+      "options": ["Bloch", "Braudel", "Febvre", "Le Goff"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Histoire"
+    },
+    {
+      "id": 31,
+      "question": "Quel compositeur minimal est connu pour ses \"Glass\" répétitives ?",
+      "options": ["Steve Reich", "Philip Glass", "John Adams", "Arvo Pärt"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 32,
+      "question": "Quel est l'ordre de complexité d'un tri fusion (Merge Sort) ?",
+      "options": ["O(n)", "O(n log n)", "O(n²)", "O(n³)"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 33,
+      "question": "Quel empereur romain a construit le Panthéon ?",
+      "options": ["Auguste", "Hadrien", "Trajan", "Marc-Aurèle"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Histoire"
+    },
+    {
+      "id": 34,
+      "question": "Quel est le plus grand désert chaud du monde ?",
+      "options": ["Kalahari", "Arabie", "Sahara", "Gobi"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 35,
+      "question": "Quel architecte a conçu la Sagrada Familia ?",
+      "options": ["Frank Lloyd Wright", "Gaudí", "Le Corbusier", "Mies van der Rohe"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Arts"
+    },
+    {
+      "id": 36,
+      "question": "Quel peintre a fait un autoportrait sans oreille en 1889 ?",
+      "options": ["Gauguin", "Van Gogh", "Monet", "Degas"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Arts"
+    },
+    {
+      "id": 37,
+      "question": "Quel film a gagné la Palme d'Or en 1994 ?",
+      "options": ["Forrest Gump", "Pulp Fiction", "The Shawshank Redemption", "Quills"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 38,
+      "question": "Quel est le plus petit état du monde en surface ?",
+      "options": ["Monaco", "Liechtenstein", "Vatican", "Saint-Marin"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 39,
+      "question": "Quel compositeur a écrit La Traviata ?",
+      "options": ["Rossini", "Verdi", "Donizetti", "Bellini"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 40,
+      "question": "Quel jeu Hades a-t-il remporté le BAFTA en 2022 ?",
+      "options": ["Non", "Oui, Meilleur Jeu", "Innovant seulement", "Art Direction"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 41,
+      "question": "Quel est le classement de profondeur maximale de la Fosse des Mariannes ?",
+      "options": ["10994 m", "10900 m", "11000 m plus", "10800 m"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 42,
+      "question": "Quel traité a eu lieu pour la paix en 1648 ?",
+      "options": ["Traité de Westphalie", "Traité de Münster", "Paix de Westphalie", "Tous les précédents"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Histoire"
+    },
+    {
+      "id": 43,
+      "question": "Quel est l'intervalle harmanique de quinte juste en cents ?",
+      "options": ["700", "800", "900", "1200"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 44,
+      "question": "Quel processeur fut le premier à atteindre 1 GHz ?",
+      "options": ["Pentium III", "Pentium 4", "Athlon XP", "Core 2 Duo"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 45,
+      "question": "Quel peintre floral japonais a influencé l'Impressionnisme ?",
+      "options": ["Hokusai", "Hiroshige", "Utamaro", "Harunobu"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Arts"
+    },
+    {
+      "id": 46,
+      "question": "Quel était le vrai nom du musicien Prince ?",
+      "options": ["Prince Rogers Nelson", "Prince Nelson Rogers", "Prince Rogers Nilson", "Prince Rogers Nelson Jr."],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 47,
+      "question": "Quel jeu Elden Ring a-t-il remporté le Game of the Year en 2022 ?",
+      "options": ["Non", "Oui", "Second lieu", "Nomination seulement"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 48,
+      "question": "Quel est le langage de programmation créé pour l'IA par Google ?",
+      "options": ["Go", "Python", "TensorFlow", "Dart"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 49,
+      "question": "Quel film Dardenne est désigné comme meilleur film étranger Oscars ?",
+      "options": ["Rosetta", "Le Gamin au Vélo", "Two Days, One Night", "Liège"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 50,
+      "question": "Quelle philosophe française a écrit Le Deuxième Sexe ?",
+      "options": ["Simone Weil", "Simone de Beauvoir", "Cécile Guilbert", "Hélène Cixous"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Histoire"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Profil Joueur</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <h1>Profil Joueur</h1>
+            </div>
+
+            <!-- Player Info Section -->
+            <div class="player-info-section">
+                <!-- Player Avatar -->
+                <div class="avatar-section">
+                    <div class="avatar-container">
+                        <div id="playerAvatar" class="player-avatar"></div>
+                    </div>
+                </div>
+
+                <div class="player-name-box">
+                    <p class="label">Pseudo du Joueur</p>
+                    <h2 id="playerName"></h2>
+                </div>
+
+                <div class="player-stats-grid">
+                    <div class="stat-box">
+                        <p class="label">Niveau</p>
+                        <h3 id="playerLevel">1</h3>
+                    </div>
+                    <div class="stat-box">
+                        <p class="label">XP Total</p>
+                        <h3 id="playerXP">0</h3>
+                    </div>
+                </div>
+
+                <div class="progress-section level-progress">
+                    <p class="progress-label">Progression Niveau <span id="currentLevel">1</span></p>
+                    <div class="xp-progress-bar">
+                        <div class="xp-progress-fill" id="xpProgressBar"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">0 / 600 XP</p>
+                </div>
+            </div>
+
+            <!-- Theme Stats Section -->
+            <div class="theme-stats-section">
+                <h3>Statistiques par Thème</h3>
+                <div id="themeStatsContainer" class="theme-stats-grid">
+                    <!-- Theme stats will be inserted here -->
+                </div>
+            </div>
+
+            <!-- Back Button -->
+            <div class="profile-footer">
+                <a href="leaderboard.html" class="btn-back-profile">← Retour au classement</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/player-profile.js"></script>
+</body>
+</html>

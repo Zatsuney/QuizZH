@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Gestion des Leaderboards</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <div class="admin-header">
+            <h1>Quiz<span class="highlight">ZH</span> - Gestion des Leaderboards</h1>
+            <div class="admin-header-buttons">
+                <a href="admin-menu.html" class="btn-logout">← Menu Principal</a>
+                <button id="adminLogoutBtn" class="btn-logout">Déconnexion</button>
+            </div>
+        </div>
+
+        <div class="admin-content">
+            <div class="leaderboards-management">
+                <div class="management-section">
+                    <h2>🏆 Leaderboards des Joueurs</h2>
+                    <p class="management-subtitle">Consultez les classements globaux et par thème</p>
+
+                    <!-- FILTRES ET ACTIONS -->
+                    <div class="management-controls">
+                        <div class="control-group">
+                            <label for="leaderboardSelect">Sélectionner un thème:</label>
+                            <select id="leaderboardSelect">
+                                <option value="global">Classement Global</option>
+                                <option value="sciences-easy">Sciences - Facile</option>
+                                <option value="sciences-medium">Sciences - Moyen</option>
+                                <option value="sciences-hard">Sciences - Difficile</option>
+                                <option value="tech-easy">Tech - Facile</option>
+                                <option value="tech-medium">Tech - Moyen</option>
+                                <option value="tech-hard">Tech - Difficile</option>
+                                <option value="geo-easy">Géographie - Facile</option>
+                                <option value="geo-medium">Géographie - Moyen</option>
+                                <option value="geo-hard">Géographie - Difficile</option>
+                                <option value="culture-pop-easy">Culture Pop - Facile</option>
+                                <option value="culture-pop-medium">Culture Pop - Moyen</option>
+                                <option value="culture-pop-hard">Culture Pop - Difficile</option>
+                                <option value="histoire-easy">Histoire - Facile</option>
+                                <option value="histoire-medium">Histoire - Moyen</option>
+                                <option value="histoire-hard">Histoire - Difficile</option>
+                                <option value="arts-easy">Arts & Divertissement - Facile</option>
+                                <option value="arts-medium">Arts & Divertissement - Moyen</option>
+                                <option value="arts-hard">Arts & Divertissement - Difficile</option>
+                                <option value="musique-easy">Musique - Facile</option>
+                                <option value="musique-medium">Musique - Moyen</option>
+                                <option value="musique-hard">Musique - Difficile</option>
+                                <option value="jeux-videos-easy">Jeux-Vidéos - Facile</option>
+                                <option value="jeux-videos-medium">Jeux-Vidéos - Moyen</option>
+                                <option value="jeux-videos-hard">Jeux-Vidéos - Difficile</option>
+                            </select>
+                        </div>
+                        <button id="refreshBtn" class="btn-refresh">🔄 Rafraichir</button>
+                    </div>
+
+                    <!-- LEADERBOARD TABLE -->
+                    <div class="leaderboard-display">
+                        <div id="leaderboardContainer" class="leaderboard-table-wrapper">
+                            <table class="leaderboard-table">
+                                <thead>
+                                    <tr>
+                                        <th>Rang</th>
+                                        <th>Joueur</th>
+                                        <th>Niveau</th>
+                                        <th>XP Total</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="leaderboardBody">
+                                    <tr><td colspan="5" class="empty-state">Chargement...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- STATISTIQUES GLOBALES -->
+                    <div class="stats-section">
+                        <h3>📊 Statistiques Globales</h3>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-label">Total Joueurs</span>
+                                <span class="stat-value" id="totalPlayers">0</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-label">Joueurs Actifs</span>
+                                <span class="stat-value" id="activePlayers">0</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-label">XP Total</span>
+                                <span class="stat-value" id="totalXP">0</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-label">Parties Jouées</span>
+                                <span class="stat-value" id="totalGames">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="admin-footer">
+            <p>Page de Gestion des Leaderboards</p>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/leaderboards-management.js"></script>
+</body>
+</html>

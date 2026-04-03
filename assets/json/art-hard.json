@@ -1,0 +1,407 @@
+{
+  "theme": "art",
+  "difficulty": "hard",
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel peintre italien de la Renaissance a travaillé sur le plafond de la chapelle Sixtine ?",
+      "options": ["Botticelli", "Léonard de Vinci", "Michel-Ange", "Raphaël"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 2,
+      "question": "Quelle œuvre de Vermeer représente une jeune fille avec un turban bleu et jaune ?",
+      "options": ["La Laitière", "La Jeune Fille à la perle", "La Dentellière", "L'Art de la peinture"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 3,
+      "question": "Qui a peint Les Ménines, tableau complexe sur la perspective et la mise en scène ?",
+      "options": ["Velázquez", "Goya", "El Greco", "Ribera"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 4,
+      "question": "Lequel de ces artistes est associé à la peinture tonale, privilégiant les harmonies de couleur plutôt que le dessin ?",
+      "options": ["Whistler", "Cézanne", "Turner", "Monet"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 5,
+      "question": "Quel peintre est célèbre pour ses toiles représentant les tournesols et la nuit étoilée ?",
+      "options": ["Van Gogh", "Gauguin", "Cézanne", "Renoir"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 6,
+      "question": "Qui a peint le Triptyque de l'Agneau mystique à Gand ?",
+      "options": ["Van Eyck", "Bosch", "Bruegel", "Rubens"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 7,
+      "question": "Quel peintre flamand est connu pour ses détails minutieux et ses scènes de genre au XVIIe siècle ?",
+      "options": ["Rubens", "Vermeer", "Jan Steen", "Van Eyck"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 8,
+      "question": "Guernica, une œuvre anti-guerre monumentale, a été réalisée par :",
+      "options": ["Miró", "Picasso", "Dali", "Léger"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 9,
+      "question": "Quel peintre espagnol du XVIIe siècle est célèbre pour ses clair-obscur dramatiques ?",
+      "options": ["Velázquez", "Murillo", "Zurbarán", "Caravage"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 10,
+      "question": "Quel peintre impressionniste est connu pour ses scènes de danse au Moulin de la Galette ?",
+      "options": ["Monet", "Degas", "Renoir", "Pissarro"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 11,
+      "question": "Qui a peint La Tentation de Saint Antoine dans un style surréaliste complexe ?",
+      "options": ["Bosch", "Dali", "Magritte", "Goya"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 12,
+      "question": "Quel mouvement artistique précurseur du cubisme a été initié par Cézanne ?",
+      "options": ["Post-impressionnisme", "Fauvisme", "Expressionnisme", "Surréalisme"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 13,
+      "question": "Quel artiste a peint L'Ange de l'Annonciation, caractéristique du maniérisme italien ?",
+      "options": ["Pontormo", "Caravage", "Botticelli", "Michel-Ange"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 14,
+      "question": "La Ronde de nuit, tableau célèbre de l'âge d'or hollandais, est signé :",
+      "options": ["Rembrandt", "Vermeer", "Hals", "Steen"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 15,
+      "question": "Quel artiste du XXe siècle est connu pour son abstraction géométrique et la série Broadway Boogie Woogie ?",
+      "options": ["Mondrian", "Kandinsky", "Malevitch", "Pollock"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 16,
+      "question": "Quelle sculpture de Michel-Ange représente Moïse avec des cornes sur la tête ?",
+      "options": ["Moïse", "David", "Bacchus", "La Pietà"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 17,
+      "question": "Qui a sculpté le groupe Apollon et Daphné au XVIIe siècle ?",
+      "options": ["Bernini", "Michel-Ange", "Canova", "Donatello"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 18,
+      "question": "Quelle sculptrice française a travaillé avec Rodin et a sculpté La Valse et Sakountala ?",
+      "options": ["Camille Claudel", "Carpeaux", "Bourdelle", "Giacometti"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 19,
+      "question": "Quel sculpteur moderniste est célèbre pour ses colonnes infinies et l'usage du métal et du marbre ?",
+      "options": ["Brâncuși", "Giacometti", "Moore", "Rodin"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 20,
+      "question": "Le Penseur a été initialement conçu comme partie d'un :",
+      "options": ["Monument aux Bourgeois de Calais", "La Porte de l'Enfer", "Monument de la Révolution", "Fontaine de la Paix"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 21,
+      "question": "Qui est l'auteur de la célèbre sculpture David en marbre à Florence ?",
+      "options": ["Michel-Ange", "Donatello", "Bernini", "Cellini"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 22,
+      "question": "Quel sculpteur baroque italien est célèbre pour ses statues dynamiques comme Le Bernin ?",
+      "options": ["Bernini", "Michel-Ange", "Canova", "Donatello"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 23,
+      "question": "La Vénus de Milo date de :",
+      "options": ["Antiquité grecque", "Renaissance", "Baroque", "Époque romaine"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 24,
+      "question": "Quel sculpteur moderne est célèbre pour ses figures filiformes étirées ?",
+      "options": ["Giacometti", "Rodin", "Brâncuși", "Moore"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 25,
+      "question": "Qui a sculpté la fontaine baroque Les Quatre Fleuves à Rome ?",
+      "options": ["Bernini", "Michel-Ange", "Canova", "Donatello"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 26,
+      "question": "Quel architecte moderniste a conçu le Pavillon allemand pour l'Exposition de Barcelone en 1929 ?",
+      "options": ["Mies van der Rohe", "Le Corbusier", "Frank Lloyd Wright", "Gaudí"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 27,
+      "question": "Le Parthénon est un exemple de style :",
+      "options": ["Dorique", "Ionique", "Corinthien", "Composite"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 28,
+      "question": "Quel architecte américain est célèbre pour ses bâtiments organique et intégrés dans la nature, comme Fallingwater ?",
+      "options": ["Frank Lloyd Wright", "Le Corbusier", "Frank Gehry", "Mies van der Rohe"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 29,
+      "question": "La Sagrada Família de Barcelone illustre le style :",
+      "options": ["Modernisme catalan", "Art déco", "Néoclassique", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 30,
+      "question": "Quel style architectural est caractérisé par l'ornementation complexe, le mouvement et la théâtralité ?",
+      "options": ["Baroque", "Rococo", "Gothique", "Roman"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 31,
+      "question": "Quel bâtiment de la Renaissance italienne est célèbre pour sa coupole et a été conçu par Brunelleschi ?",
+      "options": ["Duomo de Florence", "Parthénon", "Panthéon", "Basilique Saint-Pierre"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 32,
+      "question": "Le Colisée à Rome est un exemple :",
+      "options": ["Architecture romaine antique", "Gothique", "Baroque", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 33,
+      "question": "Quel architecte du XXe siècle a conçu la Villa Savoye ?",
+      "options": ["Le Corbusier", "Frank Lloyd Wright", "Gaudí", "Mies van der Rohe"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 34,
+      "question": "Quel style est caractérisé par les arcs-boutants et les vitraux ?",
+      "options": ["Gothique", "Baroque", "Renaissance", "Roman"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 35,
+      "question": "La Taj Mahal est un exemple d'architecture :",
+      "options": ["Moghole", "Perse", "Indienne hindoue", "Ottoman"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 36,
+      "question": "Quel mouvement artistique du XXe siècle a exploré les rêves et l'inconscient ?",
+      "options": ["Surréalisme", "Cubisme", "Expressionnisme abstrait", "Fauvisme"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 37,
+      "question": "Lequel de ces mouvements est précurseur du cubisme, initié par Cézanne ?",
+      "options": ["Post-impressionnisme", "Fauvisme", "Surréalisme", "Baroque"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 38,
+      "question": "Quel peintre est associé à la technique dripping et à l'expressionnisme abstrait ?",
+      "options": ["Pollock", "Rothko", "Kandinsky", "Mondrian"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 39,
+      "question": "Le Fauvisme est caractérisé par :",
+      "options": ["Couleurs vives et non naturalistes", "Clair-obscur dramatique", "Géométrie et perspectives multiples", "Minimalisme abstrait"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 40,
+      "question": "Quel style privilégie les arabesques et l'exubérance décorative au XVIIIe siècle ?",
+      "options": ["Rococo", "Baroque", "Gothique", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 41,
+      "question": "Quel terme désigne une peinture d'objets inanimés ?",
+      "options": ["Nature morte", "Paysage", "Portrait", "Fresque"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 42,
+      "question": "Le cubisme analytique analyse les formes par :",
+      "options": ["Plans géométriques multiples", "Couleurs intenses et non naturalistes", "Mouvement et émotion", "Clair-obscur dramatique"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 43,
+      "question": "Quel artiste du XXe siècle est connu pour ses natures mortes cubistes ?",
+      "options": ["Braque", "Picasso", "Cézanne", "Matisse"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 44,
+      "question": "Quelle technique consiste à peindre sur mur humide ?",
+      "options": ["Fresque", "Huile", "Aquarelle", "Gouache"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 45,
+      "question": "Quel peintre flamand est célèbre pour les scènes de genre détaillées au XVIIe siècle ?",
+      "options": ["Jan Steen", "Rubens", "Van Eyck", "Rembrandt"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 46,
+      "question": "La Ronde de nuit est une œuvre de :",
+      "options": ["Rembrandt", "Vermeer", "Hals", "Steen"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 47,
+      "question": "Quel mouvement artistique privilégie l'abstraction géométrique et la décomposition des formes ?",
+      "options": ["Cubisme", "Fauvisme", "Surréalisme", "Impressionnisme"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 48,
+      "question": "Quel terme désigne la peinture de la vie quotidienne ?",
+      "options": ["Genre", "Portrait", "Paysage", "Nature morte"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 49,
+      "question": "Quel style artistique met l'accent sur la grandeur et la théâtralité des formes ?",
+      "options": ["Baroque", "Rococo", "Gothique", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 50,
+      "question": "Quel artiste moderniste a créé la série Broadway Boogie Woogie ?",
+      "options": ["Mondrian", "Kandinsky", "Malevitch", "Pollock"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Styles et Techniques"
+    }
+  ]
+}

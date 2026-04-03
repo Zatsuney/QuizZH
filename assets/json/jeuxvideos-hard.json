@@ -1,0 +1,407 @@
+{
+  "theme": "jeuxvideos",
+  "difficulty": "hard",
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Dans Metroid Prime, qui est le principal antagoniste final ?",
+      "options": ["Ridley", "Mother Brain", "Metroid Prime", "Kraid"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Personnages et univers complexes"
+    },
+    {
+      "id": 2,
+      "question": "Dans Dark Souls III, qui forge les armes pour le joueur ?",
+      "options": ["André d'Astora", "Hawkwood", "Eygon", "Cornyx"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Personnages et univers complexes"
+    },
+    {
+      "id": 3,
+      "question": "Dans Bloodborne, quel est le nom du maître chasseur qui forme le joueur ?",
+      "options": ["Laurence", "Willem", "Gehrman", "Gascoigne"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Personnages et univers complexes"
+    },
+    {
+      "id": 4,
+      "question": "Dans Final Fantasy IX, comment s'appelle la princesse qui fuit son royaume pour sauver le monde ?",
+      "options": ["Garnet", "Eiko", "Vivi", "Freya"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Personnages et univers complexes"
+    },
+    {
+      "id": 5,
+      "question": "Dans Persona 3, quel est le leader du SEES ?",
+      "options": ["Junpei", "Protagoniste (Makoto/Yukari)", "Akihiko", "Ken"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Personnages et univers complexes"
+    },
+    {
+      "id": 6,
+      "question": "Dans Minecraft, quelle structure permet de se rendre dans le Nether ?",
+      "options": ["Portail en obsidienne activé avec un briquet", "Pierre de portail", "Piège en fer", "Portail en diamant"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux de construction et sandbox avancés"
+    },
+    {
+      "id": 7,
+      "question": "Dans Terraria, quel objet invoque le boss Plantera ?",
+      "options": ["Creeper de la jungle", "Bulbe de Plantera", "Slime de jungle", "Reine abeille"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux de construction et sandbox avancés"
+    },
+    {
+      "id": 8,
+      "question": "Dans Factorio, quelle machine assemble automatiquement les objets ?",
+      "options": ["Fourneau", "Machine d'assemblage", "Foreuse", "Convoyeur"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux de construction et sandbox avancés"
+    },
+    {
+      "id": 9,
+      "question": "Dans RimWorld, quel système mesure le moral des colons ?",
+      "options": ["Mood", "Happiness", "Stress", "Santé mentale"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux de construction et sandbox avancés"
+    },
+    {
+      "id": 10,
+      "question": "Dans Minecraft, quel enchantement permet de garder un objet après la mort ?",
+      "options": ["Pillage", "Réparation", "Malédiction de disparition", "Soulbound (mod)"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Jeux de construction et sandbox avancés"
+    },
+    {
+      "id": 11,
+      "question": "Dans The Witcher 3, quel sorceleur a formé Geralt ?",
+      "options": ["Vesemir", "Lambert", "Eskel", "Coën"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "RPG et jeux d'aventure avancés"
+    },
+    {
+      "id": 12,
+      "question": "Dans Final Fantasy VII, quel groupe terroriste Cloud rejoint-il ?",
+      "options": ["SOLDAT", "Avalanche", "Turks", "Shinra"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "RPG et jeux d'aventure avancés"
+    },
+    {
+      "id": 13,
+      "question": "Dans Divinity: Original Sin 2, quel personnage est un elfe assassin ?",
+      "options": ["Lohse", "Ifan", "Sebille", "Fane"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "RPG et jeux d'aventure avancés"
+    },
+    {
+      "id": 14,
+      "question": "Dans Skyrim, quel lieu forme l'académie de magie ?",
+      "options": ["Winterhold", "Markarth", "Riften", "Whiterun"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "RPG et jeux d'aventure avancés"
+    },
+    {
+      "id": 15,
+      "question": "Dans Persona 5, quel est le rôle de Mementos ?",
+      "options": ["Donjon généré pour les quêtes secondaires", "Lieu obligatoire", "Centre de fusion", "Base secrète"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "RPG et jeux d'aventure avancés"
+    },
+    {
+      "id": 16,
+      "question": "Dans Dota 2, quel héros invoque des illusions d'ennemis ?",
+      "options": ["Phantom Lancer", "Naga Siren", "Chaos Knight", "Tous"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Jeux multijoueurs et tactiques difficiles"
+    },
+    {
+      "id": 17,
+      "question": "Dans League of Legends, quel champion peut manipuler le temps et revenir en arrière ?",
+      "options": ["Jhin", "Ekko", "Ziggs", "Jayce"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux multijoueurs et tactiques difficiles"
+    },
+    {
+      "id": 18,
+      "question": "Dans Rainbow Six Siege, quel opérateur utilise des grenades fumigènes télécommandées ?",
+      "options": ["Smoke", "Thatcher", "Mozzie", "Mira"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux multijoueurs et tactiques difficiles"
+    },
+    {
+      "id": 19,
+      "question": "Dans Valorant, quel agent détecte les ennemis avec son drone ?",
+      "options": ["Cypher", "Sova", "Killjoy", "Breach"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux multijoueurs et tactiques difficiles"
+    },
+    {
+      "id": 20,
+      "question": "Dans Apex Legends, quel personnage peut protéger ses alliés avec un bouclier ?",
+      "options": ["Gibraltar", "Caustic", "Wattson", "Bangalore"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux multijoueurs et tactiques difficiles"
+    },
+    {
+      "id": 21,
+      "question": "Dans Halo, quel artefact alien peut anéantir toute vie ?",
+      "options": ["IA Forerunner", "Anneau Halo", "Matrice Cortana", "Gravemind"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "FPS et jeux de tir avancés"
+    },
+    {
+      "id": 22,
+      "question": "Dans Destiny 2, quel raid utilise la mécanique des orbes de lumière pour progresser ?",
+      "options": ["Leviathan", "Last Wish", "Garden of Salvation", "Deep Stone Crypt"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "FPS et jeux de tir avancés"
+    },
+    {
+      "id": 23,
+      "question": "Dans CS:GO, quelle carte classique a deux sites pour poser la bombe ?",
+      "options": ["Dust II", "Mirage", "Inferno", "Cache"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "FPS et jeux de tir avancés"
+    },
+    {
+      "id": 24,
+      "question": "Dans Call of Duty: Modern Warfare, quel équipement aveugle les ennemis temporairement ?",
+      "options": ["Grenade flash", "Grenade fumigène", "Claymore", "Mine de choc"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "FPS et jeux de tir avancés"
+    },
+    {
+      "id": 25,
+      "question": "Dans Overwatch, quel héros absorbe les projectiles ennemis avec un bouclier mobile ?",
+      "options": ["Sigma", "Zarya", "Reinhardt", "Orisa"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "FPS et jeux de tir avancés"
+    },
+    {
+      "id": 26,
+      "question": "Dans Celeste, quel mouvement permet de grimper les murs rapidement ?",
+      "options": ["Wall Cling", "Wall Boost", "Dash aérien", "Jump Boost"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Plateforme et arcade difficiles"
+    },
+    {
+      "id": 27,
+      "question": "Dans Hollow Knight, quel sort permet de se téléporter vers un banc ?",
+      "options": ["Shade Cloak", "Dream Nail", "Mothwing Cloak", "Monarch Wings"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Plateforme et arcade difficiles"
+    },
+    {
+      "id": 28,
+      "question": "Dans Ori and the Will of the Wisps, quel sort attaque à distance avec l'énergie ?",
+      "options": ["Spirit Arc", "Spirit Smash", "Spirit Flame", "Spirit Beam"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Plateforme et arcade difficiles"
+    },
+    {
+      "id": 29,
+      "question": "Dans Shovel Knight: Specter of Torment, quelle mécanique rend les combats plus difficiles ?",
+      "options": ["Doubles ennemis", "Rebond des projectiles", "Pièges instantanés", "Curseur d'ombre"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Plateforme et arcade difficiles"
+    },
+    {
+      "id": 30,
+      "question": "Dans Rayman Legends, quel niveau musical suit le rythme pour survivre ?",
+      "options": ["Musical Level", "Rhythm Runner", "In the Groove", "Beat Jam"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Plateforme et arcade difficiles"
+    },
+    {
+      "id": 31,
+      "question": "Dans Fire Emblem: Three Houses, quel personnage peut rejoindre toutes les maisons via DLC ?",
+      "options": ["Edelgard", "Byleth", "Lysithea", "Hubert"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "RPG et stratégie complexes"
+    },
+    {
+      "id": 32,
+      "question": "Dans Divinity: Original Sin 2, quel élément crée une explosion combinée avec l'électricité ?",
+      "options": ["Feu", "Eau", "Air", "Tous"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "RPG et stratégie complexes"
+    },
+    {
+      "id": 33,
+      "question": "Dans Skyrim, quelle pierre augmente la puissance de combat après chaque ennemi tué ?",
+      "options": ["Pierre du Guerrier", "Pierre du Voleur", "Pierre du Mage", "Pierre de l'Amant"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "RPG et stratégie complexes"
+    },
+    {
+      "id": 34,
+      "question": "Dans The Witcher 3, quel monstre crée des illusions pour tromper le joueur ?",
+      "options": ["Doppler", "Leshy", "Noonwraith", "Kikimora"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "RPG et stratégie complexes"
+    },
+    {
+      "id": 35,
+      "question": "Dans Genshin Impact, quel ensemble d'artefacts augmente les dégâts critiques élémentaires ?",
+      "options": ["Gladiator's Finale", "Crimson Witch of Flames", "Viridescent Venerer", "Wanderer's Troupe"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "RPG et stratégie complexes"
+    },
+    {
+      "id": 36,
+      "question": "Dans League of Legends, quel champion relie les ennemis pour infliger des dégâts en chaîne ?",
+      "options": ["Karma", "Orianna", "Rell", "Jhin"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Multijoueurs et esports difficiles"
+    },
+    {
+      "id": 37,
+      "question": "Dans Dota 2, quel objet rend invincible aux contrôles de foule pendant un temps limité ?",
+      "options": ["Bâton du roi noir", "Blink Dagger", "Force Staff", "Sceptre d'Eul"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Multijoueurs et esports difficiles"
+    },
+    {
+      "id": 38,
+      "question": "Dans CS:GO, quelle grenade empêche de voir ?",
+      "options": ["Smoke", "Flash", "HE", "Molotov"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Multijoueurs et esports difficiles"
+    },
+    {
+      "id": 39,
+      "question": "Dans Valorant, quel agent verrouille des zones avec des tourelles et pièges ?",
+      "options": ["Killjoy", "Cypher", "Sage", "Breach"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Multijoueurs et esports difficiles"
+    },
+    {
+      "id": 40,
+      "question": "Dans Overwatch, quel héros utilise un ultimate gravitationnel pour regrouper les ennemis ?",
+      "options": ["Zarya", "Sigma", "Orisa", "Lucio"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Multijoueurs et esports difficiles"
+    },
+    {
+      "id": 41,
+      "question": "Dans FIFA, quel paramètre influence la précision des passes longues et courtes ?",
+      "options": ["Passing accuracy", "Short pass / Long pass", "Playmaker", "Passing curve"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Sport et course avancés"
+    },
+    {
+      "id": 42,
+      "question": "Dans Mario Kart 8 Deluxe, quel objet frappe tous les adversaires en inversant leurs commandes ?",
+      "options": ["Boo", "Éclair", "Fausse boîte", "Carapace verte"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Sport et course avancés"
+    },
+    {
+      "id": 43,
+      "question": "Dans Rocket League, quel état permet de frapper plus vite et fort ?",
+      "options": ["Turbo Boost", "Supersonic", "Afterburner", "Nitrous"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Sport et course avancés"
+    },
+    {
+      "id": 44,
+      "question": "Dans NBA 2K, quelle statistique mesure la vitesse avec le ballon ?",
+      "options": ["Speed", "Ball Handling", "Acceleration", "Quickness"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Sport et course avancés"
+    },
+    {
+      "id": 45,
+      "question": "Dans Tony Hawk's Pro Skater 1+2, quel trick combine Kickflip et Grab ?",
+      "options": ["Kickflip Grab", "McTwist", "900", "Manual Combo"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Sport et course avancés"
+    },
+    {
+      "id": 46,
+      "question": "Dans Hollow Knight, quel boss final alternatif est appelé Pure Vessel ?",
+      "options": ["Hornet", "Grimm", "Hollow Knight", "Pure Vessel"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Jeux divers avancés"
+    },
+    {
+      "id": 47,
+      "question": "Dans Genshin Impact, quel personnage maîtrise le vent et peut se téléporter ?",
+      "options": ["Venti", "Xiao", "Kazuha", "Jean"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux divers avancés"
+    },
+    {
+      "id": 48,
+      "question": "Dans Among Us, quelle stratégie avancée est utilisée pour manipuler les autres joueurs ?",
+      "options": ["Self-report", "Faire semblant de faire les tâches", "Manipulation d'alibi", "Toutes"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Jeux divers avancés"
+    },
+    {
+      "id": 49,
+      "question": "Dans Fall Guys, quel niveau tourne autour de plateformes et obstacles mouvants ?",
+      "options": ["Hex-A-Gone", "Slime Climb", "Jump Showdown", "Roll Out"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux divers avancés"
+    },
+    {
+      "id": 50,
+      "question": "Dans Persona 5 Royal, quel personnage permet de débloquer une nouvelle Confidante ?",
+      "options": ["Kasumi", "Hifumi", "Takuto", "Caroline"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux divers avancés"
+    }
+  ]
+}

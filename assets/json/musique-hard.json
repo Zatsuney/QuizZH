@@ -1,0 +1,407 @@
+{
+  "theme": "musique",
+  "difficulty": "hard",
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel album des Beatles est considéré comme le premier concept album du groupe ?",
+      "options": ["Abbey Road", "Revolver", "Sgt. Pepper's Lonely Hearts Club Band", "The White Album"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 2,
+      "question": "Quel chanteur a popularisé le style blue-eyed soul dans les années 1980 ?",
+      "options": ["Michael Jackson", "George Michael", "Prince", "David Bowie"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 3,
+      "question": "Quel groupe de rock progressif britannique a sorti Close to the Edge ?",
+      "options": ["Genesis", "Yes", "King Crimson", "Pink Floyd"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 4,
+      "question": "Quel chanteur est à l'origine de la création du mouvement glam rock avec Ziggy Stardust ?",
+      "options": ["Elton John", "David Bowie", "Freddie Mercury", "Mick Jagger"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 5,
+      "question": "Quel groupe américain a popularisé le grunge avec l'album Nevermind ?",
+      "options": ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 6,
+      "question": "Qui a remporté le prix Grammy pour Album de l'année en 2021 avec Folklore ?",
+      "options": ["Taylor Swift", "Billie Eilish", "Beyoncé", "Ariana Grande"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 7,
+      "question": "Quel compositeur pop est à l'origine de la création du mouvement Motown ?",
+      "options": ["Smokey Robinson", "Berry Gordy", "Marvin Gaye", "Stevie Wonder"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 8,
+      "question": "Quel groupe est connu pour la fusion jazz/rock sur Bitches Brew ?",
+      "options": ["Weather Report", "Miles Davis", "Herbie Hancock", "Return to Forever"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 9,
+      "question": "Quel artiste canadien a popularisé le R&B contemporain avec After Hours et Blinding Lights ?",
+      "options": ["Drake", "Justin Bieber", "The Weeknd", "Shawn Mendes"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 10,
+      "question": "Quel groupe britannique a sorti Animals, un album conceptuel inspiré par George Orwell ?",
+      "options": ["Pink Floyd", "The Who", "Genesis", "King Crimson"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Chanteurs et groupes"
+    },
+    {
+      "id": 11,
+      "question": "Quel instrument à clavier du XVIIe siècle est le prédécesseur du piano moderne ?",
+      "options": ["Clavecin", "Orgue positif", "Épinette", "Virginal"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 12,
+      "question": "Lequel de ces instruments à cordes est joué par pizzicato ou archet ?",
+      "options": ["Violoncelle", "Harpe", "Luth", "Mandoline"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 13,
+      "question": "Quel instrument de percussion est caractéristique du gamelan balinais ?",
+      "options": ["Gamelan", "Saron", "Bonang", "Gong"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 14,
+      "question": "Quel instrument de jazz est souvent utilisé pour le comping derrière le soliste ?",
+      "options": ["Piano", "Contrebasse", "Batterie", "Saxophone"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 15,
+      "question": "Quelle famille d'instruments comprend le basson, le hautbois et la clarinette ?",
+      "options": ["Bois", "Cuivres", "Percussion", "Cordes"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 16,
+      "question": "Quel instrument indien est un long tambour à membrane double ?",
+      "options": ["Tabla", "Mridangam", "Dholak", "Sitar"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 17,
+      "question": "Quel instrument à cordes chinois utilise un archet frottant les cordes et ressemble à un violon vertical ?",
+      "options": ["Erhu", "Pipa", "Guqin", "Yangqin"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 18,
+      "question": "Lequel de ces instruments produit un son par vibration de colonne d'air dans un tube conique et possède des clefs ?",
+      "options": ["Clarinette", "Saxophone", "Flûte traversière", "Hautbois"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 19,
+      "question": "Quel instrument baroque est souvent utilisé pour le basso continuo ?",
+      "options": ["Clavecin", "Orgue", "Théorbe", "Tous les trois"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 20,
+      "question": "Quel instrument africain est en métal, à lames frappées avec des baguettes et produit un son percussif et mélodique ?",
+      "options": ["Mbira", "Kalimba", "Balafon", "Xylophone africain"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Instruments de musique"
+    },
+    {
+      "id": 21,
+      "question": "Le jazz modal a été popularisé par quel musicien ?",
+      "options": ["Louis Armstrong", "Miles Davis", "John Coltrane", "Duke Ellington"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 22,
+      "question": "Le funk est principalement basé sur :",
+      "options": ["Rythme et groove de basse", "Mélodie vocale", "Harmonie complexe", "Improvisation libre"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 23,
+      "question": "Le flamenco combine principalement :",
+      "options": ["Guitare, chant et danse", "Piano et batterie", "Violon et flûte", "Synthétiseur et voix"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 24,
+      "question": "Lequel de ces genres a émergé dans les années 1970 à partir de la musique disco et électronique ?",
+      "options": ["House", "Techno", "Electro", "Tous les trois"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 25,
+      "question": "Le rock progressif se caractérise par :",
+      "options": ["Longues compositions et complexité harmonique", "Chansons courtes et refrains simples", "Improvisation uniquement", "Rap et beatboxing"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 26,
+      "question": "La bossa nova est une fusion de :",
+      "options": ["Samba et jazz", "Samba et blues", "Jazz et funk", "Salsa et jazz"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 27,
+      "question": "Lequel de ces styles musicaux met l'accent sur l'improvisation et les accords enrichis ?",
+      "options": ["Blues", "Jazz", "Classical", "Rock"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 28,
+      "question": "Le reggae utilise souvent un rythme syncopé sur :",
+      "options": ["La batterie", "La guitare", "La basse", "Les percussions"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 29,
+      "question": "Le punk rock s'oppose principalement à :",
+      "options": ["La musique commerciale et l'excès technique", "Le folk traditionnel", "La musique classique", "Le jazz fusion"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 30,
+      "question": "Quel genre musical cubain a influencé directement la salsa et le mambo ?",
+      "options": ["Son cubano", "Rumba", "Cha-cha-cha", "Tous les trois"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Genres musicaux"
+    },
+    {
+      "id": 31,
+      "question": "Quel compositeur a créé Le Clavier bien tempéré ?",
+      "options": ["Bach", "Handel", "Vivaldi", "Telemann"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 32,
+      "question": "Quel compositeur russe est célèbre pour Petrouchka et Le Sacre du printemps ?",
+      "options": ["Stravinsky", "Tchaïkovski", "Rachmaninov", "Prokofiev"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 33,
+      "question": "Quel compositeur romantique est connu pour ses études pour piano et nocturnes ?",
+      "options": ["Chopin", "Liszt", "Brahms", "Schumann"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 34,
+      "question": "Laquelle de ces œuvres est un ballet de Tchaïkovski ?",
+      "options": ["Le Lac des cygnes", "Boléro", "Concerto pour piano n°1", "Requiem"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 35,
+      "question": "Qui a composé La Mer ?",
+      "options": ["Debussy", "Ravel", "Saint-Saëns", "Fauré"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 36,
+      "question": "Lequel a été un pionnier de la musique minimaliste ?",
+      "options": ["Philip Glass", "Steve Reich", "Terry Riley", "Tous les trois"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 37,
+      "question": "Quel compositeur baroque est célèbre pour Water Music et Messiah ?",
+      "options": ["Handel", "Bach", "Vivaldi", "Telemann"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 38,
+      "question": "Laquelle de ces œuvres est un opéra de Puccini ?",
+      "options": ["La Bohème", "Tosca", "Madama Butterfly", "Toutes les trois"],
+      "correctAnswer": 3,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 39,
+      "question": "Quel compositeur allemand a écrit la Symphonie n°9 (Ode à la joie) ?",
+      "options": ["Beethoven", "Bach", "Brahms", "Haydn"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 40,
+      "question": "Qui a composé Concerto pour la main gauche ?",
+      "options": ["Ravel", "Prokofiev", "Gershwin", "Chopin"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique classique et compositeurs"
+    },
+    {
+      "id": 41,
+      "question": "Le gamelan est un ensemble musical traditionnel de :",
+      "options": ["Indonésie", "Philippines", "Malaisie", "Thaïlande"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 42,
+      "question": "Le koto est un instrument traditionnel de :",
+      "options": ["Chine", "Japon", "Corée", "Vietnam"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 43,
+      "question": "La sitar est associée à la musique classique de :",
+      "options": ["Inde", "Pakistan", "Népal", "Bangladesh"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 44,
+      "question": "Quel style musical brésilien a été popularisé par João Gilberto et Antonio Carlos Jobim ?",
+      "options": ["Bossa nova", "Samba", "Forró", "Choro"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 45,
+      "question": "Le djembe est un instrument de percussion traditionnel de :",
+      "options": ["Afrique de l'Ouest", "Afrique du Sud", "Égypte", "Maroc"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 46,
+      "question": "Quel genre musical a émergé du ska et du rocksteady en Jamaïque ?",
+      "options": ["Reggae", "Dancehall", "Ska", "Dub"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 47,
+      "question": "Le oud est un instrument à cordes traditionnel de :",
+      "options": ["Moyen-Orient", "Inde", "Chine", "Afrique de l'Est"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 48,
+      "question": "La musique taiko est caractérisée par :",
+      "options": ["Tambours japonais", "Flûtes chinoises", "Instruments de corde coréens", "Cymbales indiennes"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 49,
+      "question": "Quel compositeur américain a popularisé le jazz symphonique et les œuvres inspirées par la musique afro-américaine ?",
+      "options": ["Duke Ellington", "George Gershwin", "Aaron Copland", "Leonard Bernstein"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    },
+    {
+      "id": 50,
+      "question": "Le steel drum est originaire de :",
+      "options": ["Trinité-et-Tobago", "Jamaïque", "Cuba", "Brésil"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique du monde et chansons célèbres"
+    }
+  ]
+}

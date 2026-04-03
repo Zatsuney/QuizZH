@@ -1,0 +1,407 @@
+{
+  "theme": "jeuxvideos",
+  "difficulty": "easy",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel personnage est connu pour sa couleur bleue et sa grande vitesse ?",
+      "options": ["Mario", "Sonic", "Link", "Donkey Kong"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Personnages célèbres"
+    },
+    {
+      "id": 2,
+      "question": "Quel est le plombier célèbre créé par Nintendo ?",
+      "options": ["Luigi", "Wario", "Mario", "Toad"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Personnages célèbres"
+    },
+    {
+      "id": 3,
+      "question": "Qui est l'ennemi principal de Mario dans la plupart des jeux ?",
+      "options": ["Bowser", "Wario", "Donkey Kong", "Ganondorf"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Personnages célèbres"
+    },
+    {
+      "id": 4,
+      "question": "Dans quel jeu contrôle-t-on un héros nommé Link ?",
+      "options": ["Metroid", "The Legend of Zelda", "Pokémon", "Kirby"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Personnages célèbres"
+    },
+    {
+      "id": 5,
+      "question": "Dans Pokémon, qui est le Pokémon jaune électrique emblématique ?",
+      "options": ["Bulbizarre", "Pikachu", "Salamèche", "Carapuce"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Personnages célèbres"
+    },
+    {
+      "id": 6,
+      "question": "Dans quel jeu doit-on casser des blocs avec une pioche et construire ?",
+      "options": ["Fortnite", "Minecraft", "Roblox", "Among Us"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de construction et exploration"
+    },
+    {
+      "id": 7,
+      "question": "Dans quel jeu peut-on créer ses propres mondes et mini-jeux en ligne ?",
+      "options": ["Roblox", "Minecraft", "Terraria", "Fortnite"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de construction et exploration"
+    },
+    {
+      "id": 8,
+      "question": "Quel jeu consiste à empiler des blocs pour former des lignes complètes ?",
+      "options": ["Minecraft", "Tetris", "Fortnite", "Candy Crush"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de construction et exploration"
+    },
+    {
+      "id": 9,
+      "question": "Dans Animal Crossing, comment s'appelle le villageois qui vend des objets et meubles ?",
+      "options": ["Tom Nook", "K.K. Slider", "Isabelle", "Blathers"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de construction et exploration"
+    },
+    {
+      "id": 10,
+      "question": "Dans Minecraft, quel bloc est utilisé pour miner le diamant ?",
+      "options": ["Pierre", "Fer", "Charbon", "Diamant"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Jeux de construction et exploration"
+    },
+    {
+      "id": 11,
+      "question": "Dans quel jeu tire-t-on sur des zombies dans un monde post-apocalyptique ?",
+      "options": ["Resident Evil", "Animal Crossing", "Mario Kart", "FIFA"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 12,
+      "question": "Dans quel jeu peut-on combattre en arène avec des cartes magiques ?",
+      "options": ["Hearthstone", "FIFA", "Minecraft", "Tetris"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 13,
+      "question": "Dans Super Smash Bros, qui est un personnage jouable ?",
+      "options": ["Sonic", "Mario", "Link", "Tous les précédents"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 14,
+      "question": "Dans Street Fighter, quel personnage est connu pour son coup de pied sauté ?",
+      "options": ["Ryu", "Chun-Li", "Ken", "Guile"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 15,
+      "question": "Dans Mortal Kombat, quel personnage dit Finish Him avant le coup final ?",
+      "options": ["Scorpion", "Sub-Zero", "Raiden", "C'est le jeu qui le dit"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 16,
+      "question": "Quel jeu est célèbre pour son Battle Royale et ses danses ?",
+      "options": ["Apex Legends", "Fortnite", "Call of Duty", "PUBG"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 17,
+      "question": "Quel jeu consiste à deviner qui est l'imposteur parmi un équipage spatial ?",
+      "options": ["Fall Guys", "Among Us", "Valorant", "Roblox"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 18,
+      "question": "Quel jeu multijoueur oppose des équipes pour capturer un drapeau ou contrôler des zones ?",
+      "options": ["Overwatch", "FIFA", "Minecraft", "Zelda"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 19,
+      "question": "Dans Apex Legends, quel personnage peut se téléporter sur de courtes distances ?",
+      "options": ["Wraith", "Lifeline", "Bangalore", "Gibraltar"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 20,
+      "question": "Dans Fall Guys, quel type de jeu retrouve-t-on ?",
+      "options": ["Battle Royale de plateforme", "Combat de cartes", "Jeu de football", "Course de voitures"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 21,
+      "question": "Quel jeu vidéo célèbre est une simulation de football ?",
+      "options": ["FIFA", "NBA 2K", "Madden NFL", "Rocket League"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 22,
+      "question": "Dans Mario Kart, quel objet permet de ralentir les adversaires ?",
+      "options": ["Champignon", "Étoile", "Carapace rouge", "Banane"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 23,
+      "question": "Dans Rocket League, quel sport est combiné avec des voitures ?",
+      "options": ["Football", "Basketball", "Hockey", "Tennis"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 24,
+      "question": "Dans FIFA, comment s'appelle le mode où l'on crée sa propre équipe de rêve ?",
+      "options": ["Career Mode", "Ultimate Team", "Pro Clubs", "Kick-Off"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 25,
+      "question": "Dans NBA 2K, quel joueur est souvent représenté sur la jaquette des jeux récents ?",
+      "options": ["LeBron James", "Stephen Curry", "Michael Jordan", "Kevin Durant"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 26,
+      "question": "Dans quel jeu saute-t-on sur des champignons pour gagner des points ?",
+      "options": ["Sonic", "Mario", "Kirby", "Donkey Kong"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de plateforme"
+    },
+    {
+      "id": 27,
+      "question": "Quel personnage est rose et aspire les ennemis ?",
+      "options": ["Kirby", "Pac-Man", "Luigi", "Donkey Kong"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de plateforme"
+    },
+    {
+      "id": 28,
+      "question": "Dans Donkey Kong, qui doit sauver la princesse ?",
+      "options": ["Mario", "Luigi", "Donkey Kong", "Link"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de plateforme"
+    },
+    {
+      "id": 29,
+      "question": "Dans Rayman, quel est le pouvoir principal de Rayman ?",
+      "options": ["Super vitesse", "Bras flottants et attaques à distance", "Voler", "Tir laser"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de plateforme"
+    },
+    {
+      "id": 30,
+      "question": "Dans Crash Bandicoot, que doit-on collecter pour passer les niveaux ?",
+      "options": ["Pièces", "Wumpa Fruits", "Gemmes", "Étoiles"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de plateforme"
+    },
+    {
+      "id": 31,
+      "question": "Dans The Legend of Zelda, quel objet est indispensable pour progresser ?",
+      "options": ["Épée", "Arc", "Bouclier", "Bottes"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux d'aventure et RPG"
+    },
+    {
+      "id": 32,
+      "question": "Dans Pokémon, comment appelle-t-on le lieu où l'on soigne ses Pokémon ?",
+      "options": ["Centre Pokémon", "Gym", "Boutique", "Parc"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux d'aventure et RPG"
+    },
+    {
+      "id": 33,
+      "question": "Dans Skyrim, quel est le rôle du joueur ?",
+      "options": ["Guerrier, mage ou voleur", "Roi", "Chevalier uniquement", "Marchand"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux d'aventure et RPG"
+    },
+    {
+      "id": 34,
+      "question": "Dans Animal Crossing, que fait-on surtout ?",
+      "options": ["Combattre", "Construire un village et interagir avec des habitants", "Conduire", "Résoudre des énigmes"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux d'aventure et RPG"
+    },
+    {
+      "id": 35,
+      "question": "Dans Pokémon, qui est le champion de type électrique à Volucité ?",
+      "options": ["Sacha", "Pierre", "Ondine", "Pikachu"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Jeux d'aventure et RPG"
+    },
+    {
+      "id": 36,
+      "question": "Quel jeu classique consiste à manger des pac-gommes tout en évitant des fantômes ?",
+      "options": ["Pong", "Pac-Man", "Tetris", "Space Invaders"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux d'arcade et classiques"
+    },
+    {
+      "id": 37,
+      "question": "Quel jeu consiste à abattre des envahisseurs de l'espace ?",
+      "options": ["Space Invaders", "Galaga", "Pac-Man", "Donkey Kong"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux d'arcade et classiques"
+    },
+    {
+      "id": 38,
+      "question": "Dans Pong, que contrôle le joueur ?",
+      "options": ["Une balle", "Une raquette", "Un personnage", "Un vaisseau"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux d'arcade et classiques"
+    },
+    {
+      "id": 39,
+      "question": "Dans Tetris, que se passe-t-il quand une ligne est complète ?",
+      "options": ["Elle disparaît", "Elle change de couleur", "Elle devient solide", "Elle explose"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux d'arcade et classiques"
+    },
+    {
+      "id": 40,
+      "question": "Quel jeu d'arcade a été popularisé par Nintendo en 1981 avec un gorille et un personnage rouge ?",
+      "options": ["Donkey Kong", "Mario Bros", "Pac-Man", "Frogger"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux d'arcade et classiques"
+    },
+    {
+      "id": 41,
+      "question": "Dans Call of Duty, quel est le genre principal ?",
+      "options": ["Tir à la première personne", "Course", "Puzzle", "Simulation"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de tir et stratégie"
+    },
+    {
+      "id": 42,
+      "question": "Dans Fortnite, quelle ressource est utilisée pour construire ?",
+      "options": ["Bois, pierre, métal", "Or", "Diamant", "Charbon"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de tir et stratégie"
+    },
+    {
+      "id": 43,
+      "question": "Dans Minecraft, quel ennemi explosif est vert ?",
+      "options": ["Zombie", "Creeper", "Squelette", "Araignée"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de tir et stratégie"
+    },
+    {
+      "id": 44,
+      "question": "Dans Clash Royale, que lance-t-on sur l'adversaire ?",
+      "options": ["Cartes", "Bateaux", "Épées", "Flèches uniquement"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux de tir et stratégie"
+    },
+    {
+      "id": 45,
+      "question": "Dans Age of Empires, que construit-on pour créer des unités militaires ?",
+      "options": ["Ferme", "Caserne", "Temple", "Marché"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux de tir et stratégie"
+    },
+    {
+      "id": 46,
+      "question": "Quel jeu a popularisé le concept de skin et de personnalisation ?",
+      "options": ["Fortnite", "Minecraft", "Tetris", "Among Us"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Divers jeux populaires"
+    },
+    {
+      "id": 47,
+      "question": "Dans Pokémon Go, où attrape-t-on les Pokémon ?",
+      "options": ["Dans le monde réel grâce à la réalité augmentée", "Dans des donjons", "Dans la ville virtuelle", "Dans un centre Pokémon"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Divers jeux populaires"
+    },
+    {
+      "id": 48,
+      "question": "Dans The Sims, que fait-on principalement ?",
+      "options": ["Créer et gérer des personnages et leur maison", "Combattre", "Courir", "Attraper des créatures"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Divers jeux populaires"
+    },
+    {
+      "id": 49,
+      "question": "Dans Among Us, que doit faire l'imposteur ?",
+      "options": ["Saboter et éliminer les joueurs", "Construire une base", "Récolter des fruits", "Courir des courses"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Divers jeux populaires"
+    },
+    {
+      "id": 50,
+      "question": "Quel jeu consiste à courir dans des courses avec des mini-jeux et obstacles multijoueurs ?",
+      "options": ["Fall Guys", "Fortnite", "Roblox", "Minecraft"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Divers jeux populaires"
+    }
+  ]
+}

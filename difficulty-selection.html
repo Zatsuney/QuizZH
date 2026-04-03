@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Choisir la Difficulté</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="difficulty-selection-container">
+        <div class="difficulty-selection-card">
+            <h1>Quiz<span class="highlight">ZH</span></h1>
+            <p class="subtitle">Choisissez votre niveau de difficulté</p>
+            
+            <div class="theme-info" id="themeInfo">
+                <p>Thème: <strong id="selectedTheme"></strong></p>
+            </div>
+
+            <div class="difficulties-grid">
+                <button type="button" class="btn-difficulty btn-easy" data-difficulty="easy">
+                    <div class="difficulty-icon">🟢</div>
+                    <div class="difficulty-title">Facile</div>
+                    <div class="difficulty-details">
+                        <div class="difficulty-stat">10 questions</div>
+                        <div class="difficulty-stat">30 sec/question</div>
+                    </div>
+                </button>
+
+                <button type="button" class="btn-difficulty btn-medium" data-difficulty="medium">
+                    <div class="difficulty-icon">🟡</div>
+                    <div class="difficulty-title">Moyen</div>
+                    <div class="difficulty-details">
+                        <div class="difficulty-stat">10 questions</div>
+                        <div class="difficulty-stat">20 sec/question</div>
+                    </div>
+                </button>
+
+                <button type="button" class="btn-difficulty btn-hard" data-difficulty="hard">
+                    <div class="difficulty-icon">🔴</div>
+                    <div class="difficulty-title">Difficile</div>
+                    <div class="difficulty-details">
+                        <div class="difficulty-stat">10 questions</div>
+                        <div class="difficulty-stat">15 sec/question</div>
+                    </div>
+                </button>
+            </div>
+
+            <div class="back-section">
+                <a href="#" id="backLink">← Retour au choix des thèmes</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/difficulty-selection.js"></script>
+</body>
+</html>

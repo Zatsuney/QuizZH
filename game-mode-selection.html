@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Mode de Jeu</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="game-mode-container">
+        <div class="game-mode-card">
+            <img src="image/logoquizzh.png" alt="QuizZH" class="logo-header">
+            <p class="subtitle">Choisissez votre mode de jeu</p>
+            
+            <div class="user-info" id="userInfo">
+                <p>Connecté en tant que: <strong id="playerName"></strong></p>
+            </div>
+
+            <div class="game-modes">
+                <button type="button" class="btn-game-mode btn-solo" id="soloBtn">
+                    <div class="mode-icon">🎮</div>
+                    <div class="mode-title">Mode Solo</div>
+                    <div class="mode-description">Jouez à votre rythme</div>
+                </button>
+
+                <button type="button" class="btn-game-mode btn-tournament" id="tournamentBtn">
+                    <div class="mode-icon">🏆</div>
+                    <div class="mode-title">Mode Tournoi</div>
+                    <div class="mode-description">Compétition en direct</div>
+                </button>
+            </div>
+
+            <div class="action-buttons">
+                <button type="button" class="btn-action btn-profile" id="profileBtn">
+                    <span class="action-icon">👤</span>
+                    <span class="action-label">Profil</span>
+                </button>
+
+                <button type="button" class="btn-action btn-leaderboard" id="leaderboardBtn">
+                    <span class="action-icon">📊</span>
+                    <span class="action-label">Classements</span>
+                </button>
+            </div>
+
+            <div class="back-section">
+                <a href="#" id="logoutLink">← Se déconnecter</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/game-mode-selection.js"></script>
+</body>
+</html>

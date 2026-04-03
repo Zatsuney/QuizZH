@@ -1,0 +1,305 @@
+🧬 Biologie
+Quel organe filtre le sang ?
+A. Cœur
+B. Rein
+C. Poumon
+D. Foie
+→ Réponse : B (le rein)
+Où se trouve l’ADN dans la cellule ?
+A. Cytoplasme
+B. Noyau
+C. Membrane
+D. Vacuole
+→ Réponse : B (le noyau)
+Quel est le rôle des globules rouges ?
+A. Défense
+B. Transport de l’oxygène
+C. Digestion
+D. Production d’énergie
+→ Réponse : B (le transport de l’oxygène)
+Quel système permet de respirer ?
+A. Digestif
+B. Circulatoire
+C. Respiratoire
+D. Nerveux
+→ Réponse : C (le système respiratoire)
+Quelle est la plus petite unité du vivant ?
+A. Organe
+B. Cellule
+C. Tissu
+D. Atome
+→ Réponse : B (la cellule)
+Quel animal est un mammifère ?
+A. Requin
+B. Dauphin
+C. Lézard
+D. Grenouille
+→ Réponse : B (le dauphin)
+Quel organe produit la bile ?
+A. Pancréas
+B. Estomac
+C. Foie
+D. Rein
+→ Réponse : C (le foie)
+Quel est le rôle des racines ?
+A. Respirer
+B. Nourrir la plante
+C. Absorber l’eau
+D. Produire des graines
+→ Réponse : C (absorber l’eau)
+Quelle vitamine est produite grâce au Soleil ?
+A. Vitamine A
+B. Vitamine B
+C. Vitamine C
+D. Vitamine D
+→ Réponse : D (la vitamine D)
+Combien de chromosomes possède l’humain ?
+A. 23
+B. 46
+C. 44
+D. 48
+→ Réponse : B (quarante-six)
+⚗️ Chimie
+Quel est le symbole de l’oxygène ?
+A. Ox
+B. O
+C. Og
+D. Oy
+→ Réponse : B (O)
+Quel est le pH d’un acide ?
+A. 7
+B. Supérieur à 7
+C. Inférieur à 7
+D. Égal à 10
+→ Réponse : C (inférieur à sept)
+Quel élément est un gaz noble ?
+A. Oxygène
+B. Azote
+C. Hélium
+D. Hydrogène
+→ Réponse : C (l’hélium)
+Que devient un liquide en se refroidissant fortement ?
+A. Gaz
+B. Solide
+C. Plasma
+D. Vapeur
+→ Réponse : B (solide)
+Quelle est la formule du dioxyde de carbone ?
+A. CO
+B. CO₂
+C. C₂O
+D. O₂
+→ Réponse : B (C O deux)
+Quel métal conduit bien l’électricité ?
+A. Bois
+B. Plastique
+C. Cuivre
+D. Verre
+→ Réponse : C (le cuivre)
+Une solution acide a quel goût ?
+A. Sucré
+B. Salé
+C. Acide
+D. Amer
+→ Réponse : C (acide)
+Quel état de la matière a une forme propre ?
+A. Liquide
+B. Gaz
+C. Solide
+D. Plasma
+→ Réponse : C (solide)
+Que signifie NaCl ?
+A. Sucre
+B. Eau
+C. Sel
+D. Gaz
+→ Réponse : C (le sel)
+Quel élément est nécessaire à la combustion ?
+A. Azote
+B. Oxygène
+C. Hydrogène
+D. Carbone
+→ Réponse : B (l’oxygène)
+⚡ Physique
+Quelle unité mesure la force ?
+A. Watt
+B. Newton
+C. Joule
+D. Volt
+→ Réponse : B (le newton)
+Quelle énergie possède un objet en mouvement ?
+A. Potentielle
+B. Thermique
+C. Cinétique
+D. Chimique
+→ Réponse : C (l’énergie cinétique)
+Quel est le symbole de la tension électrique ?
+A. A
+B. V
+C. W
+D. Ω
+→ Réponse : B (V)
+Que mesure un voltmètre ?
+A. Intensité
+B. Résistance
+C. Tension
+D. Puissance
+→ Réponse : C (la tension)
+Quelle est la vitesse du son dans l’air (approx.) ?
+A. 340 m/s
+B. 3 000 m/s
+C. 30 m/s
+D. 1 000 m/s
+→ Réponse : A (trois cent quarante mètres par seconde)
+Quel type de lentille agrandit ?
+A. Divergente
+B. Plate
+C. Convergente
+D. Concave
+→ Réponse : C (convergente)
+Que produit une dynamo ?
+A. Lumière
+B. Chaleur
+C. Électricité
+D. Son
+→ Réponse : C (de l’électricité)
+Quel est l’état de l’eau à 50°C ?
+A. Solide
+B. Liquide
+C. Gaz
+D. Plasma
+→ Réponse : B (liquide)
+Quelle force ralentit un objet en mouvement ?
+A. Gravité
+B. Frottement
+C. Magnétisme
+D. Pression
+→ Réponse : B (le frottement)
+Quel appareil mesure la pression ?
+A. Thermomètre
+B. Baromètre
+C. Balance
+D. Voltmètre
+→ Réponse : B (le baromètre)
+🌍 Sciences de la Terre
+Quelle est la couche la plus externe de la Terre ?
+A. Noyau
+B. Manteau
+C. Croûte
+D. Magma
+→ Réponse : C (la croûte)
+Quel gaz est majoritaire dans l’air ?
+A. Oxygène
+B. Azote
+C. CO₂
+D. Hydrogène
+→ Réponse : B (l’azote)
+Quel type de roche forme les volcans ?
+A. Sédimentaire
+B. Métamorphique
+C. Magmatique
+D. Calcaire
+→ Réponse : C (magmatique)
+Que mesure l’échelle de Richter ?
+A. Température
+B. Vent
+C. Séisme
+D. Pluie
+→ Réponse : C (les séismes)
+Où trouve-t-on de l’eau douce ?
+A. Océan
+B. Mer
+C. Rivière
+D. Mer morte
+→ Réponse : C (une rivière)
+Quelle planète est la plus chaude ?
+A. Mars
+B. Vénus
+C. Terre
+D. Jupiter
+→ Réponse : B (Vénus)
+Que sont les nuages ?
+A. Gaz
+B. Vapeur d’eau condensée
+C. Air chaud
+D. Fumée
+→ Réponse : B (de la vapeur d’eau condensée)
+Quel phénomène cause les marées ?
+A. Soleil
+B. Vent
+C. Lune
+D. Pluie
+→ Réponse : C (la Lune)
+Quelle énergie vient du Soleil ?
+A. Nucléaire
+B. Solaire
+C. Chimique
+D. Mécanique
+→ Réponse : B (l’énergie solaire)
+Quel instrument mesure le vent ?
+A. Thermomètre
+B. Anémomètre
+C. Baromètre
+D. Hygromètre
+→ Réponse : B (l’anémomètre)
+🌌 Astronomie
+Quelle planète a des anneaux visibles ?
+A. Mars
+B. Saturne
+C. Vénus
+D. Mercure
+→ Réponse : B (Saturne)
+Combien de temps met la Terre pour faire le tour du Soleil ?
+A. 24 heures
+B. 7 jours
+C. 1 an
+D. 1 mois
+→ Réponse : C (un an)
+Qu’est-ce qu’une étoile ?
+A. Une planète
+B. Une boule de gaz chaude
+C. Un satellite
+D. Une comète
+→ Réponse : B (une boule de gaz chaude)
+Quelle planète est la plus grande ?
+A. Terre
+B. Mars
+C. Jupiter
+D. Mercure
+→ Réponse : C (Jupiter)
+Qu’est-ce qu’une comète ?
+A. Une planète
+B. Une étoile
+C. Un objet glacé
+D. Un satellite
+→ Réponse : C (un objet glacé)
+Quelle planète est la plus éloignée du Soleil ?
+A. Neptune
+B. Uranus
+C. Saturne
+D. Jupiter
+→ Réponse : A (Neptune)
+Qu’est-ce qu’un satellite naturel ?
+A. Une étoile
+B. Un objet qui tourne autour d’une planète
+C. Une comète
+D. Un astéroïde
+→ Réponse : B (un objet qui tourne autour d’une planète)
+Quelle est la couleur du Soleil ?
+A. Rouge
+B. Bleu
+C. Jaune
+D. Vert
+→ Réponse : C (jaune)
+Pourquoi fait-il nuit ?
+A. La Terre s’arrête
+B. Le Soleil disparaît
+C. La Terre tourne
+D. La Lune cache le Soleil
+→ Réponse : C (la Terre tourne)
+Que voit-on dans le ciel la nuit ?
+A. Le Soleil
+B. Les étoiles
+C. Les nuages uniquement
+D. Rien
+→ Réponse : B (les étoiles)

@@ -1,0 +1,407 @@
+{
+  "theme": "jeuxvideos",
+  "difficulty": "medium",
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Dans The Legend of Zelda: Ocarina of Time, comment s'appelle la princesse que Link doit sauver ?",
+      "options": ["Zelda", "Peach", "Midna", "Samus"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Personnages et univers célèbres"
+    },
+    {
+      "id": 2,
+      "question": "Quel est le vrai nom de Mario selon certains jeux et médias officiels ?",
+      "options": ["Mario Mario", "Luigi Mario", "Jumpman", "Donkey Mario"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Personnages et univers célèbres"
+    },
+    {
+      "id": 3,
+      "question": "Dans Final Fantasy VII, quel est le nom du personnage principal qui manie une énorme épée ?",
+      "options": ["Tifa", "Cloud", "Sephiroth", "Barret"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Personnages et univers célèbres"
+    },
+    {
+      "id": 4,
+      "question": "Dans Metroid, quel est le nom complet de l'héroïne Samus ?",
+      "options": ["Samus Aran", "Samus Kraid", "Samus Ridley", "Samus Chozo"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Personnages et univers célèbres"
+    },
+    {
+      "id": 5,
+      "question": "Dans Overwatch, quelle héroïne est capable de se téléporter avec son portail ?",
+      "options": ["Tracer", "Symmetra", "Mercy", "Mei"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Personnages et univers célèbres"
+    },
+    {
+      "id": 6,
+      "question": "Dans Minecraft, quel est l'outil nécessaire pour miner de l'obsidienne ?",
+      "options": ["Pioche en fer", "Pioche en diamant", "Pioche en bois", "Pelle en fer"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de construction et sandbox"
+    },
+    {
+      "id": 7,
+      "question": "Dans Terraria, quel boss est le premier majeur que l'on affronte généralement dans la progression normale ?",
+      "options": ["Eye of Cthulhu", "Skeletron", "Wall of Flesh", "King Slime"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de construction et sandbox"
+    },
+    {
+      "id": 8,
+      "question": "Dans Stardew Valley, quelle activité rapporte le plus d'argent à long terme ?",
+      "options": ["Pêche", "Culture de plantes", "Élevage d'animaux", "Artisanat de produits transformés"],
+      "correctAnswer": 3,
+      "xpReward": 35,
+      "subtheme": "Jeux de construction et sandbox"
+    },
+    {
+      "id": 9,
+      "question": "Dans Minecraft, quelle dimension abrite le dragon final ?",
+      "options": ["Nether", "End", "Overworld", "Skylands"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de construction et sandbox"
+    },
+    {
+      "id": 10,
+      "question": "Dans Roblox, quel type de jeu est le plus populaire ?",
+      "options": ["Obby (obstacle course)", "FPS", "Puzzle", "Simulation de vol"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de construction et sandbox"
+    },
+    {
+      "id": 11,
+      "question": "Dans Street Fighter II, quel personnage est célèbre pour son Shoryuken ?",
+      "options": ["Ryu", "Ken", "Guile", "Chun-Li"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 12,
+      "question": "Dans Mortal Kombat, quel personnage est associé au cri Get over here !",
+      "options": ["Sub-Zero", "Scorpion", "Raiden", "Liu Kang"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 13,
+      "question": "Dans Dark Souls, quel ennemi apparaît en tant que premier boss dans le tutorial ?",
+      "options": ["Asylum Demon", "Taurus Demon", "Bell Gargoyle", "Capra Demon"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 14,
+      "question": "Dans Assassin's Creed, quel est le nom du protagoniste principal dans le premier jeu ?",
+      "options": ["Altair", "Ezio", "Connor", "Bayek"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 15,
+      "question": "Dans The Witcher 3, quel est le nom complet du personnage principal ?",
+      "options": ["Geralt de Riv", "Geralt de Rivia", "Geralt of Novigrad", "Geralt de Kaer Morhen"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de combat et aventure"
+    },
+    {
+      "id": 16,
+      "question": "Dans Valorant, quelle agente peut placer des murs et téléporter ses alliés ?",
+      "options": ["Jett", "Sage", "Phoenix", "Breach"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 17,
+      "question": "Dans Apex Legends, quel personnage utilise un drone pour soigner ses alliés ?",
+      "options": ["Lifeline", "Wraith", "Pathfinder", "Gibraltar"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 18,
+      "question": "Dans Rainbow Six Siege, quel est le rôle principal de Thermite ?",
+      "options": ["Soigneur", "Briseur de murs renforcés", "Tireur d'élite", "Piégeur"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 19,
+      "question": "Dans Overwatch, quel héros possède un grappin et peut tirer des cœurs explosifs ?",
+      "options": ["Junkrat", "Hanzo", "Widowmaker", "D.Va"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 20,
+      "question": "Dans Fortnite, quel type de véhicule est apparu dans la saison 7 ?",
+      "options": ["Voiture volante", "Planeur motorisé", "Bateau", "Mech robotique"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et Battle Royale"
+    },
+    {
+      "id": 21,
+      "question": "Dans FIFA, quel mode vous permet de gérer une équipe sur plusieurs saisons ?",
+      "options": ["Kick-Off", "Career Mode", "Ultimate Team", "Volta"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 22,
+      "question": "Dans Mario Kart, quelle course est connue pour ses arcs-en-ciel colorés ?",
+      "options": ["Rainbow Road", "Mario Circuit", "Bowser's Castle", "Luigi Circuit"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 23,
+      "question": "Dans Rocket League, combien de joueurs maximum par équipe ?",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 24,
+      "question": "Dans Tony Hawk's Pro Skater, quel est le but principal ?",
+      "options": ["Réaliser des tricks et atteindre le score le plus haut", "Combattre des ennemis", "Collecter des pièces", "Construire une ville"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 25,
+      "question": "Dans NBA 2K, quel mode permet de créer son propre joueur et le faire progresser ?",
+      "options": ["MyCareer", "MyTeam", "MyLeague", "Pro-Am"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de sport et course"
+    },
+    {
+      "id": 26,
+      "question": "Dans Hollow Knight, quel est le nom de la ville où commence le jeu ?",
+      "options": ["Dirtmouth", "Hallownest", "Greenpath", "Kingdom's Edge"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de plateforme et aventure"
+    },
+    {
+      "id": 27,
+      "question": "Dans Celeste, quel est l'objectif principal du personnage principal ?",
+      "options": ["Escalader une montagne", "Sauver un ami", "Collecter des cristaux", "Traverser un labyrinthe"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de plateforme et aventure"
+    },
+    {
+      "id": 28,
+      "question": "Dans Ori and the Blind Forest, comment s'appelle le personnage principal ?",
+      "options": ["Ori", "Ku", "Naru", "Sein"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de plateforme et aventure"
+    },
+    {
+      "id": 29,
+      "question": "Dans Rayman Legends, quel est l'ennemi classique que l'on retrouve souvent ?",
+      "options": ["Darktoons", "Rabbids", "Teensies", "Lums"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Jeux de plateforme et aventure"
+    },
+    {
+      "id": 30,
+      "question": "Dans Shovel Knight, quel est le nom du chevalier antagoniste principal ?",
+      "options": ["Plague Knight", "Specter Knight", "King Knight", "Black Knight"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de plateforme et aventure"
+    },
+    {
+      "id": 31,
+      "question": "Dans Fire Emblem: Three Houses, quel est le nom de l'académie où le joueur enseigne ?",
+      "options": ["Garreg Mach", "Blue Lions", "Golden Deer", "Black Eagles"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "RPG et jeux de stratégie"
+    },
+    {
+      "id": 32,
+      "question": "Dans Persona 5, comment s'appelle le protagoniste principal par défaut ?",
+      "options": ["Joker", "Ren Amamiya", "Akira Kurusu", "Tous sont corrects"],
+      "correctAnswer": 3,
+      "xpReward": 35,
+      "subtheme": "RPG et jeux de stratégie"
+    },
+    {
+      "id": 33,
+      "question": "Dans Dragon Quest, quel type de créature est Slime ?",
+      "options": ["Dragon", "Monstre en forme de goutte", "Guerrier", "Magicien"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "RPG et jeux de stratégie"
+    },
+    {
+      "id": 34,
+      "question": "Dans Genshin Impact, quel élément est associé à Diluc ?",
+      "options": ["Pyro", "Hydro", "Electro", "Geo"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "RPG et jeux de stratégie"
+    },
+    {
+      "id": 35,
+      "question": "Dans The Elder Scrolls V: Skyrim, quel est le nom du dragon principal ?",
+      "options": ["Alduin", "Paarthurnax", "Odahviing", "Mirmulnir"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "RPG et jeux de stratégie"
+    },
+    {
+      "id": 36,
+      "question": "Dans League of Legends, quel rôle est généralement joué sur la voie du bas avec un support ?",
+      "options": ["ADC", "Jungler", "Mid", "Top"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et tactiques"
+    },
+    {
+      "id": 37,
+      "question": "Dans Dota 2, quel héros est connu pour lancer des sorts de boule de feu et incendier ses ennemis ?",
+      "options": ["Lina", "Crystal Maiden", "Invoker", "Pudge"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et tactiques"
+    },
+    {
+      "id": 38,
+      "question": "Dans CS:GO, quelle arme est emblématique et souvent utilisée par les joueurs professionnels ?",
+      "options": ["AK-47", "M4A1", "Desert Eagle", "Toutes les précédentes"],
+      "correctAnswer": 3,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et tactiques"
+    },
+    {
+      "id": 39,
+      "question": "Dans Team Fortress 2, quel personnage utilise un lance-roquettes comme arme principale ?",
+      "options": ["Soldier", "Heavy", "Pyro", "Engineer"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et tactiques"
+    },
+    {
+      "id": 40,
+      "question": "Dans Fortnite, quel événement saisonnier a introduit un cube violet mystérieux appelé Kevin ?",
+      "options": ["Saison 5", "Saison 6", "Saison 7", "Saison 10"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux multijoueurs et tactiques"
+    },
+    {
+      "id": 41,
+      "question": "Dans Halo, quel est le nom du personnage principal ?",
+      "options": ["Master Chief", "Cortana", "Arbiter", "ODST"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de tir et FPS"
+    },
+    {
+      "id": 42,
+      "question": "Dans Call of Duty: Warzone, quel mode de jeu est un Battle Royale classique ?",
+      "options": ["Plunder", "BR (Battle Royale)", "Gunfight", "Zombie"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de tir et FPS"
+    },
+    {
+      "id": 43,
+      "question": "Dans Apex Legends, quel personnage peut se déplacer à grande vitesse avec ses rifts ?",
+      "options": ["Wraith", "Octane", "Pathfinder", "Bangalore"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de tir et FPS"
+    },
+    {
+      "id": 44,
+      "question": "Dans Destiny 2, quel est le rôle des Gardiens ?",
+      "options": ["Explorer et protéger la dernière ville", "Détruire des planètes", "Combattre entre eux seulement", "Construire des bases"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux de tir et FPS"
+    },
+    {
+      "id": 45,
+      "question": "Dans Overwatch, quel héros utilise un canon à particules et peut se transformer en vortex ?",
+      "options": ["Zarya", "Sigma", "Orisa", "Reinhardt"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux de tir et FPS"
+    },
+    {
+      "id": 46,
+      "question": "Dans Pokémon, quel jeu introduit les Pokémon légendaires Zacian et Zamazenta ?",
+      "options": ["Épée et Bouclier", "Soleil et Lune", "X et Y", "Noir et Blanc"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux divers et populaires"
+    },
+    {
+      "id": 47,
+      "question": "Dans Hollow Knight, quelle est la monnaie utilisée pour acheter des améliorations ?",
+      "options": ["Essence", "Geo", "Soul", "Shards"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux divers et populaires"
+    },
+    {
+      "id": 48,
+      "question": "Dans Among Us, quelle action peut tuer un joueur ?",
+      "options": ["Sabotage", "Voter", "Tuer en tant qu'imposteur", "Réparer des systèmes"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Jeux divers et populaires"
+    },
+    {
+      "id": 49,
+      "question": "Dans Fall Guys, quel objet est utilisé pour éliminer temporairement des adversaires ?",
+      "options": ["Bâtons", "Ballons", "Obstacles mouvants", "Aucun objet, seulement la physique et les collisions"],
+      "correctAnswer": 3,
+      "xpReward": 35,
+      "subtheme": "Jeux divers et populaires"
+    },
+    {
+      "id": 50,
+      "question": "Dans Genshin Impact, quelle ville est la capitale du royaume de Mondstadt ?",
+      "options": ["Mondstadt", "Liyue", "Inazuma", "Sumeru"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux divers et populaires"
+    }
+  ]
+}
