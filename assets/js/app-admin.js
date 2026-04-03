@@ -88,6 +88,7 @@ async function startRoundAnswersListener(roundNumber) {
 }
 
 async function toggleRound(roundNumber) {
+  console.log('🔍 toggleRound called with roundNumber:', roundNumber, typeof roundNumber);
   const roundCard = document.getElementById('round' + roundNumber);
   const button = roundCard.querySelector('.btn-start-round');
   const statusBadge = roundCard.querySelector('.round-status');
@@ -124,6 +125,7 @@ async function toggleRound(roundNumber) {
     showNotification(`Règles affichées pour la Manche ${roundNumber}! 📋`, 'success');
     
     // Sauvegarder dans Firebase avec l'état "showingRules"
+    console.log('💾 Saving to Firebase - Round:', roundNumber, 'State: showingRules');
     await setActiveRound(roundNumber, 'showingRules');
     adminCurrentRound = roundNumber;
     adminCurrentQuestion = 1;
@@ -506,10 +508,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Setup round buttons
   const startRoundButtons = document.querySelectorAll('.btn-start-round');
+  console.log('🎮 Found', startRoundButtons.length, 'round buttons');
   
   startRoundButtons.forEach(button => {
     button.addEventListener('click', function() {
       const roundNumber = parseInt(this.getAttribute('data-round'));
+      console.log('✅ Button clicked - data-round:', this.getAttribute('data-round'), 'parsed:', roundNumber);
       toggleRound(roundNumber);
     });
   });

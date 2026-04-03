@@ -192,6 +192,7 @@ export async function removeTeam(roundNumber, teamId) {
 
 // ====== MANCHES ======
 export async function setActiveRound(roundNumber, state = 'running') {
+  console.log('🔥 setActiveRound called with:', { roundNumber, state });
   try {
     const configRef = doc(db, 'config', 'activeRound');
     await setDoc(configRef, { 
@@ -199,6 +200,7 @@ export async function setActiveRound(roundNumber, state = 'running') {
       state: state,
       startedAt: serverTimestamp()
     }, { merge: true });
+    console.log('✅ Firebase updated successfully');
   } catch (error) {
     console.error('Error setting active round:', error);
   }
