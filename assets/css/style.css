@@ -5319,10 +5319,11 @@ body {
     right: 20px;
     background: linear-gradient(135deg, #10b981, #059669);
     color: white;
-    padding: 15px 20px;
+    padding: 10px 15px;
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
     font-weight: 600;
+    font-size: 0.9em;
     animation: slideInUp 0.3s ease;
     z-index: 1001;
 }
