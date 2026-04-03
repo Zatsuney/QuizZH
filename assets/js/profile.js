@@ -377,8 +377,10 @@ function displayThemeStats(userData) {
         difficulties.forEach(difficulty => {
             const statsKey = `stats_${theme}_${difficulty}`;
             const stats = userData[statsKey];
+            
+            console.log(`📊 Check ${statsKey}:`, stats);
 
-            if (stats) {
+            if (stats && stats.played > 0) {
                 const played = stats.played || 0;
                 const correctAnswers = stats.correctAnswers || 0;
                 const totalQuestions = stats.totalQuestions || 0;

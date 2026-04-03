@@ -80,8 +80,11 @@ async function resetPlayerData(uid, playerName) {
             });
         });
         
+        console.log('🔄 Reset object:', resetStats);
+        
         // Update user document with all reset values
         await updateDoc(userDocRef, resetStats);
+        console.log('✅ Reset completed for:', uid);
         
         showNotification(`Données de ${playerName} réinitialisées complètement! ✅`, 'success');
         await loadAndDisplayPlayers();
