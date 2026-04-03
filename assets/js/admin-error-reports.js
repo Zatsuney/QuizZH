@@ -1,6 +1,7 @@
 // Admin Error Reports Management
 import { auth, db } from './firebase-config.js';
 import { collection, query, onSnapshot, where, updateDoc, doc, deleteDoc, orderBy } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+import { signOut } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
 
 // State
 let allReports = [];
@@ -26,12 +27,14 @@ const difficultyNames = {
     'hard': 'Difficile'
 };
 
-// Check admin authentication
-function checkAdminAuth() {
-    const adminToken = localStorage.getItem('quizZH_adminToken');
-    if (adminToken !== 'admin_authenticated') {
+// Check if admin is logged in
+function checkAdminLoggedIn() {
+    const adminSession = localStorage.getItem('adminSessionId');
+    if (!adminSession) {
         window.location.href = 'admin-login.html';
+        return null;
     }
+    return adminSession;
 }
 
 // Load reports from Firebase
@@ -261,9 +264,19 @@ async function deleteReport(reportId) {
 function setupLogout() {
     const logoutBtn = document.getElementById('adminLogoutBtn');
     if (logoutBtn) {
-        logoutBtn.addEventListener('click', () => {
-            localStorage.removeItem('quizZH_adminToken');
-            localStorage.removeItem('quizZH_adminLoginTime');
+        logoutBtn.addEventListener('click', async () => {
+            // Clear session
+            localStorage.removeItem('adminSessionId');
+            localStorage.removeItem('adminUsername');
+
+            // Logout from Firebase if needed
+            try {
+                await signOut(auth);
+            } catch (error) {
+                console.error('Error signing out:', error);
+            }
+
+            // Redirect to login
             window.location.href = 'admin-login.html';
         });
     }
@@ -285,7 +298,9 @@ function setupEventListeners() {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    checkAdminAuth();
+    const sessionId = checkAdminLoggedIn();
+    if (!sessionId) return;
+
     setupLogout();
     setupEventListeners();
     loadReports();
