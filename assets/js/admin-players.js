@@ -1,6 +1,6 @@
 // Admin Players Management
 import { auth, db } from './firebase-config.js';
-import { collection, getDocs, doc, updateDoc } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+import { collection, getDocs, doc, updateDoc, deleteField } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 import { signOut } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
 
 // Check if admin is logged in
@@ -76,12 +76,7 @@ async function resetPlayerData(uid, playerName) {
         themes.forEach(theme => {
             difficulties.forEach(difficulty => {
                 const statsKey = `stats_${theme}_${difficulty}`;
-                resetStats[statsKey] = {
-                    played: 0,
-                    correctAnswers: 0,
-                    totalQuestions: 0,
-                    totalXP: 0
-                };
+                resetStats[statsKey] = deleteField();
             });
         });
         
