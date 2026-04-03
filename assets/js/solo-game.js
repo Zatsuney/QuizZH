@@ -253,7 +253,7 @@ function displayQuestion() {
     console.log('📝 Answers for this question:', question.answers);
     console.log('✓ Correct answer index:', question.correctAnswer);
     
-    const gameArea = document.getElementById('gameAre
+    const gameArea = document.getElementById('gameArea');
     
     // Ensure answers exist
     const answers = question.answers || question.options || [];
