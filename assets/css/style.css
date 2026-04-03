@@ -1824,14 +1824,14 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    padding: 8px 12px;
+    padding: 5px 10px;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     animation: slideInRight 0.3s ease;
     z-index: 1000;
     font-weight: 600;
-    font-size: 0.85em;
-    max-width: 250px;
+    font-size: 0.75em;
+    max-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -5348,11 +5348,11 @@ body {
     right: 20px;
     background: linear-gradient(135deg, #10b981, #059669);
     color: white;
-    padding: 10px 15px;
+    padding: 6px 12px;
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 0.8em;
     animation: slideInUp 0.3s ease;
     z-index: 1001;
 }
