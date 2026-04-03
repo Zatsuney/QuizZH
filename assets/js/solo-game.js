@@ -512,7 +512,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     // Check if there's an active session (avoid cheating with F5)
     const activeSession = sessionStorage.getItem('quizZH_activeSession');
-    if (activeSession) {
+    const didQuitVoluntarily = sessionStorage.getItem('quizZH_intentionalQuit');
+    
+    if (activeSession && !didQuitVoluntarily) {
         const session = JSON.parse(activeSession);
         const timeSinceLastSave = (Date.now() - session.timestamp) / 1000;
         
@@ -540,7 +542,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Setup quit button
             document.getElementById('quitBtn').addEventListener('click', () => {
                 if (confirm('Êtes-vous sûr de vouloir quitter? Votre progression sera perdue.')) {
+                    sessionStorage.setItem('quizZH_intentionalQuit', 'true');
                     sessionStorage.removeItem('quizZH_activeSession');
+                    // Clear theme/difficulty to force reselection
+                    localStorage.removeItem('quizZH_selectedTheme');
+                    localStorage.removeItem('quizZH_difficulty');
                     window.location.href = 'theme-selection.html';
                 }
             });
@@ -553,6 +559,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             sessionStorage.removeItem('quizZH_activeSession');
         }
     }
+    
+    // Clear the intentional quit flag if we reach here (new game started)
+    sessionStorage.removeItem('quizZH_intentionalQuit');
     
     // Start new game
     // Get settings from localStorage
@@ -578,11 +587,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Setup quit button
     document.getElementById('quitBtn').addEventListener('click', () => {
         if (confirm('Êtes-vous sûr de vouloir quitter? Votre progression sera perdue.')) {
+            sessionStorage.setItem('quizZH_intentionalQuit', 'true');
             sessionStorage.removeItem('quizZH_activeSession');
+            // Clear theme/difficulty to force reselection
+            localStorage.removeItem('quizZH_selectedTheme');
+            localStorage.removeItem('quizZH_difficulty');
             window.location.href = 'theme-selection.html';
         }
     });
     
     // Start game
-    displayQuestion();
+    displayQuestion()
 });
