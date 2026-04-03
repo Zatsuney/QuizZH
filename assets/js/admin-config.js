@@ -12,12 +12,12 @@ const ADMIN_CONFIG = {
     // Format: { username: 'pseudo', password: 'motdepasse' }
     admins: [
         {
-            username: 'admin',
-            password: 'admin123'
+            username: 'Zatsu',
+            password: 'Qz9$kL2mP@wX7vN4dE!'
         },
         {
-            username: 'admin2',
-            password: 'admin456'
+            username: 'Bzh',
+            password: 'Ry7#mK3nB@tP8wJ5gH!'
         }
         // Ajoutez d'autres admins comme ceci:
         // {
