@@ -200,12 +200,6 @@ async function getQuestions(theme, difficulty) {
             const response = await fetch(`assets/json/all-${difficulty}.json`);
             const data = await response.json();
             questions = (data.questions || []).map(q => ({
-    try {
-        if (theme === 'all') {
-            // Load pre-combined all-questions file
-            const response = await fetch(`assets/json/all-${difficulty}.json`);
-            const data = await response.json();
-            questions = (data.questions || []).map(q => ({
                 ...q,
                 answers: q.options || q.answers || [],
                 originalTheme: q.subtheme || 'Mixte'
@@ -223,8 +217,13 @@ async function getQuestions(theme, difficulty) {
         // Shuffle answer options for each question
         questions = questions.map(q => shuffleAnswerOptions(q));
         
-        console.log('✅ Questions loaded with shuffled answers
-    return shuffleArray(questions).slice(0, 10);
+        console.log('✅ Questions loaded with shuffled answers');
+        
+        return shuffleArray(questions).slice(0, 10);
+    } catch (error) {
+        console.error('❌ Error loading questions:', error);
+        return [];
+    }
 }
 
 // Save game session to sessionStorage to prevent cheating with F5
