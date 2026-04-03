@@ -148,7 +148,9 @@ function calculateXP(difficulty, correctAnswers, totalQuestions, timeSpent) {
 
 // ===== ERROR REPORTING FUNCTIONS =====
 // Open report modal
-window.openReportModal = function(question) {
+window.openReportModal = function() {
+    // Get current question from gameState (avoid accessing gameState from HTML)
+    const question = gameState.questions[gameState.currentQuestionIndex];
     currentReportingQuestion = question;
     document.getElementById('reportErrorModal').style.display = 'flex';
     document.getElementById('errorDescription').value = '';
@@ -368,7 +370,7 @@ function displayQuestion() {
             
             <div class="question-footer">
                 <p>Question ${gameState.currentQuestionIndex + 1}/${gameState.questions.length}</p>
-                <button class="btn-report-error" onclick="openReportModal(gameState.questions[gameState.currentQuestionIndex])" title="Signaler une erreur">🚩 Signaler une erreur</button>
+                <button class="btn-report-error" onclick="openReportModal()" title="Signaler une erreur">🚩 Signaler une erreur</button>
             </div>
         </div>
     `;
