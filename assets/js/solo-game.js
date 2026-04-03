@@ -181,11 +181,19 @@ function shuffleAnswerOptions(question) {
     const newAnswers = shuffled.map(item => item.answer);
     const newCorrectAnswer = shuffled.findIndex(item => item.isCorrect);
     
-    return {
+    const result = {
         ...question,
         answers: newAnswers,
         correctAnswer: newCorrectAnswer
     };
+    
+    console.log('🔀 Shuffled question:', {
+        question: question.question,
+        before: { options, correctAnswer: question.correctAnswer },
+        after: { answers: newAnswers, correctAnswer: newCorrectAnswer }
+    });
+    
+    return result;
 }
 
 // Get questions based on theme and difficulty
@@ -213,7 +221,12 @@ async function getQuestions(theme, difficulty) {
         }
         
         // Shuffle answer options for each question
-        questions = questions.map(q => shuffleAnswerOptions(q));
+        console.log('🔄 Shuffling answers for all questions...');
+        questions = questions.map((q, idx) => {
+            const shuffled = shuffleAnswerOptions(q);
+            if (idx < 2) console.log(`Question ${idx + 1} shuffled successfully`);
+            return shuffled;
+        });
         
         console.log('✅ Questions loaded with shuffled answers:', questions);
     } catch (error) {
@@ -251,6 +264,8 @@ function displayQuestion() {
     }
     
     console.log('🎯 Displaying question:', question);
+    console.log('📝 Answers for this question:', question.answers);
+    console.log('✓ Correct answer index:', question.correctAnswer);
     
     const gameArea = document.getElementById('gameArea');
     const answeredCount = gameState.answered;
