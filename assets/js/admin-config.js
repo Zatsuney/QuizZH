@@ -1,20 +1,30 @@
 // 🔐 CONFIGURATION DES IDENTIFIANTS ADMIN
 // 
-// Modifiez ces identifiants avec vos propres valeurs
+// Vous pouvez créer plusieurs comptes administrateur
 // ⚠️ IMPORTANT: En production, utilisez des identifiants forts et uniques !
 //
-// Identifiants actuels:
-// Pseudo: admin
-// Mot de passe: admin123
+// Identifiants par défaut:
+// Admin 1: pseudo='admin', mot de passe='admin123'
+// Admin 2: pseudo='admin2', mot de passe='admin456'
 
 const ADMIN_CONFIG = {
-    // ⚠️ MODIFICATION OBLIGATOIRE AVANT LA MISE EN PRODUCTION
-    // Remplacez 'admin' par votre pseudo administrateur
-    username: 'admin',
-    
-    // ⚠️ MODIFICATION OBLIGATOIRE AVANT LA MISE EN PRODUCTION
-    // Remplacez 'admin123' par un mot de passe fort
-    password: 'admin123',
+    // Liste des administrateurs autorisés
+    // Format: { username: 'pseudo', password: 'motdepasse' }
+    admins: [
+        {
+            username: 'admin',
+            password: 'admin123'
+        },
+        {
+            username: 'admin2',
+            password: 'admin456'
+        }
+        // Ajoutez d'autres admins comme ceci:
+        // {
+        //     username: 'monAdmin',
+        //     password: 'MonMDP!SecurePass2024'
+        // }
+    ],
     
     // (Optionnel) Délai d'inactivité avant déconnexion automatique (en millisecondes)
     // Par défaut: 30 minutes
@@ -22,15 +32,23 @@ const ADMIN_CONFIG = {
 };
 
 /**
- * INSTRUCTIONS DE MODIFICATION:
+ * INSTRUCTIONS POUR AJOUTER UN NOUVEL ADMIN:
  * 
  * 1. Ouvrez ce fichier (assets/js/admin-config.js)
- * 2. Changez la valeur de 'username' par votre pseudo
- * 3. Changez la valeur de 'password' par votre mot de passe
- * 4. Gardez le délai d'inactivité ou modifiez-le selon vos besoins
- * 5. Sauvegardez le fichier
+ * 2. Dans la section 'admins', ajoutez un nouvel objet:
+ * 
+ *    {
+ *        username: 'votreNom',
+ *        password: 'votreMotDePasseSecurisé'
+ *    }
+ * 
+ * 3. Sauvegardez et pushez sur GitHub
  * 
  * Exemple:
- * username: 'monAdmin',
- * password: 'monMotDePass3Secur!' 
+ * {
+ *     username: 'paul',
+ *     password: 'Paul!SecurePass2024'
+ * }
  */
+
+export { ADMIN_CONFIG };

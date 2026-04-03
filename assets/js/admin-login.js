@@ -6,6 +6,7 @@ import {
   signInAnonymously,
   onAuthStateChanged 
 } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
+import { ADMIN_CONFIG } from './admin-config.js';
 
 // Check if already logged in
 onAuthStateChanged(auth, function(user) {
@@ -22,17 +23,21 @@ document.addEventListener('DOMContentLoaded', function() {
   adminLoginForm.addEventListener('submit', async function(e) {
     e.preventDefault();
 
+    const adminUsername = document.getElementById('adminName').value.trim();
     const adminPassword = document.getElementById('adminPassword').value;
     const adminNameInput = document.getElementById('adminName');
     const loadingIndicator = document.getElementById('loadingIndicator');
     const loginButton = this.querySelector('button[type="submit"]');
 
-    // HARDCODED ADMIN PASSWORD - Change this!
-    const ADMIN_PASSWORD = 'admin';
+    // Vérify credentials against admin list
+    const validAdmin = ADMIN_CONFIG.admins.find(
+      admin => admin.username === adminUsername && admin.password === adminPassword
+    );
 
-    if (adminPassword !== ADMIN_PASSWORD) {
-      alert('Mot de passe incorrect!');
+    if (!validAdmin) {
+      alert('Identifiants incorrect! (pseudo ou mot de passe invalide)');
       if (adminNameInput) adminNameInput.value = '';
+      document.getElementById('adminPassword').value = '';
       return;
     }
 
@@ -46,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Mark as admin in localStorage
       localStorage.setItem('adminSessionId', userCredential.user.uid);
+      localStorage.setItem('adminUsername', adminUsername);
 
       // Redirect to admin menu
       window.location.href = 'admin-menu.html';
@@ -59,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       if (adminNameInput) adminNameInput.value = '';
+      document.getElementById('adminPassword').value = '';
       if (loadingIndicator) loadingIndicator.style.display = 'none';
       if (loginButton) loginButton.disabled = false;
     }
