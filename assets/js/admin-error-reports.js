@@ -44,25 +44,34 @@ function checkAdminLoggedIn() {
 // Load reports from Firebase
 function loadReports() {
     document.getElementById('loadingSpinner').style.display = 'block';
+    
+    console.log('📥 Chargement des signalements depuis Firestore...');
 
     const reportsRef = collection(db, 'errorReports');
     const q = query(reportsRef, orderBy('timestamp', 'desc'));
 
     onSnapshot(q, (snapshot) => {
+        console.log('📊 Snapshot reçu, nombre de docs:', snapshot.size);
+        
         allReports = [];
         snapshot.forEach((doc) => {
-            allReports.push({
+            const data = {
                 id: doc.id,
                 ...doc.data(),
                 timestamp: doc.data().timestamp?.toDate()
-            });
+            };
+            allReports.push(data);
+            console.log('📋 Signalement chargé:', doc.id, data.questionText?.substring(0, 50));
         });
 
+        console.log('✅ Total signalements chargés:', allReports.length);
         document.getElementById('loadingSpinner').style.display = 'none';
         updateStats();
         applyFilters();
     }, (error) => {
         console.error('❌ Erreur lors du chargement:', error);
+        console.error('Code erreur:', error.code);
+        console.error('Message:', error.message);
         document.getElementById('loadingSpinner').style.display = 'none';
     });
 }

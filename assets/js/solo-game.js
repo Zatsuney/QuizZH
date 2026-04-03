@@ -171,10 +171,18 @@ window.submitErrorReport = async function() {
     const theme = localStorage.getItem('quizZH_selectedTheme');
     const difficulty = localStorage.getItem('quizZH_difficulty');
     
+    console.log('📤 Envoi du signalement:', {
+        playerUID,
+        playerName,
+        theme,
+        difficulty,
+        questionId: currentReportingQuestion.id
+    });
+    
     try {
         // Add error report to Firestore
         const reportsRef = collection(db, 'errorReports');
-        await addDoc(reportsRef, {
+        const docRef = await addDoc(reportsRef, {
             questionId: currentReportingQuestion.id,
             questionText: currentReportingQuestion.question,
             theme: theme,
@@ -182,13 +190,13 @@ window.submitErrorReport = async function() {
             correctAnswer: currentReportingQuestion.correctAnswer,
             answers: currentReportingQuestion.answers,
             description: description,
-            reportedBy: playerUID,
-            reporterName: playerName,
+            reportedBy: playerUID || 'anonymous',
+            reporterName: playerName || 'Anonyme',
             timestamp: serverTimestamp(),
             status: 'pending'
         });
         
-        console.log('✅ Erreur signalée avec succès');
+        console.log('✅ Erreur signalée avec succès - ID:', docRef.id);
         
         // Show success notification
         const notif = document.getElementById('reportSuccessNotif');
@@ -202,7 +210,7 @@ window.submitErrorReport = async function() {
         
     } catch (error) {
         console.error('❌ Erreur lors du signalement:', error);
-        alert('Erreur lors du signalement');
+        alert('Erreur lors du signalement: ' + error.message);
     }
 };
 
