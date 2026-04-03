@@ -1,6 +1,6 @@
 // Admin Players Management
 import { auth, db } from './firebase-config.js';
-import { collection, getDocs, doc, updateDoc, deleteField } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+import { collection, getDocs, doc, updateDoc } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 import { signOut } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
 
 // Check if admin is logged in
@@ -72,23 +72,23 @@ async function resetPlayerData(uid, playerName) {
             lastPlayedDate: null
         };
         
-        // First update: reset main stats
-        await updateDoc(userDocRef, resetStats);
-        console.log('✅ Main stats reset:', resetStats);
-        
-        // Second update: delete all theme-based stats
-        const statsToDelete = {};
+        // Reset all theme statistics to 0
         themes.forEach(theme => {
             difficulties.forEach(difficulty => {
                 const statsKey = `stats_${theme}_${difficulty}`;
-                statsToDelete[statsKey] = deleteField();
+                resetStats[statsKey] = {
+                    played: 0,
+                    correctAnswers: 0,
+                    totalQuestions: 0,
+                    totalXP: 0
+                };
             });
         });
         
-        console.log('🔄 Stats fields to delete:', Object.keys(statsToDelete));
+        console.log('🔄 Resetting stats for:', uid);
         
-        // Delete theme statistics
-        await updateDoc(userDocRef, statsToDelete);
+        // Update user document with all reset values
+        await updateDoc(userDocRef, resetStats);
         console.log('✅ Reset completed for:', uid);
         
         showNotification(`Données de ${playerName} réinitialisées complètement! ✅`, 'success');
