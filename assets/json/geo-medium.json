@@ -1,0 +1,407 @@
+{
+  "theme": "geo",
+  "difficulty": "medium",
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est le plus grand désert chaud du monde ?",
+      "options": ["Sahara", "Gobi", "Atacama", "Arabie"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 2,
+      "question": "Quel fleuve est le plus long selon certaines mesures récentes ?",
+      "options": ["Nil", "Amazone", "Yangtsé", "Mississippi"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 3,
+      "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
+      "options": ["Alpes", "Andes", "Oural", "Himalaya"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 4,
+      "question": "Quelle est la capitale de la Turquie ?",
+      "options": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 5,
+      "question": "Quel pays possède le plus grand nombre d'habitants ?",
+      "options": ["Inde", "Chine", "USA", "Indonésie"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 6,
+      "question": "Quelle mer borde la Jordanie et Israël ?",
+      "options": ["Mer Noire", "Mer Rouge", "Mer Morte", "Mer Caspienne"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 7,
+      "question": "Quel pays est traversé par l'équateur ?",
+      "options": ["France", "Brésil", "Espagne", "Chine"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 8,
+      "question": "Quelle est la capitale de la Suisse ?",
+      "options": ["Zurich", "Genève", "Berne", "Lausanne"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 9,
+      "question": "Quel océan borde l'Afrique à l'est ?",
+      "options": ["Atlantique", "Pacifique", "Indien", "Arctique"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Océans"
+    },
+    {
+      "id": 10,
+      "question": "Quel pays est le plus grand d'Afrique ?",
+      "options": ["Algérie", "Nigeria", "Soudan", "Égypte"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 11,
+      "question": "Quelle est la capitale de l'Inde ?",
+      "options": ["Mumbai", "New Delhi", "Calcutta", "Chennai"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 12,
+      "question": "Quel détroit sépare la France et le Royaume-Uni ?",
+      "options": ["Gibraltar", "Béring", "Dover", "Malacca"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 13,
+      "question": "Quel pays a pour capitale Bangkok ?",
+      "options": ["Vietnam", "Thaïlande", "Cambodge", "Laos"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 14,
+      "question": "Quel volcan est le plus célèbre d'Italie ?",
+      "options": ["Etna", "Vésuve", "Stromboli", "Fuji"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Monuments & Patrimoine"
+    },
+    {
+      "id": 15,
+      "question": "Quel lac est le plus grand du monde ?",
+      "options": ["Supérieur", "Victoria", "Caspienne", "Baïkal"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 16,
+      "question": "Quel pays est situé en Scandinavie ?",
+      "options": ["Pologne", "Norvège", "France", "Italie"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 17,
+      "question": "Quelle est la capitale de l'Afrique du Sud (administrative) ?",
+      "options": ["Le Cap", "Pretoria", "Johannesburg", "Durban"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 18,
+      "question": "Quel fleuve traverse le Brésil ?",
+      "options": ["Nil", "Amazone", "Danube", "Volga"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 19,
+      "question": "Quel pays est enclavé (sans accès à la mer) ?",
+      "options": ["Portugal", "Bolivie", "Italie", "Japon"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 20,
+      "question": "Quel pays a pour capitale Séoul ?",
+      "options": ["Chine", "Corée du Sud", "Japon", "Vietnam"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 21,
+      "question": "Quel océan est à l'ouest de l'Amérique ?",
+      "options": ["Atlantique", "Indien", "Pacifique", "Arctique"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Océans"
+    },
+    {
+      "id": 22,
+      "question": "Quelle est la capitale de la Russie ?",
+      "options": ["Saint-Pétersbourg", "Moscou", "Kazan", "Sotchi"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 23,
+      "question": "Quel pays est le plus peuplé d'Afrique ?",
+      "options": ["Égypte", "Nigeria", "Kenya", "Maroc"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 24,
+      "question": "Quel fleuve traverse l'Allemagne ?",
+      "options": ["Rhin", "Seine", "Loire", "Tigre"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 25,
+      "question": "Quel pays est une monarchie ?",
+      "options": ["France", "Espagne", "Italie", "Allemagne"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 26,
+      "question": "Quel continent contient le désert de Gobi ?",
+      "options": ["Afrique", "Asie", "Europe", "Océanie"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 27,
+      "question": "Quelle est la capitale de la Corée du Nord ?",
+      "options": ["Pyongyang", "Séoul", "Tokyo", "Pékin"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 28,
+      "question": "Quel pays a pour capitale Buenos Aires ?",
+      "options": ["Chili", "Argentine", "Pérou", "Mexique"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 29,
+      "question": "Quel pays est le plus grand d'Europe ?",
+      "options": ["France", "Ukraine", "Russie", "Allemagne"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 30,
+      "question": "Quel pays est situé sur deux continents ?",
+      "options": ["Espagne", "Turquie", "Portugal", "Suède"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 31,
+      "question": "Quel fleuve traverse Budapest ?",
+      "options": ["Danube", "Rhin", "Volga", "Elbe"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 32,
+      "question": "Quelle est la capitale de la Suède ?",
+      "options": ["Oslo", "Stockholm", "Helsinki", "Copenhague"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 33,
+      "question": "Quel pays est célèbre pour les fjords ?",
+      "options": ["Italie", "Norvège", "Espagne", "Grèce"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Monuments & Patrimoine"
+    },
+    {
+      "id": 34,
+      "question": "Quel pays a pour capitale Lima ?",
+      "options": ["Pérou", "Chili", "Bolivie", "Colombie"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 35,
+      "question": "Quel désert est en Amérique du Sud ?",
+      "options": ["Sahara", "Atacama", "Gobi", "Kalahari"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 36,
+      "question": "Quel pays est limitrophe de l'Allemagne ?",
+      "options": ["Espagne", "Belgique", "Italie", "Portugal"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 37,
+      "question": "Quelle est la capitale du Mexique ?",
+      "options": ["Cancún", "Mexico", "Lima", "Bogota"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 38,
+      "question": "Quel pays est le plus grand d'Amérique du Sud ?",
+      "options": ["Argentine", "Brésil", "Pérou", "Colombie"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 39,
+      "question": "Quel pays a pour capitale Athènes ?",
+      "options": ["Grèce", "Turquie", "Italie", "Bulgarie"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 40,
+      "question": "Quel fleuve traverse Rome ?",
+      "options": ["Tibre", "Danube", "Rhin", "Nil"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 41,
+      "question": "Quel pays est une île en Europe ?",
+      "options": ["Irlande", "France", "Allemagne", "Autriche"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 42,
+      "question": "Quelle est la capitale de la Finlande ?",
+      "options": ["Oslo", "Stockholm", "Helsinki", "Reykjavik"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 43,
+      "question": "Quel pays a pour capitale Nairobi ?",
+      "options": ["Kenya", "Nigeria", "Ghana", "Maroc"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 44,
+      "question": "Quel pays est en Océanie ?",
+      "options": ["Fidji", "Inde", "Égypte", "Italie"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 45,
+      "question": "Quel pays a pour capitale Ottawa ?",
+      "options": ["USA", "Canada", "Australie", "Irlande"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 46,
+      "question": "Quel fleuve traverse Le Caire ?",
+      "options": ["Nil", "Tigre", "Euphrate", "Danube"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 47,
+      "question": "Quel pays est le plus grand du Moyen-Orient ?",
+      "options": ["Iran", "Arabie Saoudite", "Irak", "Syrie"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 48,
+      "question": "Quelle est la capitale de l'Indonésie ?",
+      "options": ["Jakarta", "Bali", "Manille", "Bangkok"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 49,
+      "question": "Quel pays a pour capitale Vienne ?",
+      "options": ["Autriche", "Allemagne", "Suisse", "Hongrie"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 50,
+      "question": "Quel pays est en Amérique centrale ?",
+      "options": ["Mexique", "Panama", "Brésil", "Argentine"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Pays & Villes"
+    }
+  ]
+}

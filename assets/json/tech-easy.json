@@ -1,0 +1,407 @@
+{
+  "theme": "tech",
+  "difficulty": "easy",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel appareil permet de saisir du texte ?",
+      "options": ["Écran", "Clavier", "Souris", "Imprimante"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 2,
+      "question": "À quoi sert une souris d'ordinateur ?",
+      "options": ["Imprimer", "Cliquer et déplacer", "Stocker des données", "Écouter de la musique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 3,
+      "question": "Quel appareil affiche les images d'un ordinateur ?",
+      "options": ["Clavier", "Écran", "Disque dur", "Routeur"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 4,
+      "question": "Quel composant est le \"cerveau\" de l'ordinateur ?",
+      "options": ["RAM", "CPU", "Clavier", "Carte graphique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 5,
+      "question": "À quoi sert un disque dur ?",
+      "options": ["Afficher", "Calculer", "Stocker des données", "Imprimer"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 6,
+      "question": "Quel appareil permet d'imprimer des documents ?",
+      "options": ["Scanner", "Écran", "Imprimante", "Routeur"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 7,
+      "question": "Quel appareil permet de numériser des documents ?",
+      "options": ["Scanner", "Clavier", "Souris", "Écran"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 8,
+      "question": "Qu'est-ce que signifie \"URL\" ?",
+      "options": ["Uniform Resource Locator", "Universal Read Link", "User Remote Login", "Unified Routing Line"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Internet & Réseaux"
+    },
+    {
+      "id": 9,
+      "question": "Que signifie \"Wi-Fi\" ?",
+      "options": ["Wireless Fidelity", "Wired File", "Web Finder", "Wide Filter"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Internet & Réseaux"
+    },
+    {
+      "id": 10,
+      "question": "Qu'est-ce qu'un navigateur web ?",
+      "options": ["Un antivirus", "Un logiciel pour aller sur Internet", "Un jeu", "Un système d'exploitation"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Internet & Réseaux"
+    },
+    {
+      "id": 11,
+      "question": "Quel logiciel est un navigateur web ?",
+      "options": ["Word", "Excel", "Chrome", "PowerPoint"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Internet & Réseaux"
+    },
+    {
+      "id": 12,
+      "question": "Que permet Internet ?",
+      "options": ["Stocker localement", "Se connecter à d'autres ordinateurs", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Internet & Réseaux"
+    },
+    {
+      "id": 13,
+      "question": "Qu'est-ce qu'un site web ?",
+      "options": ["Un logiciel", "Une page accessible sur Internet", "Un fichier", "Un virus"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Internet & Réseaux"
+    },
+    {
+      "id": 14,
+      "question": "Que signifie \"HTTP\" ?",
+      "options": ["HyperText Transfer Protocol", "High Transfer Text Program", "Hyper Tool Protocol", "Home Transfer Page"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Internet & Réseaux"
+    },
+    {
+      "id": 15,
+      "question": "Qu'est-ce qu'un logiciel ?",
+      "options": ["Un objet physique", "Un programme informatique", "Un câble", "Une souris"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 16,
+      "question": "Quel logiciel sert à écrire du texte ?",
+      "options": ["Excel", "Word", "Chrome", "Paint"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 17,
+      "question": "Quel logiciel sert à faire des calculs ?",
+      "options": ["Excel", "Word", "Chrome", "Spotify"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 18,
+      "question": "Qu'est-ce qu'un système d'exploitation ?",
+      "options": ["Un jeu", "Le programme principal d'un ordinateur", "Un virus", "Un site web"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 19,
+      "question": "Lequel est un système d'exploitation ?",
+      "options": ["Windows", "Google", "Facebook", "YouTube"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 20,
+      "question": "À quoi sert un antivirus ?",
+      "options": ["Jouer", "Protéger l'ordinateur", "Imprimer", "Naviguer"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 21,
+      "question": "Qu'est-ce qu'un smartphone ?",
+      "options": ["Un ordinateur fixe", "Un téléphone intelligent", "Une imprimante", "Une console"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Technologies & appareils"
+    },
+    {
+      "id": 22,
+      "question": "Une tablette est :",
+      "options": ["Un téléphone", "Un ordinateur portable tactile", "Une souris", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Technologies & appareils"
+    },
+    {
+      "id": 23,
+      "question": "Bluetooth sert à :",
+      "options": ["Imprimer", "Connecter des appareils sans fil", "Stocker des fichiers", "Naviguer"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Technologies & appareils"
+    },
+    {
+      "id": 24,
+      "question": "Une application est :",
+      "options": ["Un matériel", "Un programme", "Un câble", "Un virus"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Technologies & appareils"
+    },
+    {
+      "id": 25,
+      "question": "Le Play Store sert à :",
+      "options": ["Jouer uniquement", "Télécharger des applications", "Imprimer", "Écrire"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Technologies & appareils"
+    },
+    {
+      "id": 26,
+      "question": "Qu'est-ce qu'un mot de passe ?",
+      "options": ["Un logiciel", "Une protection d'accès", "Un virus", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 27,
+      "question": "Un virus informatique est :",
+      "options": ["Un matériel", "Un programme malveillant", "Un jeu", "Un site"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 28,
+      "question": "Que signifie \"phishing\" ?",
+      "options": ["Pêcher", "Une arnaque en ligne", "Programmer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 29,
+      "question": "Pourquoi mettre à jour son système ?",
+      "options": ["Pour ralentir", "Pour sécuriser et améliorer", "Pour supprimer", "Pour imprimer"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 30,
+      "question": "Que ne faut-il pas faire en ligne ?",
+      "options": ["Télécharger", "Partager ses mots de passe", "Naviguer", "Lire"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 31,
+      "question": "Que signifie \"bit\" ?",
+      "options": ["Une image", "Une unité d'information", "Un logiciel", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Bases informatiques"
+    },
+    {
+      "id": 32,
+      "question": "1 octet =",
+      "options": ["2 bits", "4 bits", "8 bits", "16 bits"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Bases informatiques"
+    },
+    {
+      "id": 33,
+      "question": "Que signifie \"RAM\" ?",
+      "options": ["Random Access Memory", "Rapid Access Machine", "Read And Memory", "Run All Memory"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Bases informatiques"
+    },
+    {
+      "id": 34,
+      "question": "La RAM sert à :",
+      "options": ["Stocker définitivement", "Stocker temporairement", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Bases informatiques"
+    },
+    {
+      "id": 35,
+      "question": "Que fait un processeur ?",
+      "options": ["Stocke", "Calcule", "Affiche", "Imprime"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Bases informatiques"
+    },
+    {
+      "id": 36,
+      "question": "Google est :",
+      "options": ["Un jeu", "Un moteur de recherche", "Un virus", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Culture tech & numérique"
+    },
+    {
+      "id": 37,
+      "question": "YouTube sert à :",
+      "options": ["Écrire", "Regarder des vidéos", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Culture tech & numérique"
+    },
+    {
+      "id": 38,
+      "question": "Facebook est :",
+      "options": ["Un antivirus", "Un réseau social", "Un système", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Culture tech & numérique"
+    },
+    {
+      "id": 39,
+      "question": "Un email est :",
+      "options": ["Un jeu", "Un message électronique", "Un virus", "Un logiciel"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Culture tech & numérique"
+    },
+    {
+      "id": 40,
+      "question": "Gmail est :",
+      "options": ["Un jeu", "Un service email", "Un câble", "Un virus"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Culture tech & numérique"
+    },
+    {
+      "id": 41,
+      "question": "Un fichier est :",
+      "options": ["Un objet physique", "Un document numérique", "Un câble", "Une souris"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 42,
+      "question": "Une clé USB sert à :",
+      "options": ["Imprimer", "Stocker des fichiers", "Scanner", "Afficher"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 43,
+      "question": "Télécharger signifie :",
+      "options": ["Supprimer", "Recevoir un fichier", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 44,
+      "question": "Upload signifie :",
+      "options": ["Télécharger", "Envoyer un fichier", "Lire", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 45,
+      "question": "Un cloud sert à :",
+      "options": ["Pleuvoir", "Stocker en ligne", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 46,
+      "question": "PDF est :",
+      "options": ["Un virus", "Un format de fichier", "Un câble", "Un jeu"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 47,
+      "question": "JPEG est :",
+      "options": ["Un logiciel", "Un format d'image", "Un câble", "Un virus"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 48,
+      "question": "Un dossier sert à :",
+      "options": ["Jouer", "Organiser des fichiers", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 49,
+      "question": "Redémarrer un ordinateur signifie :",
+      "options": ["L'éteindre définitivement", "Le relancer", "Le supprimer", "L'imprimer"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 50,
+      "question": "Un écran tactile permet de :",
+      "options": ["Imprimer", "Toucher pour contrôler", "Scanner", "Stocker"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Divers"
+    }
+  ]
+}

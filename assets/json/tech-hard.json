@@ -1,0 +1,407 @@
+{
+  "theme": "tech",
+  "difficulty": "hard",
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle architecture CPU est utilisée par la plupart des smartphones ?",
+      "options": ["x86", "ARM", "RISC-V", "MIPS"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Architecture & Hardware avancé"
+    },
+    {
+      "id": 2,
+      "question": "Que signifie \"overclocking\" ?",
+      "options": ["Réduire la fréquence", "Augmenter la fréquence du CPU", "Désactiver le CPU", "Nettoyer le système"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Architecture & Hardware avancé"
+    },
+    {
+      "id": 3,
+      "question": "Le cache L1 est :",
+      "options": ["Plus lent que la RAM", "Plus rapide que le cache L2", "Stockage disque", "Mémoire externe"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Architecture & Hardware avancé"
+    },
+    {
+      "id": 4,
+      "question": "Quelle est la fonction du chipset sur une carte mère ?",
+      "options": ["Alimenter", "Coordonner les composants", "Refroidir", "Afficher"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Architecture & Hardware avancé"
+    },
+    {
+      "id": 5,
+      "question": "PCIe sert à :",
+      "options": ["Stocker", "Connecter des composants rapides", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Architecture & Hardware avancé"
+    },
+    {
+      "id": 6,
+      "question": "La latence CAS concerne :",
+      "options": ["CPU", "RAM", "GPU", "SSD"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Architecture & Hardware avancé"
+    },
+    {
+      "id": 7,
+      "question": "Une architecture RISC se caractérise par :",
+      "options": ["Instructions complexes", "Instructions simples", "Aucun registre", "Faible performance"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Architecture & Hardware avancé"
+    },
+    {
+      "id": 8,
+      "question": "Le modèle OSI comporte combien de couches ?",
+      "options": ["5", "6", "7", "8"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Réseaux avancés"
+    },
+    {
+      "id": 9,
+      "question": "TCP garantit :",
+      "options": ["Rapidité uniquement", "Fiabilité et ordre", "Aucun contrôle", "Diffusion"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Réseaux avancés"
+    },
+    {
+      "id": 10,
+      "question": "UDP est utilisé pour :",
+      "options": ["Emails", "Streaming/jeux", "HTTP sécurisé", "FTP"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Réseaux avancés"
+    },
+    {
+      "id": 11,
+      "question": "Une adresse IPv6 contient :",
+      "options": ["32 bits", "64 bits", "128 bits", "256 bits"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Réseaux avancés"
+    },
+    {
+      "id": 12,
+      "question": "NAT permet de :",
+      "options": ["Accélérer CPU", "Traduire des adresses IP", "Stocker", "Crypter"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Réseaux avancés"
+    },
+    {
+      "id": 13,
+      "question": "Le port 443 correspond à :",
+      "options": ["HTTP", "HTTPS", "FTP", "SSH"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Réseaux avancés"
+    },
+    {
+      "id": 14,
+      "question": "DHCP sert à :",
+      "options": ["Attribuer automatiquement des IP", "Crypter", "Stocker", "Scanner"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Réseaux avancés"
+    },
+    {
+      "id": 15,
+      "question": "Un kernel est :",
+      "options": ["Interface graphique", "Cœur du système", "Antivirus", "Application"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Systèmes & OS"
+    },
+    {
+      "id": 16,
+      "question": "Linux est :",
+      "options": ["Un logiciel", "Un kernel", "Un antivirus", "Un cloud"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Systèmes & OS"
+    },
+    {
+      "id": 17,
+      "question": "Un processus \"zombie\" est :",
+      "options": ["Actif", "Terminé mais présent", "Virus", "Prioritaire"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Systèmes & OS"
+    },
+    {
+      "id": 18,
+      "question": "Swap memory sert à :",
+      "options": ["Accélérer CPU", "Étendre la RAM", "Stocker fichiers", "Crypter"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Systèmes & OS"
+    },
+    {
+      "id": 19,
+      "question": "Un thread est :",
+      "options": ["Processus complet", "Sous-processus léger", "Fichier", "Virus"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Systèmes & OS"
+    },
+    {
+      "id": 20,
+      "question": "Le scheduler gère :",
+      "options": ["Mémoire", "CPU", "Disque", "Réseau"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Systèmes & OS"
+    },
+    {
+      "id": 21,
+      "question": "Une attaque MITM signifie :",
+      "options": ["Virus", "Man In The Middle", "Malware interne", "Machine isolée"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cybersécurité avancée"
+    },
+    {
+      "id": 22,
+      "question": "Hashing sert à :",
+      "options": ["Crypter réversible", "Créer une empreinte", "Stocker", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cybersécurité avancée"
+    },
+    {
+      "id": 23,
+      "question": "AES est :",
+      "options": ["Hash", "Chiffrement symétrique", "Protocole réseau", "OS"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cybersécurité avancée"
+    },
+    {
+      "id": 24,
+      "question": "RSA est :",
+      "options": ["Symétrique", "Asymétrique", "Hash", "Virus"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cybersécurité avancée"
+    },
+    {
+      "id": 25,
+      "question": "Une faille zero-day est :",
+      "options": ["Connue", "Inconnue", "Corrigée", "Faible"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cybersécurité avancée"
+    },
+    {
+      "id": 26,
+      "question": "XSS est une attaque :",
+      "options": ["Réseau", "Web", "Hardware", "BIOS"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cybersécurité avancée"
+    },
+    {
+      "id": 27,
+      "question": "SQL Injection cible :",
+      "options": ["CPU", "Base de données", "RAM", "GPU"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cybersécurité avancée"
+    },
+    {
+      "id": 28,
+      "question": "La complexité O(n) signifie :",
+      "options": ["Constante", "Linéaire", "Quadratique", "Exponentielle"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Programmation avancée"
+    },
+    {
+      "id": 29,
+      "question": "O(log n) est typique de :",
+      "options": ["Recherche binaire", "Boucle simple", "Tri simple", "Addition"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Programmation avancée"
+    },
+    {
+      "id": 30,
+      "question": "Une pile (stack) est :",
+      "options": ["FIFO", "LIFO", "Tableau", "Graphe"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Programmation avancée"
+    },
+    {
+      "id": 31,
+      "question": "Une file (queue) est :",
+      "options": ["LIFO", "FIFO", "Stack", "Arbre"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Programmation avancée"
+    },
+    {
+      "id": 32,
+      "question": "La récursivité est :",
+      "options": ["Une boucle", "Une fonction qui s'appelle elle-même", "Un bug", "Un type"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Programmation avancée"
+    },
+    {
+      "id": 33,
+      "question": "Un pointeur sert à :",
+      "options": ["Stocker texte", "Référencer une adresse mémoire", "Compiler", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Programmation avancée"
+    },
+    {
+      "id": 34,
+      "question": "Le typage fort signifie :",
+      "options": ["Flexible", "Strict", "Lent", "Inutile"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Programmation avancée"
+    },
+    {
+      "id": 35,
+      "question": "Docker permet de :",
+      "options": ["Programmer", "Conteneuriser des applications", "Stocker", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cloud & DevOps"
+    },
+    {
+      "id": 36,
+      "question": "Kubernetes sert à :",
+      "options": ["Programmer", "Orchestrer des conteneurs", "Crypter", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cloud & DevOps"
+    },
+    {
+      "id": 37,
+      "question": "CI/CD signifie :",
+      "options": ["Code simple", "Intégration et déploiement continu", "Cloud interne", "CPU direct"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cloud & DevOps"
+    },
+    {
+      "id": 38,
+      "question": "Une VM est :",
+      "options": ["Physique", "Virtuelle", "Réseau", "Cache"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cloud & DevOps"
+    },
+    {
+      "id": 39,
+      "question": "SaaS signifie :",
+      "options": ["Software as a Service", "System as a Storage", "Secure as a Service", "Server as a System"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Cloud & DevOps"
+    },
+    {
+      "id": 40,
+      "question": "Big Data se caractérise par :",
+      "options": ["Petite taille", "Volume, vitesse, variété", "Simplicité", "Local"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Données & IA"
+    },
+    {
+      "id": 41,
+      "question": "Machine Learning est :",
+      "options": ["Programmation fixe", "Apprentissage automatique", "Stockage", "Réseau"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Données & IA"
+    },
+    {
+      "id": 42,
+      "question": "Un dataset est :",
+      "options": ["Programme", "Ensemble de données", "CPU", "Virus"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Données & IA"
+    },
+    {
+      "id": 43,
+      "question": "Une régression sert à :",
+      "options": ["Classer", "Prédire une valeur", "Supprimer", "Crypter"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Données & IA"
+    },
+    {
+      "id": 44,
+      "question": "Virtualisation type 1 =",
+      "options": ["Avec OS", "Sans OS (bare metal)", "Lent", "Inutile"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Concepts avancés"
+    },
+    {
+      "id": 45,
+      "question": "Un hyperviseur sert à :",
+      "options": ["Programmer", "Gérer des VM", "Crypter", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Concepts avancés"
+    },
+    {
+      "id": 46,
+      "question": "REST API utilise principalement :",
+      "options": ["TCP brut", "HTTP", "FTP", "SMTP"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Concepts avancés"
+    },
+    {
+      "id": 47,
+      "question": "JSON est préféré car :",
+      "options": ["Lourd", "Léger et lisible", "Lent", "Binaire"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Concepts avancés"
+    },
+    {
+      "id": 48,
+      "question": "Une architecture microservices :",
+      "options": ["Monolithique", "Découpée en services", "Locale", "Unique"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Concepts avancés"
+    },
+    {
+      "id": 49,
+      "question": "Un load balancer sert à :",
+      "options": ["Stocker", "Répartir le trafic", "Crypter", "Compiler"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Concepts avancés"
+    },
+    {
+      "id": 50,
+      "question": "Edge computing signifie :",
+      "options": ["Centralisé", "Traitement proche de l'utilisateur", "Lent", "Stockage"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Concepts avancés"
+    }
+  ]
+}

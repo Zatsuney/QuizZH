@@ -1,0 +1,657 @@
+﻿{
+    "difficulty":  "hard",
+    "questions":  [
+                      {
+                          "id":  1,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "ARN",
+                                          "ADN",
+                                          "Protéine",
+                                          "Lipide"
+                                      ],
+                          "question":  "Quelle molécule porte l\u0027information génétique ?"
+                      },
+                      {
+                          "id":  2,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Noyau",
+                                          "Ribosome",
+                                          "Mitochondrie",
+                                          "Vacuole"
+                                      ],
+                          "question":  "Quel organite produit l\u0027énergie dans la cellule ?"
+                      },
+                      {
+                          "id":  3,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Stocker l\u0027énergie",
+                                          "Accélérer les réactions chimiques",
+                                          "Transporter l\u0027oxygène",
+                                          "Produire des hormones"
+                                      ],
+                          "question":  "Quel est le rôle principal des enzymes ?"
+                      },
+                      {
+                          "id":  4,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Digestif",
+                                          "Nerveux",
+                                          "Endocrinien",
+                                          "Respiratoire"
+                                      ],
+                          "question":  "Quel système régule les hormones ?"
+                      },
+                      {
+                          "id":  5,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Globule rouge",
+                                          "Neurone",
+                                          "Globule blanc",
+                                          "Plaquette"
+                                      ],
+                          "question":  "Quelle cellule est responsable de l\u0027immunité ?"
+                      },
+                      {
+                          "id":  6,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "2 bases",
+                                          "3 bases",
+                                          "4 bases",
+                                          "5 bases"
+                                      ],
+                          "question":  "Quel est le code génétique universel basé sur ?"
+                      },
+                      {
+                          "id":  7,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Cortex",
+                                          "Cervelet",
+                                          "Tronc cérébral",
+                                          "Hypothalamus"
+                                      ],
+                          "question":  "Quelle partie du cerveau gère l\u0027équilibre ?"
+                      },
+                      {
+                          "id":  8,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Sexuée",
+                                          "Asexuée",
+                                          "Croisée",
+                                          "Cellulaire"
+                                      ],
+                          "question":  "Quel type de reproduction ne nécessite pas de partenaire ?"
+                      },
+                      {
+                          "id":  9,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Insuline",
+                                          "Hémoglobine",
+                                          "Glucose",
+                                          "ADN"
+                                      ],
+                          "question":  "Quelle molécule transporte l\u0027oxygène dans le sang ?"
+                      },
+                      {
+                          "id":  10,
+                          "subtheme":  "Biologie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Respirer",
+                                          "Produire de l\u0027insuline",
+                                          "Filtrer le sang",
+                                          "Digérer les protéines uniquement"
+                                      ],
+                          "question":  "Quel est le rôle principal du pancréas ?"
+                      },
+                      {
+                          "id":  11,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "4",
+                                          "6",
+                                          "8",
+                                          "12"
+                                      ],
+                          "question":  "Quel est le numéro atomique du carbone ?"
+                      },
+                      {
+                          "id":  12,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Ionique",
+                                          "Covalente",
+                                          "Métallique",
+                                          "Faible"
+                                      ],
+                          "question":  "Quelle liaison implique un partage d\u0027électrons ?"
+                      },
+                      {
+                          "id":  13,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  3,
+                          "options":  [
+                                          "2",
+                                          "5",
+                                          "7",
+                                          "12"
+                                      ],
+                          "question":  "Quel est le pH d\u0027une base forte ?"
+                      },
+                      {
+                          "id":  14,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Proton",
+                                          "Neutron",
+                                          "Électron",
+                                          "Noyau"
+                                      ],
+                          "question":  "Quelle particule a une charge négative ?"
+                      },
+                      {
+                          "id":  15,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Loi de Newton",
+                                          "Loi de Boyle",
+                                          "Loi d\u0027Ohm",
+                                          "Loi de Hooke"
+                                      ],
+                          "question":  "Quelle loi relie pression et volume d\u0027un gaz ?"
+                      },
+                      {
+                          "id":  16,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Or",
+                                          "Au",
+                                          "Ag",
+                                          "O"
+                                      ],
+                          "question":  "Quel est le symbole de l\u0027or ?"
+                      },
+                      {
+                          "id":  17,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Froid",
+                                          "Lumière seulement",
+                                          "Chaleur",
+                                          "Gaz uniquement"
+                                      ],
+                          "question":  "Une réaction exothermique libère :"
+                      },
+                      {
+                          "id":  18,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Oxygène",
+                                          "Carbone",
+                                          "Hydrogène",
+                                          "Azote"
+                                      ],
+                          "question":  "Quel est l\u0027élément le plus abondant dans l\u0027univers ?"
+                      },
+                      {
+                          "id":  19,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Nulle",
+                                          "Égale au proton",
+                                          "Plus petite que l\u0027électron",
+                                          "Très faible"
+                                      ],
+                          "question":  "Quelle est la masse d\u0027un neutron (approx.) ?"
+                      },
+                      {
+                          "id":  20,
+                          "subtheme":  "Chimie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Acide-base",
+                                          "Redox",
+                                          "Fusion",
+                                          "Dissolution"
+                                      ],
+                          "question":  "Quel type de réaction implique un transfert d\u0027électrons ?"
+                      },
+                      {
+                          "id":  21,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Watt",
+                                          "Joule",
+                                          "Newton",
+                                          "Volt"
+                                      ],
+                          "question":  "Quelle est l\u0027unité de l\u0027énergie ?"
+                      },
+                      {
+                          "id":  22,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Newton",
+                                          "Boyle",
+                                          "Ohm",
+                                          "Pascal"
+                                      ],
+                          "question":  "Quelle loi relie tension, résistance et intensité ?"
+                      },
+                      {
+                          "id":  23,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "d × t",
+                                          "d / t",
+                                          "t / d",
+                                          "d + t"
+                                      ],
+                          "question":  "Quelle est la formule de la vitesse ?"
+                      },
+                      {
+                          "id":  24,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Réflexion",
+                                          "Réfraction",
+                                          "Diffusion",
+                                          "Absorption"
+                                      ],
+                          "question":  "Quel phénomène explique la déviation de la lumière ?"
+                      },
+                      {
+                          "id":  25,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Onde",
+                                          "Particule",
+                                          "Photon",
+                                          "Électron"
+                                      ],
+                          "question":  "Quelle particule de la lumière est appelée photon ?"
+                      },
+                      {
+                          "id":  26,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "340 m/s",
+                                          "0 m/s",
+                                          "100 m/s",
+                                          "1 000 m/s"
+                                      ],
+                          "question":  "Quelle est la vitesse du son dans le vide ?"
+                      },
+                      {
+                          "id":  27,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Électrique",
+                                          "Gravitationnelle",
+                                          "Magnétique",
+                                          "Nucléaire"
+                                      ],
+                          "question":  "Quelle force agit entre deux masses ?"
+                      },
+                      {
+                          "id":  28,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Joule",
+                                          "Watt",
+                                          "Volt",
+                                          "Ampère"
+                                      ],
+                          "question":  "Quelle unité mesure la puissance ?"
+                      },
+                      {
+                          "id":  29,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Cinétique",
+                                          "Thermique",
+                                          "Potentielle",
+                                          "Électrique"
+                                      ],
+                          "question":  "Quel type d\u0027énergie est stockée dans un ressort ?"
+                      },
+                      {
+                          "id":  30,
+                          "subtheme":  "Physique",
+                          "xpReward":  50,
+                          "correctAnswer":  0,
+                          "options":  [
+                                          "1ère loi de Newton",
+                                          "2ème loi",
+                                          "3ème loi",
+                                          "Loi d\u0027Ohm"
+                                      ],
+                          "question":  "Quelle loi décrit l\u0027inertie ?"
+                      },
+                      {
+                          "id":  31,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Croûte",
+                                          "Manteau",
+                                          "Noyau",
+                                          "Atmosphère"
+                                      ],
+                          "question":  "Quelle est la couche interne la plus chaude ?"
+                      },
+                      {
+                          "id":  32,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Pacifique",
+                                          "Africaine",
+                                          "Eurasienne",
+                                          "Australienne"
+                                      ],
+                          "question":  "Quelle plaque tectonique concerne l\u0027Europe ?"
+                      },
+                      {
+                          "id":  33,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Calcaire",
+                                          "Granite",
+                                          "Sable",
+                                          "Argile"
+                                      ],
+                          "question":  "Quelle roche est issue du magma ?"
+                      },
+                      {
+                          "id":  34,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Oxygène",
+                                          "Azote",
+                                          "CO₂",
+                                          "Hélium"
+                                      ],
+                          "question":  "Quel gaz contribue le plus à l\u0027effet de serre ?"
+                      },
+                      {
+                          "id":  35,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Celsius",
+                                          "Beaufort",
+                                          "Richter",
+                                          "Pascal"
+                                      ],
+                          "question":  "Quelle échelle mesure la puissance des séismes ?"
+                      },
+                      {
+                          "id":  36,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Soleil",
+                                          "Vent",
+                                          "Radioactivité",
+                                          "Eau"
+                                      ],
+                          "question":  "Quelle est la principale source d\u0027énergie interne de la Terre ?"
+                      },
+                      {
+                          "id":  37,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Érosion",
+                                          "Collision des plaques",
+                                          "Vent",
+                                          "Pluie"
+                                      ],
+                          "question":  "Quel phénomène crée les montagnes ?"
+                      },
+                      {
+                          "id":  38,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Oxygène",
+                                          "CO₂",
+                                          "Azote",
+                                          "Hydrogène"
+                                      ],
+                          "question":  "Quel est le gaz principal des volcans ?"
+                      },
+                      {
+                          "id":  39,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "1 Pa",
+                                          "100 Pa",
+                                          "1013 hPa",
+                                          "10 000 hPa"
+                                      ],
+                          "question":  "Quelle est la pression atmosphérique moyenne ?"
+                      },
+                      {
+                          "id":  40,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Stratosphère",
+                                          "Troposphère",
+                                          "Mésosphère",
+                                          "Thermosphère"
+                                      ],
+                          "question":  "Quelle couche contient la météo ?"
+                      },
+                      {
+                          "id":  41,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Magnétisme",
+                                          "Gravité",
+                                          "Électricité",
+                                          "Pression"
+                                      ],
+                          "question":  "Quelle force maintient les planètes en orbite ?"
+                      },
+                      {
+                          "id":  42,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Mars",
+                                          "Terre",
+                                          "Vénus",
+                                          "Jupiter"
+                                      ],
+                          "question":  "Quelle planète a la journée la plus longue ?"
+                      },
+                      {
+                          "id":  43,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Une étoile froide",
+                                          "Un objet très dense",
+                                          "Une planète sombre",
+                                          "Une comète"
+                                      ],
+                          "question":  "Qu\u0027est-ce qu\u0027un trou noir ?"
+                      },
+                      {
+                          "id":  44,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Mètre",
+                                          "Kilomètre",
+                                          "Année-lumière",
+                                          "Newton"
+                                      ],
+                          "question":  "Quelle est l\u0027unité de distance en astronomie ?"
+                      },
+                      {
+                          "id":  45,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Orion",
+                                          "Andromède",
+                                          "Sirius",
+                                          "Pluton"
+                                      ],
+                          "question":  "Quelle galaxie est la plus proche de la nôtre ?"
+                      },
+                      {
+                          "id":  46,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Sirius",
+                                          "Alpha Centauri",
+                                          "Le Soleil",
+                                          "Polaris"
+                                      ],
+                          "question":  "Quelle étoile est la plus proche de la Terre ?"
+                      },
+                      {
+                          "id":  47,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Une planète",
+                                          "Une explosion d\u0027étoile",
+                                          "Une comète",
+                                          "Une galaxie"
+                                      ],
+                          "question":  "Qu\u0027est-ce qu\u0027une supernova ?"
+                      },
+                      {
+                          "id":  48,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Terre",
+                                          "Mars",
+                                          "Jupiter",
+                                          "Vénus"
+                                      ],
+                          "question":  "Quelle planète tourne le plus vite ?"
+                      },
+                      {
+                          "id":  49,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Visible",
+                                          "Invisible",
+                                          "Liquide",
+                                          "Chaude"
+                                      ],
+                          "question":  "Qu\u0027est-ce que la matière noire ?"
+                      },
+                      {
+                          "id":  50,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  50,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Plate",
+                                          "Fermée",
+                                          "En expansion",
+                                          "Fixe"
+                                      ],
+                          "question":  "Quelle est la forme de l\u0027univers (selon les connaissances actuelles) ?"
+                      }
+                  ],
+    "timeLimit":  15,
+    "theme":  "sciences"
+}

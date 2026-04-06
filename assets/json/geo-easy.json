@@ -1,0 +1,407 @@
+{
+  "theme": "geo",
+  "difficulty": "easy",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Paris", "Londres", "Rome", "Berlin"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 2,
+      "question": "Quel est le plus grand océan ?",
+      "options": ["Atlantique", "Indien", "Pacifique", "Arctique"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Océans"
+    },
+    {
+      "id": 3,
+      "question": "Dans quel continent se trouve l'Égypte ?",
+      "options": ["Europe", "Afrique", "Asie", "Amérique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 4,
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "options": ["Madrid", "Barcelone", "Lisbonne", "Rome"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 5,
+      "question": "Quel pays a la forme d'une botte ?",
+      "options": ["France", "Italie", "Grèce", "Portugal"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 6,
+      "question": "Quel est le plus grand continent ?",
+      "options": ["Europe", "Afrique", "Asie", "Amérique"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 7,
+      "question": "Quelle est la capitale de l'Allemagne ?",
+      "options": ["Munich", "Berlin", "Hambourg", "Cologne"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 8,
+      "question": "Quel fleuve traverse Paris ?",
+      "options": ["Loire", "Seine", "Rhône", "Garonne"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 9,
+      "question": "Dans quel pays se trouve Tokyo ?",
+      "options": ["Chine", "Japon", "Corée", "Thaïlande"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 10,
+      "question": "Quel désert est le plus grand du monde ?",
+      "options": ["Sahara", "Gobi", "Kalahari", "Atacama"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 11,
+      "question": "Quelle est la capitale de l'Italie ?",
+      "options": ["Milan", "Rome", "Naples", "Venise"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 12,
+      "question": "Quel pays est connu pour ses pyramides ?",
+      "options": ["Mexique", "Égypte", "Inde", "Chine"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Monuments & Patrimoine"
+    },
+    {
+      "id": 13,
+      "question": "Quel continent est le plus froid ?",
+      "options": ["Europe", "Antarctique", "Asie", "Amérique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 14,
+      "question": "Quelle est la capitale du Royaume-Uni ?",
+      "options": ["Manchester", "Londres", "Liverpool", "Oxford"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 15,
+      "question": "Quel océan borde la France à l'ouest ?",
+      "options": ["Pacifique", "Atlantique", "Indien", "Arctique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Océans"
+    },
+    {
+      "id": 16,
+      "question": "Quel pays a pour capitale Ottawa ?",
+      "options": ["USA", "Canada", "Australie", "Irlande"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 17,
+      "question": "Quel est le plus long fleuve du monde ?",
+      "options": ["Amazone", "Nil", "Yangtsé", "Mississippi"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 18,
+      "question": "Quelle est la capitale du Portugal ?",
+      "options": ["Porto", "Lisbonne", "Madrid", "Rome"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 19,
+      "question": "Quel pays est en forme d'hexagone ?",
+      "options": ["Espagne", "France", "Italie", "Belgique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 20,
+      "question": "Quel continent compte le plus de pays ?",
+      "options": ["Afrique", "Europe", "Asie", "Amérique"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 21,
+      "question": "Quelle est la capitale du Japon ?",
+      "options": ["Osaka", "Tokyo", "Kyoto", "Nara"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 22,
+      "question": "Quel pays est le plus grand du monde ?",
+      "options": ["USA", "Chine", "Russie", "Canada"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 23,
+      "question": "Quel océan est à l'est des États-Unis ?",
+      "options": ["Pacifique", "Atlantique", "Indien", "Arctique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Océans"
+    },
+    {
+      "id": 24,
+      "question": "Quelle est la capitale de la Chine ?",
+      "options": ["Shanghai", "Pékin", "Hong Kong", "Séoul"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 25,
+      "question": "Quel pays a pour capitale Rome ?",
+      "options": ["Espagne", "Italie", "Grèce", "Portugal"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 26,
+      "question": "Quel continent est aussi un pays ?",
+      "options": ["Europe", "Australie", "Afrique", "Asie"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 27,
+      "question": "Quelle est la capitale de la Belgique ?",
+      "options": ["Bruxelles", "Anvers", "Liège", "Bruges"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 28,
+      "question": "Quel pays est célèbre pour la Tour Eiffel ?",
+      "options": ["Italie", "France", "Espagne", "Allemagne"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Monuments & Patrimoine"
+    },
+    {
+      "id": 29,
+      "question": "Quelle est la capitale des États-Unis ?",
+      "options": ["New York", "Los Angeles", "Washington D.C.", "Chicago"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 30,
+      "question": "Quel fleuve traverse l'Égypte ?",
+      "options": ["Nil", "Amazone", "Danube", "Gange"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 31,
+      "question": "Quel pays est voisin de la France ?",
+      "options": ["Brésil", "Allemagne", "Chine", "Inde"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 32,
+      "question": "Quelle est la capitale de l'Italie ?",
+      "options": ["Rome", "Milan", "Turin", "Naples"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 33,
+      "question": "Quel continent est au sud de l'Europe ?",
+      "options": ["Afrique", "Asie", "Amérique", "Océanie"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 34,
+      "question": "Quel pays a pour capitale Berlin ?",
+      "options": ["France", "Allemagne", "Autriche", "Suisse"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 35,
+      "question": "Quel est le plus petit continent ?",
+      "options": ["Europe", "Océanie", "Afrique", "Amérique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 36,
+      "question": "Quelle est la capitale de la Grèce ?",
+      "options": ["Athènes", "Rome", "Sofia", "Istanbul"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 37,
+      "question": "Quel pays est une île ?",
+      "options": ["Italie", "Australie", "Allemagne", "Pologne"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Géographie physique"
+    },
+    {
+      "id": 38,
+      "question": "Quel océan est le plus petit ?",
+      "options": ["Arctique", "Atlantique", "Indien", "Pacifique"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Océans"
+    },
+    {
+      "id": 39,
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "options": ["Madrid", "Valence", "Séville", "Barcelone"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 40,
+      "question": "Quel pays se trouve en Amérique du Sud ?",
+      "options": ["France", "Brésil", "Espagne", "Canada"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 41,
+      "question": "Quelle est la capitale du Canada ?",
+      "options": ["Toronto", "Ottawa", "Montréal", "Vancouver"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 42,
+      "question": "Quel pays a pour capitale Pékin ?",
+      "options": ["Japon", "Chine", "Corée", "Vietnam"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 43,
+      "question": "Quel continent est le plus peuplé ?",
+      "options": ["Europe", "Afrique", "Asie", "Amérique"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Continents"
+    },
+    {
+      "id": 44,
+      "question": "Quelle est la capitale de l'Australie ?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 45,
+      "question": "Quel pays est en Europe ?",
+      "options": ["Inde", "France", "Chine", "Brésil"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 46,
+      "question": "Quelle est la capitale de l'Argentine ?",
+      "options": ["Buenos Aires", "Lima", "Santiago", "Bogota"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 47,
+      "question": "Quel pays a pour capitale Lisbonne ?",
+      "options": ["Espagne", "Portugal", "Italie", "Grèce"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    },
+    {
+      "id": 48,
+      "question": "Quel fleuve traverse Londres ?",
+      "options": ["Seine", "Thames", "Danube", "Rhin"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Fleuves"
+    },
+    {
+      "id": 49,
+      "question": "Quel pays est en Afrique ?",
+      "options": ["France", "Nigeria", "Canada", "Japon"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Pays & Villes"
+    },
+    {
+      "id": 50,
+      "question": "Quelle est la capitale de l'Allemagne ?",
+      "options": ["Berlin", "Munich", "Hambourg", "Bonn"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Capitales"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+🖥️ Matériel (Hardware)
+Quel appareil permet de saisir du texte ?
+A. Écran
+B. Clavier
+C. Souris
+D. Imprimante
+Réponse : B
+À quoi sert une souris d’ordinateur ?
+A. Imprimer
+B. Cliquer et déplacer
+C. Stocker des données
+D. Écouter de la musique
+Réponse : B
+Quel appareil affiche les images d’un ordinateur ?
+A. Clavier
+B. Écran
+C. Disque dur
+D. Routeur
+Réponse : B
+Quel composant est le “cerveau” de l’ordinateur ?
+A. RAM
+B. CPU
+C. Clavier
+D. Carte graphique
+Réponse : B
+À quoi sert un disque dur ?
+A. Afficher
+B. Calculer
+C. Stocker des données
+D. Imprimer
+Réponse : C
+Quel appareil permet d’imprimer des documents ?
+A. Scanner
+B. Écran
+C. Imprimante
+D. Routeur
+Réponse : C
+Quel appareil permet de numériser des documents ?
+A. Scanner
+B. Clavier
+C. Souris
+D. Écran
+Réponse : A
+🌐 Internet & Réseaux
+Qu’est-ce que signifie “URL” ?
+A. Uniform Resource Locator
+B. Universal Read Link
+C. User Remote Login
+D. Unified Routing Line
+Réponse : A
+Que signifie “Wi-Fi” ?
+A. Wireless Fidelity
+B. Wired File
+C. Web Finder
+D. Wide Filter
+Réponse : A
+Qu’est-ce qu’un navigateur web ?
+A. Un antivirus
+B. Un logiciel pour aller sur Internet
+C. Un jeu
+D. Un système d’exploitation
+Réponse : B
+Quel logiciel est un navigateur web ?
+A. Word
+B. Excel
+C. Chrome
+D. PowerPoint
+Réponse : C
+Que permet Internet ?
+A. Stocker localement
+B. Se connecter à d’autres ordinateurs
+C. Imprimer
+D. Scanner
+Réponse : B
+Qu’est-ce qu’un site web ?
+A. Un logiciel
+B. Une page accessible sur Internet
+C. Un fichier
+D. Un virus
+Réponse : B
+Que signifie “HTTP” ?
+A. HyperText Transfer Protocol
+B. High Transfer Text Program
+C. Hyper Tool Protocol
+D. Home Transfer Page
+Réponse : A
+💻 Logiciels & Systèmes
+Qu’est-ce qu’un logiciel ?
+A. Un objet physique
+B. Un programme informatique
+C. Un câble
+D. Une souris
+Réponse : B
+Quel logiciel sert à écrire du texte ?
+A. Excel
+B. Word
+C. Chrome
+D. Paint
+Réponse : B
+Quel logiciel sert à faire des calculs ?
+A. Excel
+B. Word
+C. Chrome
+D. Spotify
+Réponse : A
+Qu’est-ce qu’un système d’exploitation ?
+A. Un jeu
+B. Le programme principal d’un ordinateur
+C. Un virus
+D. Un site web
+Réponse : B
+Lequel est un système d’exploitation ?
+A. Windows
+B. Google
+C. Facebook
+D. YouTube
+Réponse : A
+À quoi sert un antivirus ?
+A. Jouer
+B. Protéger l’ordinateur
+C. Imprimer
+D. Naviguer
+Réponse : B
+📱 Technologies & appareils
+Qu’est-ce qu’un smartphone ?
+A. Un ordinateur fixe
+B. Un téléphone intelligent
+C. Une imprimante
+D. Une console
+Réponse : B
+Une tablette est :
+A. Un téléphone
+B. Un ordinateur portable tactile
+C. Une souris
+D. Un câble
+Réponse : B
+Bluetooth sert à :
+A. Imprimer
+B. Connecter des appareils sans fil
+C. Stocker des fichiers
+D. Naviguer
+Réponse : B
+Une application est :
+A. Un matériel
+B. Un programme
+C. Un câble
+D. Un virus
+Réponse : B
+Le Play Store sert à :
+A. Jouer uniquement
+B. Télécharger des applications
+C. Imprimer
+D. Écrire
+Réponse : B
+🔐 Sécurité informatique
+Qu’est-ce qu’un mot de passe ?
+A. Un logiciel
+B. Une protection d’accès
+C. Un virus
+D. Un câble
+Réponse : B
+Un virus informatique est :
+A. Un matériel
+B. Un programme malveillant
+C. Un jeu
+D. Un site
+Réponse : B
+Que signifie “phishing” ?
+A. Pêcher
+B. Une arnaque en ligne
+C. Programmer
+D. Scanner
+Réponse : B
+Pourquoi mettre à jour son système ?
+A. Pour ralentir
+B. Pour sécuriser et améliorer
+C. Pour supprimer
+D. Pour imprimer
+Réponse : B
+Que ne faut-il pas faire en ligne ?
+A. Télécharger
+B. Partager ses mots de passe
+C. Naviguer
+D. Lire
+Réponse : B
+🧠 Bases informatiques
+Que signifie “bit” ?
+A. Une image
+B. Une unité d’information
+C. Un logiciel
+D. Un câble
+Réponse : B
+1 octet =
+A. 2 bits
+B. 4 bits
+C. 8 bits
+D. 16 bits
+Réponse : C
+Que signifie “RAM” ?
+A. Random Access Memory
+B. Rapid Access Machine
+C. Read And Memory
+D. Run All Memory
+Réponse : A
+La RAM sert à :
+A. Stocker définitivement
+B. Stocker temporairement
+C. Imprimer
+D. Scanner
+Réponse : B
+Que fait un processeur ?
+A. Stocke
+B. Calcule
+C. Affiche
+D. Imprime
+Réponse : B
+🎮 Culture tech & numérique
+Google est :
+A. Un jeu
+B. Un moteur de recherche
+C. Un virus
+D. Un câble
+Réponse : B
+YouTube sert à :
+A. Écrire
+B. Regarder des vidéos
+C. Imprimer
+D. Scanner
+Réponse : B
+Facebook est :
+A. Un antivirus
+B. Un réseau social
+C. Un système
+D. Un câble
+Réponse : B
+Un email est :
+A. Un jeu
+B. Un message électronique
+C. Un virus
+D. Un logiciel
+Réponse : B
+Gmail est :
+A. Un jeu
+B. Un service email
+C. Un câble
+D. Un virus
+Réponse : B
+⚙️ Divers
+Un fichier est :
+A. Un objet physique
+B. Un document numérique
+C. Un câble
+D. Une souris
+Réponse : B
+Une clé USB sert à :
+A. Imprimer
+B. Stocker des fichiers
+C. Scanner
+D. Afficher
+Réponse : B
+Télécharger signifie :
+A. Supprimer
+B. Recevoir un fichier
+C. Imprimer
+D. Scanner
+Réponse : B
+Upload signifie :
+A. Télécharger
+B. Envoyer un fichier
+C. Lire
+D. Scanner
+Réponse : B
+Un cloud sert à :
+A. Pleuvoir
+B. Stocker en ligne
+C. Imprimer
+D. Scanner
+Réponse : B
+PDF est :
+A. Un virus
+B. Un format de fichier
+C. Un câble
+D. Un jeu
+Réponse : B
+JPEG est :
+A. Un logiciel
+B. Un format d’image
+C. Un câble
+D. Un virus
+Réponse : B
+Un dossier sert à :
+A. Jouer
+B. Organiser des fichiers
+C. Imprimer
+D. Scanner
+Réponse : B
+Redémarrer un ordinateur signifie :
+A. L’éteindre définitivement
+B. Le relancer
+C. Le supprimer
+D. L’imprimer
+Réponse : B
+Un écran tactile permet de :
+A. Imprimer
+B. Toucher pour contrôler
+C. Scanner
+D. Stocker
+Réponse : B

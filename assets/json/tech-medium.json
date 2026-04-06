@@ -1,0 +1,407 @@
+{
+  "theme": "tech",
+  "difficulty": "medium",
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel composant gère l'affichage graphique ?",
+      "options": ["CPU", "RAM", "GPU", "SSD"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 2,
+      "question": "Quelle mémoire est volatile ?",
+      "options": ["SSD", "HDD", "RAM", "Clé USB"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 3,
+      "question": "Quelle est la différence principale entre SSD et HDD ?",
+      "options": ["Le SSD est mécanique", "Le HDD est plus rapide", "Le SSD est plus rapide", "Aucune différence"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 4,
+      "question": "Quel port est utilisé pour connecter un écran moderne ?",
+      "options": ["HDMI", "USB", "Ethernet", "Jack"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 5,
+      "question": "À quoi sert une alimentation (PSU) ?",
+      "options": ["Stocker", "Alimenter les composants", "Refroidir", "Afficher"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 6,
+      "question": "Que fait un ventilateur dans un PC ?",
+      "options": ["Augmente la vitesse", "Refroidit les composants", "Stocke des données", "Améliore Internet"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 7,
+      "question": "Quel composant influence le plus les performances en jeu ?",
+      "options": ["RAM", "GPU", "Disque dur", "Clavier"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Matériel (Hardware)"
+    },
+    {
+      "id": 8,
+      "question": "Que signifie \"IP\" ?",
+      "options": ["Internet Protocol", "Internal Program", "Input Port", "Internet Page"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Réseaux & Internet"
+    },
+    {
+      "id": 9,
+      "question": "Une adresse IP sert à :",
+      "options": ["Identifier un appareil", "Stocker des données", "Imprimer", "Programmer"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Réseaux & Internet"
+    },
+    {
+      "id": 10,
+      "question": "Que fait un routeur ?",
+      "options": ["Stocke", "Dirige le trafic réseau", "Affiche", "Imprime"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Réseaux & Internet"
+    },
+    {
+      "id": 11,
+      "question": "Quelle est la différence entre HTTP et HTTPS ?",
+      "options": ["HTTPS est sécurisé", "HTTP est plus rapide", "HTTPS est plus ancien", "Aucune"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Réseaux & Internet"
+    },
+    {
+      "id": 12,
+      "question": "DNS sert à :",
+      "options": ["Traduire un nom de domaine en IP", "Protéger", "Stocker", "Imprimer"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Réseaux & Internet"
+    },
+    {
+      "id": 13,
+      "question": "Le ping mesure :",
+      "options": ["La mémoire", "La latence réseau", "Le stockage", "Le CPU"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Réseaux & Internet"
+    },
+    {
+      "id": 14,
+      "question": "Que signifie LAN ?",
+      "options": ["Large Area Network", "Local Area Network", "Long Access Network", "Light Area Network"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Réseaux & Internet"
+    },
+    {
+      "id": 15,
+      "question": "Qu'est-ce qu'un logiciel open source ?",
+      "options": ["Payant", "Code accessible", "Interdit", "Fermé"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 16,
+      "question": "Quel système est basé sur Linux ?",
+      "options": ["Windows", "macOS", "Android", "Excel"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 17,
+      "question": "Un processus est :",
+      "options": ["Un fichier", "Un programme en cours", "Un virus", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 18,
+      "question": "À quoi sert le gestionnaire des tâches ?",
+      "options": ["Jouer", "Gérer les programmes actifs", "Imprimer", "Naviguer"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 19,
+      "question": "Une mise à jour logicielle permet :",
+      "options": ["De ralentir", "D'ajouter des correctifs", "De supprimer", "D'éteindre"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 20,
+      "question": "Un pilote (driver) sert à :",
+      "options": ["Jouer", "Faire fonctionner un matériel", "Imprimer", "Stocker"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Logiciels & Systèmes"
+    },
+    {
+      "id": 21,
+      "question": "Qu'est-ce qu'un firewall ?",
+      "options": ["Un virus", "Un pare-feu", "Un logiciel de jeu", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 22,
+      "question": "Le chiffrement sert à :",
+      "options": ["Accélérer", "Protéger les données", "Supprimer", "Imprimer"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 23,
+      "question": "Un malware est :",
+      "options": ["Un matériel", "Un logiciel malveillant", "Un câble", "Un jeu"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 24,
+      "question": "Que fait un VPN ?",
+      "options": ["Accélère le PC", "Sécurise la connexion", "Imprime", "Supprime"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 25,
+      "question": "Une attaque brute force consiste à :",
+      "options": ["Deviner un mot de passe", "Supprimer", "Scanner", "Stocker"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 26,
+      "question": "L'authentification à deux facteurs ajoute :",
+      "options": ["Une sécurité supplémentaire", "Une lenteur", "Un virus", "Un câble"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sécurité informatique"
+    },
+    {
+      "id": 27,
+      "question": "Qu'est-ce que le cloud computing ?",
+      "options": ["Un stockage physique", "Des services en ligne", "Un câble", "Un virus"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Technologies modernes"
+    },
+    {
+      "id": 28,
+      "question": "L'IA signifie :",
+      "options": ["Internet Access", "Intelligence Artificielle", "Internal App", "Input Analysis"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Technologies modernes"
+    },
+    {
+      "id": 29,
+      "question": "La 5G est :",
+      "options": ["Un logiciel", "Une technologie réseau", "Un câble", "Un virus"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Technologies modernes"
+    },
+    {
+      "id": 30,
+      "question": "Une API sert à :",
+      "options": ["Jouer", "Connecter des logiciels", "Imprimer", "Stocker"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Technologies modernes"
+    },
+    {
+      "id": 31,
+      "question": "Le Bluetooth utilise :",
+      "options": ["Internet", "Ondes radio", "Câbles", "Satellite"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Technologies modernes"
+    },
+    {
+      "id": 32,
+      "question": "HTML sert à :",
+      "options": ["Programmer des jeux", "Structurer une page web", "Stocker", "Imprimer"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Programmation & bases"
+    },
+    {
+      "id": 33,
+      "question": "CSS sert à :",
+      "options": ["Programmer", "Styliser une page web", "Stocker", "Compiler"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Programmation & bases"
+    },
+    {
+      "id": 34,
+      "question": "JavaScript permet :",
+      "options": ["Le style", "L'interactivité", "Le stockage", "L'impression"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Programmation & bases"
+    },
+    {
+      "id": 35,
+      "question": "Une variable est :",
+      "options": ["Une constante", "Une valeur modifiable", "Un virus", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Programmation & bases"
+    },
+    {
+      "id": 36,
+      "question": "Une boucle sert à :",
+      "options": ["Arrêter", "Répéter une action", "Supprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Programmation & bases"
+    },
+    {
+      "id": 37,
+      "question": "Un bug est :",
+      "options": ["Une amélioration", "Une erreur", "Un câble", "Un jeu"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Programmation & bases"
+    },
+    {
+      "id": 38,
+      "question": "Une base de données sert à :",
+      "options": ["Jouer", "Stocker et organiser", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Données & fichiers"
+    },
+    {
+      "id": 39,
+      "question": "SQL est utilisé pour :",
+      "options": ["Programmer des jeux", "Gérer des bases de données", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Données & fichiers"
+    },
+    {
+      "id": 40,
+      "question": "JSON est :",
+      "options": ["Un langage", "Un format de données", "Un virus", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Données & fichiers"
+    },
+    {
+      "id": 41,
+      "question": "CSV est utilisé pour :",
+      "options": ["Images", "Tableaux", "Jeux", "Audio"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Données & fichiers"
+    },
+    {
+      "id": 42,
+      "question": "Une adresse MAC est :",
+      "options": ["Une IP", "Un identifiant matériel", "Un virus", "Un logiciel"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 43,
+      "question": "Le multitâche permet :",
+      "options": ["Une seule tâche", "Plusieurs tâches simultanées", "Supprimer", "Imprimer"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 44,
+      "question": "Un serveur est :",
+      "options": ["Un client", "Une machine qui fournit des services", "Un câble", "Un virus"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 45,
+      "question": "Git sert à :",
+      "options": ["Jouer", "Versionner du code", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 46,
+      "question": "Une adresse email contient :",
+      "options": ["@", "#", "&", "%"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 47,
+      "question": "Le streaming permet :",
+      "options": ["Télécharger complet", "Lire en continu", "Supprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 48,
+      "question": "Une extension de fichier indique :",
+      "options": ["La taille", "Le type", "Le nom", "Le poids"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 49,
+      "question": "Un backup est :",
+      "options": ["Une suppression", "Une sauvegarde", "Un virus", "Un câble"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    },
+    {
+      "id": 50,
+      "question": "Virtualisation signifie :",
+      "options": ["Supprimer", "Simuler un système", "Imprimer", "Scanner"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Divers"
+    }
+  ]
+}

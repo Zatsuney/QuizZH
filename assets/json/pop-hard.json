@@ -1,0 +1,407 @@
+{
+  "theme": "pop",
+  "difficulty": "hard",
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel réalisateur est derrière Mulholland Drive ?",
+      "options": ["David Fincher", "David Lynch", "Darren Aronofsky", "Paul Thomas Anderson"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 2,
+      "question": "Dans Pulp Fiction, quel est le prénom du personnage joué par John Travolta ?",
+      "options": ["Vincent", "Jules", "Butch", "Marcellus"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 3,
+      "question": "Quel film a marqué la première apparition de Thanos dans le MCU (caméo) ?",
+      "options": ["Thor", "Avengers", "Iron Man 3", "Guardians of the Galaxy"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 4,
+      "question": "Qui a composé la musique de Interstellar ?",
+      "options": ["John Williams", "Hans Zimmer", "Ennio Morricone", "Howard Shore"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 5,
+      "question": "Dans Fight Club, quel est le véritable nom du narrateur ?",
+      "options": ["Jack", "Tyler", "Il n'est jamais révélé", "Edward"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 6,
+      "question": "Quel film de Tarantino est structuré en chapitres non chronologiques ?",
+      "options": ["Django Unchained", "Kill Bill", "Pulp Fiction", "Reservoir Dogs"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 7,
+      "question": "Dans Blade Runner 2049, qui joue K ?",
+      "options": ["Ryan Gosling", "Jake Gyllenhaal", "Oscar Isaac", "Harrison Ford"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 8,
+      "question": "Quel film a remporté la Palme d'Or 2019 ?",
+      "options": ["Joker", "Parasite", "1917", "Roma"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 9,
+      "question": "Dans The Grand Budapest Hotel, quel acteur joue le concierge ?",
+      "options": ["Willem Dafoe", "Ralph Fiennes", "Adrien Brody", "Jude Law"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 10,
+      "question": "Quel film est inspiré d'un roman de Cormac McCarthy ?",
+      "options": ["There Will Be Blood", "No Country for Old Men", "The Revenant", "Sicario"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 11,
+      "question": "Dans Breaking Bad, quel est le pseudonyme de Walter White ?",
+      "options": ["Blue King", "Heisenberg", "El Profesor", "Scarface"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 12,
+      "question": "Dans Game of Thrones, qui tue le Roi de la Nuit ?",
+      "options": ["Jon Snow", "Arya Stark", "Daenerys", "Bran Stark"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 13,
+      "question": "Dans Dark, de quel pays est la série ?",
+      "options": ["Danemark", "Allemagne", "Suède", "Norvège"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 14,
+      "question": "Dans The Office (US), quel est le poste de Michael Scott ?",
+      "options": ["Directeur régional", "RH", "Comptable", "Commercial"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 15,
+      "question": "Dans Peaky Blinders, quel est le prénom du chef Shelby ?",
+      "options": ["Arthur", "Tommy", "John", "Finn"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 16,
+      "question": "Dans Stranger Things, dans quel laboratoire Eleven a-t-elle grandi ?",
+      "options": ["Hawkins Lab", "Area 51", "Umbrella", "Black Mesa"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 17,
+      "question": "Dans The Boys, quel est le nom du leader des Seven ?",
+      "options": ["Soldier Boy", "Homelander", "Black Noir", "A-Train"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 18,
+      "question": "Dans Euphoria, quel est le prénom du personnage joué par Zendaya ?",
+      "options": ["Cassie", "Rue", "Maddy", "Lexi"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 19,
+      "question": "Dans House of the Dragon, à quelle famille appartient Rhaenyra ?",
+      "options": ["Stark", "Lannister", "Targaryen", "Baratheon"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 20,
+      "question": "Dans Black Mirror, quel épisode met en scène des mondes virtuels amoureux ?",
+      "options": ["Nosedive", "San Junipero", "White Bear", "Metalhead"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 21,
+      "question": "Dans The Last of Us, comment s'appelle la fille d'Ellie protégée dans le 2 ?",
+      "options": ["Abby", "Dina", "Sarah", "Riley"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 22,
+      "question": "Dans Elden Ring, qui est le créateur du lore principal ?",
+      "options": ["Hideo Kojima", "George R. R. Martin", "Tolkien Estate", "Brandon Sanderson"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 23,
+      "question": "Dans Red Dead Redemption 2, qui est le personnage principal ?",
+      "options": ["John Marston", "Arthur Morgan", "Dutch", "Micah"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 24,
+      "question": "Quel studio développe The Witcher 3 ?",
+      "options": ["Bethesda", "CD Projekt Red", "Ubisoft", "FromSoftware"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 25,
+      "question": "Dans Dark Souls, quelle est la monnaie principale ?",
+      "options": ["Gold", "Souls", "Runes", "Echoes"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 26,
+      "question": "Dans League of Legends, quel rôle est souvent au milieu ?",
+      "options": ["Support", "Jungle", "Mid", "ADC"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 27,
+      "question": "Dans Cyberpunk 2077, comment s'appelle le personnage de Keanu Reeves ?",
+      "options": ["V", "Johnny Silverhand", "Adam Smasher", "Rogue"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 28,
+      "question": "Dans God of War (2018), qui est le fils de Kratos ?",
+      "options": ["Loki", "Atreus", "Baldur", "Thor"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 29,
+      "question": "Dans Resident Evil, quelle entreprise est responsable du virus ?",
+      "options": ["Umbrella", "Vault-Tec", "Abstergo", "Weyland"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 30,
+      "question": "Dans Zelda, quel est le nom du royaume ?",
+      "options": ["Hyrule", "Termina", "Lorule", "Eldia"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 31,
+      "question": "Quel est le vrai nom de The Weeknd ?",
+      "options": ["Abel Tesfaye", "Drake Graham", "Khalid Robinson", "Frank Ocean"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 32,
+      "question": "Quel album contient Lose Yourself ?",
+      "options": ["Encore", "Curtain Call", "8 Mile Soundtrack", "Recovery"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 33,
+      "question": "Qui a produit majoritairement l'album DAMN. de Kendrick Lamar ?",
+      "options": ["Dr. Dre", "Mike Will Made-It", "Sounwave", "Metro Boomin"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 34,
+      "question": "Quel groupe a sorti OK Computer ?",
+      "options": ["Muse", "Radiohead", "Coldplay", "Blur"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 35,
+      "question": "Quel rappeur français a fondé le label 92i ?",
+      "options": ["SCH", "Booba", "Ninho", "Kaaris"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 36,
+      "question": "Quel artiste est connu pour l'album After Hours ?",
+      "options": ["Drake", "The Weeknd", "Travis Scott", "Post Malone"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 37,
+      "question": "Qui chante HUMBLE. ?",
+      "options": ["J. Cole", "Kendrick Lamar", "Drake", "Future"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 38,
+      "question": "Quel groupe a fait Seven Nation Army ?",
+      "options": ["Arctic Monkeys", "The White Stripes", "The Strokes", "Oasis"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 39,
+      "question": "Quel DJ est derrière Animals ?",
+      "options": ["Avicii", "Martin Garrix", "David Guetta", "Calvin Harris"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 40,
+      "question": "Quel artiste a sorti To Pimp a Butterfly ?",
+      "options": ["Kanye West", "Kendrick Lamar", "Tyler, The Creator", "Nas"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 41,
+      "question": "Quel est le vrai nom de Spider-Man ?",
+      "options": ["Peter Parker", "Miles Morales", "Ben Parker", "Eddie Brock"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 42,
+      "question": "Dans Marvel, qui a créé Ultron ?",
+      "options": ["Thor", "Tony Stark", "Bruce Banner", "Nick Fury"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 43,
+      "question": "Dans Star Wars, qui est le père de Luke ?",
+      "options": ["Obi-Wan", "Anakin Skywalker", "Palpatine", "Yoda"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 44,
+      "question": "Dans Attack on Titan, que signifie le mur Maria ?",
+      "options": ["Une ville", "Une divinité", "Une enceinte de protection", "Une arme"],
+      "correctAnswer": 2,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 45,
+      "question": "Quel Pokémon est numéro 1 du Pokédex ?",
+      "options": ["Pikachu", "Bulbizarre", "Salamèche", "Carapuce"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 46,
+      "question": "Dans Death Note, comment s'appelle le dieu de la mort principal ?",
+      "options": ["L", "Ryuk", "Near", "Light"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 47,
+      "question": "Dans DC, qui est l'ennemi juré de Batman ?",
+      "options": ["Joker", "Lex Luthor", "Darkseid", "Bane"],
+      "correctAnswer": 0,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 48,
+      "question": "Dans One Piece, qui est le frère de Luffy ?",
+      "options": ["Zoro", "Ace", "Sanji", "Shanks"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 49,
+      "question": "Quel studio a créé Les Simpsons ?",
+      "options": ["Pixar", "Fox", "Disney", "Warner"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    },
+    {
+      "id": 50,
+      "question": "Dans Dragon Ball Z, qui bat Freezer ?",
+      "options": ["Vegeta", "Goku", "Gohan", "Piccolo"],
+      "correctAnswer": 1,
+      "xpReward": 50,
+      "subtheme": "Culture Pop Avancée"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "theme": "pop",
+  "difficulty": "medium",
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qui réalise Inception ?",
+      "options": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Ridley Scott"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 2,
+      "question": "Dans quel film apparaît le personnage de Neo ?",
+      "options": ["Matrix", "Blade Runner", "Tron", "Avatar"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 3,
+      "question": "Qui joue Iron Man ?",
+      "options": ["Chris Evans", "Robert Downey Jr.", "Mark Ruffalo", "Chris Hemsworth"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 4,
+      "question": "Dans Titanic, quel est le prénom de l'héroïne ?",
+      "options": ["Anna", "Rose", "Claire", "Emma"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 5,
+      "question": "Quel film a gagné l'Oscar du meilleur film en 2020 ?",
+      "options": ["Joker", "1917", "Parasite", "Once Upon a Time in Hollywood"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 6,
+      "question": "Dans quel film trouve-t-on le Joker joué par Heath Ledger ?",
+      "options": ["Batman Begins", "The Dark Knight", "Joker", "Suicide Squad"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 7,
+      "question": "Qui a réalisé Avatar ?",
+      "options": ["James Cameron", "Peter Jackson", "George Lucas", "Denis Villeneuve"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 8,
+      "question": "Dans Harry Potter, qui est le directeur de Poudlard ?",
+      "options": ["Rogue", "Dumbledore", "Lupin", "Sirius"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 9,
+      "question": "Quel acteur joue Jack Sparrow ?",
+      "options": ["Orlando Bloom", "Johnny Depp", "Tom Cruise", "Brad Pitt"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 10,
+      "question": "Dans Le Roi Lion, comment s'appelle le père de Simba ?",
+      "options": ["Scar", "Mufasa", "Rafiki", "Zazu"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 11,
+      "question": "Dans quelle série trouve-t-on Walter White ?",
+      "options": ["Narcos", "Breaking Bad", "Ozark", "Fargo"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 12,
+      "question": "Quelle série se déroule à Westeros ?",
+      "options": ["Vikings", "The Witcher", "Game of Thrones", "Rome"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 13,
+      "question": "Dans Stranger Things, comment s'appelle la fille aux pouvoirs ?",
+      "options": ["Max", "Eleven", "Nancy", "Joyce"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 14,
+      "question": "Quelle série suit des braqueurs en combinaison rouge ?",
+      "options": ["Lupin", "Casa de Papel", "Elite", "Dark"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 15,
+      "question": "Dans Friends, combien sont-ils dans le groupe principal ?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 16,
+      "question": "Qui est le roi de Westeros au début de GOT ?",
+      "options": ["Joffrey", "Robert Baratheon", "Ned Stark", "Tywin Lannister"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 17,
+      "question": "Dans The Office, où se situe l'entreprise ?",
+      "options": ["New York", "Scranton", "Chicago", "Boston"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 18,
+      "question": "Dans The Walking Dead, quel est le nom du héros principal ?",
+      "options": ["Shane", "Daryl", "Rick", "Glenn"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 19,
+      "question": "Quelle série met en scène des adolescents dans un lycée espagnol ?",
+      "options": ["Elite", "Skins", "Riverdale", "Euphoria"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 20,
+      "question": "Dans Black Mirror, quel est le thème principal ?",
+      "options": ["Histoire", "Technologie", "Guerre", "Sport"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 21,
+      "question": "Qui est le héros de The Legend of Zelda ?",
+      "options": ["Zelda", "Link", "Ganondorf", "Mario"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 22,
+      "question": "Dans GTA V, combien de personnages jouables principaux ?",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 23,
+      "question": "Quel jeu est un battle royale très populaire ?",
+      "options": ["Minecraft", "Fortnite", "FIFA", "Zelda"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 24,
+      "question": "Quel studio a créé The Last of Us ?",
+      "options": ["Ubisoft", "Naughty Dog", "EA", "Rockstar"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 25,
+      "question": "Dans Minecraft, quel matériau est le plus rare ?",
+      "options": ["Fer", "Or", "Diamant", "Pierre"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 26,
+      "question": "Qui est la mascotte de Nintendo ?",
+      "options": ["Sonic", "Mario", "Pikachu", "Link"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 27,
+      "question": "Dans Call of Duty, quel est le thème principal ?",
+      "options": ["Cuisine", "Guerre", "Sport", "Simulation"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 28,
+      "question": "Quel jeu se déroule dans un monde de blocs ?",
+      "options": ["Roblox", "Minecraft", "Terraria", "Ark"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 29,
+      "question": "Dans Among Us, que doit faire l'imposteur ?",
+      "options": ["Construire", "Survivre", "Éliminer les autres", "Explorer"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 30,
+      "question": "Quel jeu met en scène Kratos ?",
+      "options": ["God of War", "Assassin's Creed", "Dark Souls", "Elden Ring"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 31,
+      "question": "Qui chante Blinding Lights ?",
+      "options": ["Drake", "The Weeknd", "Post Malone", "Travis Scott"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 32,
+      "question": "Quel groupe a fait Bohemian Rhapsody ?",
+      "options": ["Queen", "Beatles", "Rolling Stones", "Nirvana"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 33,
+      "question": "Qui est surnommée la Queen of Pop ?",
+      "options": ["Beyoncé", "Madonna", "Rihanna", "Lady Gaga"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 34,
+      "question": "Quel rappeur français a fait Basique ?",
+      "options": ["Booba", "Orelsan", "Ninho", "Jul"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 35,
+      "question": "Qui chante Shape of You ?",
+      "options": ["Ed Sheeran", "Justin Bieber", "Shawn Mendes", "Harry Styles"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 36,
+      "question": "Quel groupe est connu pour Smells Like Teen Spirit ?",
+      "options": ["Metallica", "Nirvana", "Green Day", "Blink-182"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 37,
+      "question": "Qui chante Bad Guy ?",
+      "options": ["Billie Eilish", "Dua Lipa", "Taylor Swift", "Ariana Grande"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 38,
+      "question": "Quel artiste est connu pour Thriller ?",
+      "options": ["Prince", "Michael Jackson", "Stevie Wonder", "Usher"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 39,
+      "question": "Quel groupe est derrière One Direction ?",
+      "options": ["BTS", "Boyband UK", "One Direction", "5SOS"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 40,
+      "question": "Qui chante Diamonds ?",
+      "options": ["Rihanna", "Beyoncé", "Sia", "Adele"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 41,
+      "question": "Quelle plateforme diffuse Stranger Things ?",
+      "options": ["Netflix", "Disney+", "HBO", "Prime Video"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 42,
+      "question": "Quel réseau social est basé sur des vidéos courtes ?",
+      "options": ["Facebook", "TikTok", "Twitter", "LinkedIn"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 43,
+      "question": "Quel personnage est une souris célèbre ?",
+      "options": ["Bugs Bunny", "Mickey Mouse", "Donald Duck", "Pluto"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 44,
+      "question": "Dans Marvel, qui est le dieu du tonnerre ?",
+      "options": ["Loki", "Thor", "Hulk", "Vision"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 45,
+      "question": "Quel univers contient Spider-Man ?",
+      "options": ["DC", "Marvel", "Star Wars", "Harry Potter"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 46,
+      "question": "Quelle saga se passe dans l'espace avec des Jedi ?",
+      "options": ["Star Trek", "Star Wars", "Dune", "Avatar"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 47,
+      "question": "Qui est Pikachu ?",
+      "options": ["Un chien", "Un Pokémon", "Un robot", "Un dragon"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 48,
+      "question": "Quel héros porte un bouclier étoilé ?",
+      "options": ["Iron Man", "Captain America", "Thor", "Black Panther"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 49,
+      "question": "Quelle entreprise a créé l'iPhone ?",
+      "options": ["Samsung", "Apple", "Microsoft", "Google"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    },
+    {
+      "id": 50,
+      "question": "Dans Disney, qui est la Reine des Neiges ?",
+      "options": ["Anna", "Elsa", "Ariel", "Belle"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Culture Pop"
+    }
+  ]
+}

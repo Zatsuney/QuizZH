@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Choisir un Thème</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="theme-selection-container">
+        <div class="theme-selection-card">
+            <img src="image/logoquizzh.png" alt="QuizZH Logo" class="quiz-logo">
+            <p class="subtitle">Choisissez un thème pour votre partie solo</p>
+            
+            <div class="user-info" id="userInfo">
+                <p>Connecté en tant que: <strong id="playerName"></strong></p>
+            </div>
+
+            <div class="themes-grid">
+                <button type="button" class="btn-theme" data-theme="sciences">
+                    <div class="theme-icon">🔬</div>
+                    <div class="theme-title">Sciences</div>
+                    <div class="theme-count">150 questions</div>
+                </button>
+
+                <button type="button" class="btn-theme" data-theme="tech">
+                    <div class="theme-icon">💻</div>
+                    <div class="theme-title">Tech</div>
+                    <div class="theme-count">150 questions</div>
+                </button>
+
+                <button type="button" class="btn-theme" data-theme="geo">
+                    <div class="theme-icon">🌍</div>
+                    <div class="theme-title">Géographie</div>
+                    <div class="theme-count">150 questions</div>
+                </button>
+
+                <button type="button" class="btn-theme" data-theme="culture-pop">
+                    <div class="theme-icon">🎬</div>
+                    <div class="theme-title">Culture Pop</div>
+                    <div class="theme-count">150 questions</div>
+                </button>
+
+                <button type="button" class="btn-theme" data-theme="histoire">
+                    <div class="theme-icon">📚</div>
+                    <div class="theme-title">Histoire</div>
+                    <div class="theme-count">150 questions</div>
+                </button>
+
+                <button type="button" class="btn-theme" data-theme="arts">
+                    <div class="theme-icon">🎨</div>
+                    <div class="theme-title">Arts & Divertissement</div>
+                    <div class="theme-count">150 questions</div>
+                </button>
+
+                <button type="button" class="btn-theme" data-theme="musique">
+                    <div class="theme-icon">🎵</div>
+                    <div class="theme-title">Musique</div>
+                    <div class="theme-count">150 questions</div>
+                </button>
+
+                <button type="button" class="btn-theme" data-theme="jeux-videos">
+                    <div class="theme-icon">🎮</div>
+                    <div class="theme-title">Jeux-Vidéos</div>
+                    <div class="theme-count">150 questions</div>
+                </button>
+
+                <button type="button" class="btn-theme btn-theme-all" data-theme="all">
+                    <div class="theme-icon">🎯</div>
+                    <div class="theme-title">Tous les Thèmes</div>
+                    <div class="theme-count">1350 questions</div>
+                </button>
+            </div>
+
+            <div class="back-section">
+                <a href="#" id="backLink">← Retour aux menus</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/theme-selection.js"></script>
+</body>
+</html>
