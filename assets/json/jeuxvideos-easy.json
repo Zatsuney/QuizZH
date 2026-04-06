@@ -77,9 +77,9 @@
     },
     {
       "id": 10,
-      "question": "Dans Minecraft, quel bloc est utilisé pour miner le diamant ?",
-      "options": ["Pierre", "Fer", "Charbon", "Diamant"],
-      "correctAnswer": 3,
+      "question": "Dans Minecraft, quel outil est utilisé pour miner le diamant ?",
+      "options": ["Pioche en Pierre", "Pioche en Fer", "Pioche en Cuivre", "Pioche en Diamant"],
+      "correctAnswer": 1,
       "xpReward": 25,
       "subtheme": "Jeux de construction et exploration"
     },
