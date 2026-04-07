@@ -317,8 +317,8 @@
     },
     {
       "id": 40,
-      "question": "Quel jeu Hades a-t-il remporté le BAFTA en 2022 ?",
-      "options": ["Non", "Oui, Meilleur Jeu", "Innovant seulement", "Art Direction"],
+      "question": "Le jeu Hades a-t-il remporté le BAFTA en 2021 ?",
+      "options": ["Non", "Oui", "2 eme place", "Art Direction"],
       "correctAnswer": 1,
       "xpReward": 50,
       "subtheme": "Jeux-Vidéos"
@@ -373,8 +373,8 @@
     },
     {
       "id": 47,
-      "question": "Quel jeu Elden Ring a-t-il remporté le Game of the Year en 2022 ?",
-      "options": ["Non", "Oui", "Second lieu", "Nomination seulement"],
+      "question": "Elden Ring a-t-il remporté le Game of the Year en 2022 ?",
+      "options": ["Non", "Oui", "2eme place", "Nomination seulement"],
       "correctAnswer": 1,
       "xpReward": 50,
       "subtheme": "Jeux-Vidéos"
