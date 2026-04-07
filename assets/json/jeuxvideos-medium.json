@@ -125,7 +125,7 @@
     },
     {
       "id": 16,
-      "question": "Dans Valorant, quelle agente peut placer des murs et téléporter ses alliés ?",
+      "question": "Dans Valorant, quelle agente peut placer des murs et soigner ses alliés ?",
       "options": ["Jett", "Sage", "Phoenix", "Breach"],
       "correctAnswer": 1,
       "xpReward": 35,
