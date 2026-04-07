@@ -1,0 +1,90 @@
+Q1 : En quelle année est sortie Among us ? 	2018
+
+Q2 : Sur quelle plateforme est-il sorti en premier ?     Téléphone 
+
+Q3 : Combien de couleurs peut-on choisir pour jouer ?  18 
+
+Q4 : Dans la boutique, combien de haricots coûte le pet le plus chère ?  42000
+
+Q5 : Comment s’appelle la monnaie payante ? Les étoiles / stars 
+
+Q6 : Quel studio à développer Among us ? Innersloth 
+
+Q7 : Combien y’a-t-il de maps ? 5 
+
+Q8 : Quelle est le nom de la dernière arrivée sur le jeu ?   FUNGLE
+
+Q9 : Combien de lettre comporte un code ?     6 
+
+Q10 : Sur Polus , Dans combien de salles nommées y’a-t-il de quêtes ?  10  
+
+Q11 : Sur Polus, si on a toutes les quêtes de la map, combien en avons nous ? Réponse valider entre 32 et 38
+
+Q12 : De quelle couleurs est la table admin ?   Vert 
+
+Q13 : En imposteur sur Polus, combien de porte peut-on fermer ?  7 
+
+Q14 : Combien de vent il y’a sur Polus ?    12 
+
+Q15 : Combien y’a-t-il de quêtes Téléchargement ( hors comm ) sur Polus ?   5 
+
+Q16 : Combien de rôles y’a-t-il en crewmates ?  6
+
+Q17 : Combien de rôles y’a-t-il en Imposteurs ?  3 
+
+Q18 : Quelles est la particularités des portes sur The Skeld ?   Automatique 
+
+Q19 : Sur polus, dans quelle salle on réapparaît après un meeting ?  Office/Bureau 
+
+Q20 : Sur The Skeld, combien de sabotage y’a t-il ?  4
+
+Q21 : Sur The Skeld, dans quelle salle commençons nous la partie ?   Cafeteria
+
+Q22 : Sur The Skeld, combien peut-il avoir de quête dans électricité ?  4 
+
+
+Q23 : Sur The Skeld il y’a un aliment posé sur une table de la cafeteria, lequel ?    Une Pizza 
+
+Q24 : Sue Mira HQ, dans quelle salle se trouve la quête du scanner ?  Infirmerie/Medbay 
+
+Q25 : Sur Mira HQ, quelle est la particularité des vents ? Elle sont toutes reliées
+
+Q26 : Combien il y’a de caméras sur Mira HQ ?   Aucune 
+
+Q27 : Sur Fungle, combien y’a t-il d’echelles ?   4
+
+Q28 : Quelle est le nom de la map qui se trouve dans un dirigeable ?  Airship 
+
+Q29 : Quelle est le nom de la map remplie de champignons ?     Fungle 
+
+Q30 : Combien d’imposteurs max peut-il avoir dans une game ?   4
+
+Q31 : Sur Fungle sur quoi un joueur est-il éjécté ?      Un radeau 
+
+Q32 : Combien coûte le cosmétique le plus chère ?     250000 
+
+Q33 : En quelle année est arrivé le mode « Cache-cache » ?      2022
+
+Q34 : A combien de joueurs max peut-on jouer ?   15
+
+Q35 : Combien mesure un perso among us ?     3 pieds 6 pouces /  1m09cm
+
+Q36 : Combien pese un perso among us ?    92 lbs / 41,7 kg
+
+Q37 : Combien il y’a de caméra sur Airship ?  6 
+
+Q38 : Combien il y’a de caméras sur Polus ? 5
+
+Q39 : Quelle est le dernier rôle crewmate arrivé ?    Le détective 
+
+Q40 : Quelle est le dernier rôle imposteur arrivé ?     La vipère
+
+Q41 : Sur Fungle dans quelle salle commençons la partie ?  Aucune 
+
+Q42 : Combien de caméras il y’a sur The Skeld ?    4 
+
+Q43 : Comment s’appelait Among us avant de s’appeler ainsi ?   SpaceMafia 
+
+Q44 : En quelle année est sorti Among us VR ?     2022
+
+Q45 : Quel est la signification de « Among us » ?  Parmis nous 

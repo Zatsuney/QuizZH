@@ -278,7 +278,7 @@
     {
       "id": 35,
       "question": "Dans Pokémon, qui est le champion de type électrique à Volucité ?",
-      "options": ["Sacha", "Pierre", "Ondine", "Pikachu"],
+      "options": ["Sacha", "Pierre", "Ondine", "Artie"],
       "correctAnswer": 3,
       "xpReward": 25,
       "subtheme": "Jeux d'aventure et RPG"
