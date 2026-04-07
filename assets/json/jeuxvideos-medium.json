@@ -149,7 +149,7 @@
     },
     {
       "id": 19,
-      "question": "Dans Overwatch, quel héros possède un grappin et peut tirer des cœurs explosifs ?",
+      "question": "Dans Overwatch, quel héros possède un grappin et peut tirer des mines explosives ?",
       "options": ["Junkrat", "Hanzo", "Widowmaker", "D.Va"],
       "correctAnswer": 0,
       "xpReward": 35,
