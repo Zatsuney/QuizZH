@@ -109,7 +109,7 @@
     },
     {
       "id": 14,
-      "question": "Dans Skyrim, quel lieu forme l'académie de magie ?",
+      "question": "Dans Skyrim, ou se situe l'académie de magie ?",
       "options": ["Winterhold", "Markarth", "Riften", "Whiterun"],
       "correctAnswer": 0,
       "xpReward": 50,
@@ -285,7 +285,7 @@
     },
     {
       "id": 36,
-      "question": "Dans League of Legends, quel champion relie les ennemis pour infliger des dégâts en chaîne ?",
+      "question": "Dans League of Legends, quel champion utilise une sphère comme armes et peut la contrôler pour attaquer ?",
       "options": ["Karma", "Orianna", "Rell", "Jhin"],
       "correctAnswer": 1,
       "xpReward": 50,
@@ -365,7 +365,7 @@
     },
     {
       "id": 46,
-      "question": "Dans Hollow Knight, quel boss final alternatif est appelé Pure Vessel ?",
+      "question": "Dans Hollow Knight, quel est le nom du boss final alternatif connu sous sa forme pure ?",
       "options": ["Hornet", "Grimm", "Hollow Knight", "Pure Vessel"],
       "correctAnswer": 3,
       "xpReward": 50,
@@ -390,7 +390,7 @@
     {
       "id": 49,
       "question": "Dans Fall Guys, quel niveau tourne autour de plateformes et obstacles mouvants ?",
-      "options": ["Hex-A-Gone", "Slime Climb", "Jump Showdown", "Roll Out"],
+      "options": ["See Saw", "Slime Climb", "Jump Showdown", "Roll Out"],
       "correctAnswer": 0,
       "xpReward": 50,
       "subtheme": "Jeux divers avancés"
