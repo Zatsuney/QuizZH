@@ -357,7 +357,7 @@
     },
     {
       "id": 45,
-      "question": "Dans Overwatch, quel héros utilise un canon à particules et peut se transformer en vortex ?",
+      "question": "Dans Overwatch, quel héros utilise un canon à particules et peut créer un vortex ?",
       "options": ["Zarya", "Sigma", "Orisa", "Reinhardt"],
       "correctAnswer": 1,
       "xpReward": 35,

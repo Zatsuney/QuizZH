@@ -197,7 +197,7 @@
     },
     {
       "id": 25,
-      "question": "Dans Overwatch, quel héros absorbe les projectiles ennemis avec un bouclier mobile ?",
+      "question": "Dans Overwatch, quel héros absorbe les projectiles ennemis avec un bouclier afin d'augmenter sa propre puissance ?",
       "options": ["Sigma", "Zarya", "Reinhardt", "Orisa"],
       "correctAnswer": 1,
       "xpReward": 50,
