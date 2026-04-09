@@ -263,240 +263,240 @@ const QUESTIONS_DATA = {
             {
                 id: 1,
                 number: 1,
-                text: "Quelle est la capitale de l'Espagne ?",
+                text: "Quel animé est connu grâce à son personnage principale et son chapeau de paille ?",
                 answers: [
-                    { text: "Barcelone", correct: false },
-                    { text: "Madrid", correct: true },
-                    { text: "Séville", correct: false },
-                    { text: "Valence", correct: false }
+                    { text: "One Piece", correct: true },
+                    { text: "Naruto", correct: false },
+                    { text: "Bleach", correct: false },
+                    { text: "Death Note", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 2,
                 number: 2,
-                text: "Combien de planètes dans le système solaire ?",
+                text: "En formule 1, avec quelle écurie roule Charles Leclerc ?",
                 answers: [
-                    { text: "7", correct: false },
-                    { text: "8", correct: true },
-                    { text: "9", correct: false },
-                    { text: "10", correct: false }
+                    { text: "Mercedes", correct: false },
+                    { text: "Red Bull", correct: false },
+                    { text: "Ferrari", correct: true },
+                    { text: "Audi", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 3,
                 number: 3,
-                text: "Quel est l'organe qui pompe le sang ?",
+                text: "Quel groupe de musique a fait connaître le rappeur GIMS ?",
                 answers: [
-                    { text: "Poumon", correct: false },
-                    { text: "Foie", correct: false },
-                    { text: "Cœur", correct: true },
-                    { text: "Rein", correct: false }
+                    { text: "Les Beatles", correct: false },
+                    { text: "Sexion d'assaut", correct: true },
+                    { text: "IAM", correct: false },
+                    { text: "S-crew", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 4,
                 number: 4,
-                text: "Quelle est la langue officielle de l'Allemagne ?",
+                text: "À combien de questions avez-vous répondu à la manche 1 ?",
                 answers: [
-                    { text: "Anglais", correct: false },
-                    { text: "Allemand", correct: true },
-                    { text: "Néerlandais", correct: false },
-                    { text: "Suédois", correct: false }
+                    { text: "15", correct: false },
+                    { text: "20", correct: true },
+                    { text: "25", correct: false },
+                    { text: "30", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 5,
                 number: 5,
-                text: "Quel animal est surnommé le roi de la jungle ?",
+                text: "En France, à quel classe commence-t-on le collège ?",
                 answers: [
-                    { text: "Tigre", correct: false },
-                    { text: "Lion", correct: true },
-                    { text: "Ours", correct: false },
-                    { text: "Loup", correct: false }
+                    { text: "CM2", correct: false },
+                    { text: "3ème", correct: false },
+                    { text: "Terminale", correct: false },
+                    { text: "6ème", correct: true }
                 ],
                 timeLimit: 30
             },
             {
                 id: 6,
                 number: 6,
-                text: "Combien de minutes dans une heure ?",
+                text: "Qui est le créateur d'Apple ?",
                 answers: [
-                    { text: "30", correct: false },
-                    { text: "45", correct: false },
-                    { text: "60", correct: true },
-                    { text: "90", correct: false }
+                    { text: "Steve Jobs", correct: true },
+                    { text: "Mark Zuckerberg", correct: false },
+                    { text: "Elon Musk", correct: false },
+                    { text: "Jeff Bezos", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 7,
                 number: 7,
-                text: "Quel métal est utilisé pour fabriquer les canettes ?",
+                text: "Dans le dessin animé Titeuf, quel doubleur français prête sa voix à Titeuf ?",
                 answers: [
-                    { text: "Fer", correct: false },
-                    { text: "Aluminium", correct: true },
-                    { text: "Or", correct: false },
-                    { text: "Cuivre", correct: false }
+                    { text: "Jérémie Covillault", correct: false },
+                    { text: "Alexandre Nguyen", correct: false },
+                    { text: "Donald Reignoux", correct: true },
+                    { text: "Dorothée Pousséo", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 8,
                 number: 8,
-                text: "Qui a découvert l'Amérique en 1492 ?",
+                text: "Quel est le pays le plus petit du monde ?",
                 answers: [
-                    { text: "Magellan", correct: false },
-                    { text: "Christophe Colomb", correct: true },
-                    { text: "Vasco de Gama", correct: false },
-                    { text: "Cook", correct: false }
+                    { text: "Saint-Marin", correct: false },
+                    { text: "Vatican", correct: true },
+                    { text: "Bangladesh", correct: false },
+                    { text: "Andorre", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 9,
                 number: 9,
-                text: "Quel est le plus petit pays du monde ?",
+                text: "Quel groupe de musique avait comme chanteur John Lennon ?",
                 answers: [
-                    { text: "Monaco", correct: false },
-                    { text: "Vatican", correct: true },
-                    { text: "Malte", correct: false },
-                    { text: "Luxembourg", correct: false }
+                    { text: "Nirvana", correct: false },
+                    { text: "Queen", correct: false },
+                    { text: "U2", correct: false },
+                    { text: "The Beatles", correct: true }
                 ],
                 timeLimit: 30
             },
             {
                 id: 10,
                 number: 10,
-                text: "Combien de pattes a une araignée ?",
+                text: "De quelle nationalité est le groupe de rock U2 ?",
                 answers: [
-                    { text: "6", correct: false },
-                    { text: "8", correct: true },
-                    { text: "10", correct: false },
-                    { text: "12", correct: false }
+                    { text: "Anglais", correct: false },
+                    { text: "Écossais", correct: false },
+                    { text: "Irlandais", correct: true },
+                    { text: "Gallois", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 11,
                 number: 11,
-                text: "Quelle saison suit l'été ?",
+                text: "Dans le dessin animé Code Lyoko, comment s'appelle l'antagoniste ?",
                 answers: [
-                    { text: "Printemps", correct: false },
-                    { text: "Automne", correct: true },
-                    { text: "Hiver", correct: false },
-                    { text: "Saison sèche", correct: false }
+                    { text: "Xana", correct: true },
+                    { text: "Hopper", correct: false },
+                    { text: "Stern", correct: false },
+                    { text: "Lyoko", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 12,
                 number: 12,
-                text: "Quel est le principal gaz à effet de serre ?",
+                text: "Quel pays a remporté la première coupe du monde de football ?",
                 answers: [
-                    { text: "Oxygène", correct: false },
-                    { text: "CO2", correct: true },
-                    { text: "Azote", correct: false },
-                    { text: "Hydrogène", correct: false }
+                    { text: "Brésil", correct: false },
+                    { text: "Argentine", correct: false },
+                    { text: "Allemagne", correct: false },
+                    { text: "Uruguay", correct: true }
                 ],
                 timeLimit: 30
             },
             {
                 id: 13,
                 number: 13,
-                text: "Quel sport utilise un ballon rond ?",
+                text: "Qui est le premier homme à avoir fait le tour du monde ?",
                 answers: [
-                    { text: "Tennis", correct: false },
-                    { text: "Football", correct: true },
-                    { text: "Rugby", correct: false },
-                    { text: "Golf", correct: false }
+                    { text: "Diderot", correct: false },
+                    { text: "Mona Lisa", correct: false },
+                    { text: "Magellan", correct: true },
+                    { text: "Gutenberg", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 14,
                 number: 14,
-                text: "Combien de lettres dans l'alphabet français ?",
+                text: "Qui a écrit « Candide » ?",
                 answers: [
-                    { text: "24", correct: false },
-                    { text: "25", correct: false },
-                    { text: "26", correct: true },
-                    { text: "27", correct: false }
+                    { text: "Voltaire", correct: true },
+                    { text: "Prévert", correct: false },
+                    { text: "Hugo", correct: false },
+                    { text: "Diderot", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 15,
                 number: 15,
-                text: "Quel est le contraire de \"rapide\" ?",
+                text: "Quel est le nom du texte religieux juif ?",
                 answers: [
-                    { text: "Lent", correct: true },
-                    { text: "Fort", correct: false },
-                    { text: "Grand", correct: false },
-                    { text: "Court", correct: false }
+                    { text: "L'Avesta", correct: false },
+                    { text: "La Torah", correct: true },
+                    { text: "Le Coran", correct: false },
+                    { text: "La Bible", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 16,
                 number: 16,
-                text: "Quel pays est connu pour les pyramides ?",
+                text: "En quelle année Anne Frank est-elle décédée ?",
                 answers: [
-                    { text: "Mexique", correct: false },
-                    { text: "Égypte", correct: true },
-                    { text: "Inde", correct: false },
-                    { text: "Chine", correct: false }
+                    { text: "1914", correct: false },
+                    { text: "1918", correct: false },
+                    { text: "1939", correct: false },
+                    { text: "1945", correct: true }
                 ],
                 timeLimit: 30
             },
             {
                 id: 17,
                 number: 17,
-                text: "Quelle est la couleur du soleil dans un dessin d'enfant ?",
+                text: "Quelle est la hauteur du Mont Blanc ?",
                 answers: [
-                    { text: "Bleu", correct: false },
-                    { text: "Jaune", correct: true },
-                    { text: "Rouge", correct: false },
-                    { text: "Vert", correct: false }
+                    { text: "4806m", correct: true },
+                    { text: "3659m", correct: false },
+                    { text: "4009m", correct: false },
+                    { text: "5012m", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 18,
                 number: 18,
-                text: "Quel fruit est jaune et courbé ?",
+                text: "Quelle est la capitale de la Bolivie ?",
                 answers: [
-                    { text: "Pomme", correct: false },
-                    { text: "Banane", correct: true },
-                    { text: "Poire", correct: false },
-                    { text: "Orange", correct: false }
+                    { text: "Bogota", correct: false },
+                    { text: "La Paz", correct: true },
+                    { text: "Lima", correct: false },
+                    { text: "Montevideo", correct: false }
                 ],
                 timeLimit: 30
             },
             {
                 id: 19,
                 number: 19,
-                text: "Combien de doigts sur une main ?",
+                text: "Quel rôle au loup-garou de Thiercelieux permet de changer de camp si son mentor est éliminé ?",
                 answers: [
-                    { text: "4", correct: false },
-                    { text: "5", correct: true },
-                    { text: "6", correct: false },
-                    { text: "7", correct: false }
+                    { text: "Le chien-loup", correct: false },
+                    { text: "Le joueur de flûte", correct: false },
+                    { text: "L'ange", correct: false },
+                    { text: "L'enfant sauvage", correct: true }
                 ],
                 timeLimit: 30
             },
             {
                 id: 20,
                 number: 20,
-                text: "Quelle est la boisson faite avec des grains de café ?",
+                text: "Comment s'appelle le calendrier maya avec 365 jours ?",
                 answers: [
-                    { text: "Thé", correct: false },
-                    { text: "Chocolat", correct: false },
-                    { text: "Café", correct: true },
-                    { text: "Lait", correct: false }
+                    { text: "Hijri", correct: false },
+                    { text: "Hégirien", correct: false },
+                    { text: "Haab'", correct: true },
+                    { text: "Le calendrier lunaire", correct: false }
                 ],
                 timeLimit: 30
             }
