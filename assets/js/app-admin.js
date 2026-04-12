@@ -32,7 +32,7 @@ import {
   eliminateLastPlayers,
   keepTopPlayers
 } from './firebase-db.js';
-import { getQuestionsForRound, getQuestion, getTotalQuestionsInRound } from './questions.js';
+import { getQuestionsForRound, getQuestion, getTotalQuestionsInRound, generateQuestionOrder } from './questions.js';
 import { signOut } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
 
 // Global state
@@ -130,6 +130,12 @@ async function toggleRound(roundNumber) {
     adminCurrentRound = roundNumber;
     adminCurrentQuestion = 1;
     await setCurrentQuestion(roundNumber, 1);
+
+    // Générer et sauvegarder l'ordre aléatoire des questions CENTRALISÉ
+    // Ceci assure que tous les joueurs auront le même ordre de questions
+    const questionOrder = generateQuestionOrder(roundNumber);
+    await setQuestionsOrder(roundNumber, questionOrder);
+    console.log('🎲 Questions order generated and saved:', questionOrder);
 
     // Démarrer le listener pour les réponses
     await startRoundAnswersListener(roundNumber);
