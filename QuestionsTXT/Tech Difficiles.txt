@@ -1,0 +1,308 @@
+🖥️ Architecture & Hardware avancé
+Quelle architecture CPU est utilisée par la plupart des smartphones ?
+A. x86
+B. ARM
+C. RISC-V
+D. MIPS
+Réponse : B
+Que signifie “overclocking” ?
+A. Réduire la fréquence
+B. Augmenter la fréquence du CPU
+C. Désactiver le CPU
+D. Nettoyer le système
+Réponse : B
+Le cache L1 est :
+A. Plus lent que la RAM
+B. Plus rapide que le cache L2
+C. Stockage disque
+D. Mémoire externe
+Réponse : B
+Quelle est la fonction du chipset sur une carte mère ?
+A. Alimenter
+B. Coordonner les composants
+C. Refroidir
+D. Afficher
+Réponse : B
+PCIe sert à :
+A. Stocker
+B. Connecter des composants rapides
+C. Imprimer
+D. Scanner
+Réponse : B
+La latence CAS concerne :
+A. CPU
+B. RAM
+C. GPU
+D. SSD
+Réponse : B
+Une architecture RISC se caractérise par :
+A. Instructions complexes
+B. Instructions simples
+C. Aucun registre
+D. Faible performance
+Réponse : B
+🌐 Réseaux avancés
+Le modèle OSI comporte combien de couches ?
+A. 5
+B. 6
+C. 7
+D. 8
+Réponse : C
+TCP garantit :
+A. Rapidité uniquement
+B. Fiabilité et ordre
+C. Aucun contrôle
+D. Diffusion
+Réponse : B
+UDP est utilisé pour :
+A. Emails
+B. Streaming/jeux
+C. HTTP sécurisé
+D. FTP
+Réponse : B
+Une adresse IPv6 contient :
+A. 32 bits
+B. 64 bits
+C. 128 bits
+D. 256 bits
+Réponse : C
+NAT permet de :
+A. Accélérer CPU
+B. Traduire des adresses IP
+C. Stocker
+D. Crypter
+Réponse : B
+Le port 443 correspond à :
+A. HTTP
+B. HTTPS
+C. FTP
+D. SSH
+Réponse : B
+DHCP sert à :
+A. Attribuer automatiquement des IP
+B. Crypter
+C. Stocker
+D. Scanner
+Réponse : A
+💻 Systèmes & OS
+Un kernel est :
+A. Interface graphique
+B. Cœur du système
+C. Antivirus
+D. Application
+Réponse : B
+Linux est :
+A. Un logiciel
+B. Un kernel
+C. Un antivirus
+D. Un cloud
+Réponse : B
+Un processus “zombie” est :
+A. Actif
+B. Terminé mais présent
+C. Virus
+D. Prioritaire
+Réponse : B
+Swap memory sert à :
+A. Accélérer CPU
+B. Étendre la RAM
+C. Stocker fichiers
+D. Crypter
+Réponse : B
+Un thread est :
+A. Processus complet
+B. Sous-processus léger
+C. Fichier
+D. Virus
+Réponse : B
+Le scheduler gère :
+A. Mémoire
+B. CPU
+C. Disque
+D. Réseau
+Réponse : B
+🔐 Cybersécurité avancée
+Une attaque MITM signifie :
+A. Virus
+B. Man In The Middle
+C. Malware interne
+D. Machine isolée
+Réponse : B
+Hashing sert à :
+A. Crypter réversible
+B. Créer une empreinte
+C. Stocker
+D. Scanner
+Réponse : B
+AES est :
+A. Hash
+B. Chiffrement symétrique
+C. Protocole réseau
+D. OS
+Réponse : B
+RSA est :
+A. Symétrique
+B. Asymétrique
+C. Hash
+D. Virus
+Réponse : B
+Une faille zero-day est :
+A. Connue
+B. Inconnue
+C. Corrigée
+D. Faible
+Réponse : B
+XSS est une attaque :
+A. Réseau
+B. Web
+C. Hardware
+D. BIOS
+Réponse : B
+SQL Injection cible :
+A. CPU
+B. Base de données
+C. RAM
+D. GPU
+Réponse : B
+🧠 Programmation avancée
+La complexité O(n) signifie :
+A. Constante
+B. Linéaire
+C. Quadratique
+D. Exponentielle
+Réponse : B
+O(log n) est typique de :
+A. Recherche binaire
+B. Boucle simple
+C. Tri simple
+D. Addition
+Réponse : A
+Une pile (stack) est :
+A. FIFO
+B. LIFO
+C. Tableau
+D. Graphe
+Réponse : B
+Une file (queue) est :
+A. LIFO
+B. FIFO
+C. Stack
+D. Arbre
+Réponse : B
+La récursivité est :
+A. Une boucle
+B. Une fonction qui s’appelle elle-même
+C. Un bug
+D. Un type
+Réponse : B
+Un pointeur sert à :
+A. Stocker texte
+B. Référencer une adresse mémoire
+C. Compiler
+D. Scanner
+Réponse : B
+Le typage fort signifie :
+A. Flexible
+B. Strict
+C. Lent
+D. Inutile
+Réponse : B
+☁️ Cloud & DevOps
+Docker permet de :
+A. Programmer
+B. Conteneuriser des applications
+C. Stocker
+D. Scanner
+Réponse : B
+Kubernetes sert à :
+A. Programmer
+B. Orchestrer des conteneurs
+C. Crypter
+D. Scanner
+Réponse : B
+CI/CD signifie :
+A. Code simple
+B. Intégration et déploiement continu
+C. Cloud interne
+D. CPU direct
+Réponse : B
+Une VM est :
+A. Physique
+B. Virtuelle
+C. Réseau
+D. Cache
+Réponse : B
+SaaS signifie :
+A. Software as a Service
+B. System as a Storage
+C. Secure as a Service
+D. Server as a System
+Réponse : A
+📊 Données & IA
+Big Data se caractérise par :
+A. Petite taille
+B. Volume, vitesse, variété
+C. Simplicité
+D. Local
+Réponse : B
+Machine Learning est :
+A. Programmation fixe
+B. Apprentissage automatique
+C. Stockage
+D. Réseau
+Réponse : B
+Un dataset est :
+A. Programme
+B. Ensemble de données
+C. CPU
+D. Virus
+Réponse : B
+Une régression sert à :
+A. Classer
+B. Prédire une valeur
+C. Supprimer
+D. Crypter
+Réponse : B
+⚙️ Concepts avancés
+Virtualisation type 1 =
+A. Avec OS
+B. Sans OS (bare metal)
+C. Lent
+D. Inutile
+Réponse : B
+Un hyperviseur sert à :
+A. Programmer
+B. Gérer des VM
+C. Crypter
+D. Scanner
+Réponse : B
+REST API utilise principalement :
+A. TCP brut
+B. HTTP
+C. FTP
+D. SMTP
+Réponse : B
+JSON est préféré car :
+A. Lourd
+B. Léger et lisible
+C. Lent
+D. Binaire
+Réponse : B
+Une architecture microservices :
+A. Monolithique
+B. Découpée en services
+C. Locale
+D. Unique
+Réponse : B
+Un load balancer sert à :
+A. Stocker
+B. Répartir le trafic
+C. Crypter
+D. Compiler
+Réponse : B
+Edge computing signifie :
+A. Centralisé
+B. Traitement proche de l’utilisateur
+C. Lent
+D. Stockage
+Réponse : B

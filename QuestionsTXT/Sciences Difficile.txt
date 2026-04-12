@@ -1,0 +1,305 @@
+🧬 Biologie
+Quelle molécule porte l’information génétique ?
+A. ARN
+B. ADN
+C. Protéine
+D. Lipide
+→ Réponse : B (l’ADN)
+Quel organite produit l’énergie dans la cellule ?
+A. Noyau
+B. Ribosome
+C. Mitochondrie
+D. Vacuole
+→ Réponse : C (la mitochondrie)
+Quel est le rôle principal des enzymes ?
+A. Stocker l’énergie
+B. Accélérer les réactions chimiques
+C. Transporter l’oxygène
+D. Produire des hormones
+→ Réponse : B (accélérer les réactions chimiques)
+Quel système régule les hormones ?
+A. Digestif
+B. Nerveux
+C. Endocrinien
+D. Respiratoire
+→ Réponse : C (le système endocrinien)
+Quelle cellule est responsable de l’immunité ?
+A. Globule rouge
+B. Neurone
+C. Globule blanc
+D. Plaquette
+→ Réponse : C (le globule blanc)
+Quel est le code génétique universel basé sur ?
+A. 2 bases
+B. 3 bases
+C. 4 bases
+D. 5 bases
+→ Réponse : B (trois bases)
+Quelle partie du cerveau gère l’équilibre ?
+A. Cortex
+B. Cervelet
+C. Tronc cérébral
+D. Hypothalamus
+→ Réponse : B (le cervelet)
+Quel type de reproduction ne nécessite pas de partenaire ?
+A. Sexuée
+B. Asexuée
+C. Croisée
+D. Cellulaire
+→ Réponse : B (la reproduction asexuée)
+Quelle molécule transporte l’oxygène dans le sang ?
+A. Insuline
+B. Hémoglobine
+C. Glucose
+D. ADN
+→ Réponse : B (l’hémoglobine)
+Quel est le rôle principal du pancréas ?
+A. Respirer
+B. Produire de l’insuline
+C. Filtrer le sang
+D. Digérer les protéines uniquement
+→ Réponse : B (produire de l’insuline)
+⚗️ Chimie
+Quel est le numéro atomique du carbone ?
+A. 4
+B. 6
+C. 8
+D. 12
+→ Réponse : B (six)
+Quelle liaison implique un partage d’électrons ?
+A. Ionique
+B. Covalente
+C. Métallique
+D. Faible
+→ Réponse : B (covalente)
+Quel est le pH d’une base forte ?
+A. 2
+B. 5
+C. 7
+D. 12
+→ Réponse : D (douze)
+Quelle particule a une charge négative ?
+A. Proton
+B. Neutron
+C. Électron
+D. Noyau
+→ Réponse : C (l’électron)
+Quelle loi relie pression et volume d’un gaz ?
+A. Loi de Newton
+B. Loi de Boyle
+C. Loi d’Ohm
+D. Loi de Hooke
+→ Réponse : B (la loi de Boyle)
+Quel est le symbole de l’or ?
+A. Or
+B. Au
+C. Ag
+D. O
+→ Réponse : B (Au)
+Une réaction exothermique libère :
+A. Froid
+B. Lumière seulement
+C. Chaleur
+D. Gaz uniquement
+→ Réponse : C (de la chaleur)
+Quel est l’élément le plus abondant dans l’univers ?
+A. Oxygène
+B. Carbone
+C. Hydrogène
+D. Azote
+→ Réponse : C (l’hydrogène)
+Quelle est la masse d’un neutron (approx.) ?
+A. Nulle
+B. Égale au proton
+C. Plus petite que l’électron
+D. Très faible
+→ Réponse : B (égale au proton)
+Quel type de réaction implique un transfert d’électrons ?
+A. Acide-base
+B. Redox
+C. Fusion
+D. Dissolution
+→ Réponse : B (une réaction d’oxydoréduction)
+⚡ Physique
+Quelle est l’unité de l’énergie ?
+A. Watt
+B. Joule
+C. Newton
+D. Volt
+→ Réponse : B (le joule)
+Quelle loi relie tension, résistance et intensité ?
+A. Newton
+B. Boyle
+C. Ohm
+D. Pascal
+→ Réponse : C (la loi d’Ohm)
+Quelle est la formule de la vitesse ?
+A. d × t
+B. d / t
+C. t / d
+D. d + t
+→ Réponse : B (distance divisée par le temps)
+Quel phénomène explique la déviation de la lumière ?
+A. Réflexion
+B. Réfraction
+C. Diffusion
+D. Absorption
+→ Réponse : B (la réfraction)
+Quelle particule de la lumière est appelée photon ?
+A. Onde
+B. Particule
+C. Photon
+D. Électron
+→ Réponse : C (le photon)
+Quelle est la vitesse du son dans le vide ?
+A. 340 m/s
+B. 0 m/s
+C. 100 m/s
+D. 1 000 m/s
+→ Réponse : B (zéro mètre par seconde)
+Quelle force agit entre deux masses ?
+A. Électrique
+B. Gravitationnelle
+C. Magnétique
+D. Nucléaire
+→ Réponse : B (la force gravitationnelle)
+Quelle unité mesure la puissance ?
+A. Joule
+B. Watt
+C. Volt
+D. Ampère
+→ Réponse : B (le watt)
+Quel type d’énergie est stockée dans un ressort ?
+A. Cinétique
+B. Thermique
+C. Potentielle
+D. Électrique
+→ Réponse : C (l’énergie potentielle)
+Quelle loi décrit l’inertie ?
+A. 1ère loi de Newton
+B. 2ème loi
+C. 3ème loi
+D. Loi d’Ohm
+→ Réponse : A (la première loi de Newton)
+🌍 Sciences de la Terre
+Quelle est la couche interne la plus chaude ?
+A. Croûte
+B. Manteau
+C. Noyau
+D. Atmosphère
+→ Réponse : C (le noyau)
+Quelle plaque tectonique concerne l’Europe ?
+A. Pacifique
+B. Africaine
+C. Eurasienne
+D. Australienne
+→ Réponse : C (la plaque eurasienne)
+Quelle roche est issue du magma ?
+A. Calcaire
+B. Granite
+C. Sable
+D. Argile
+→ Réponse : B (le granite)
+Quel gaz contribue le plus à l’effet de serre ?
+A. Oxygène
+B. Azote
+C. CO₂
+D. Hélium
+→ Réponse : C (le dioxyde de carbone)
+Quelle échelle mesure la puissance des séismes ?
+A. Celsius
+B. Beaufort
+C. Richter
+D. Pascal
+→ Réponse : C (l’échelle de Richter)
+Quelle est la principale source d’énergie interne de la Terre ?
+A. Soleil
+B. Vent
+C. Radioactivité
+D. Eau
+→ Réponse : C (la radioactivité)
+Quel phénomène crée les montagnes ?
+A. Érosion
+B. Collision des plaques
+C. Vent
+D. Pluie
+→ Réponse : B (la collision des plaques)
+Quel est le gaz principal des volcans ?
+A. Oxygène
+B. CO₂
+C. Azote
+D. Hydrogène
+→ Réponse : B (le dioxyde de carbone)
+Quelle est la pression atmosphérique moyenne ?
+A. 1 Pa
+B. 100 Pa
+C. 1013 hPa
+D. 10 000 hPa
+→ Réponse : C (mille treize hectopascals)
+Quelle couche contient la météo ?
+A. Stratosphère
+B. Troposphère
+C. Mésosphère
+D. Thermosphère
+→ Réponse : B (la troposphère)
+🌌 Astronomie
+Quelle force maintient les planètes en orbite ?
+A. Magnétisme
+B. Gravité
+C. Électricité
+D. Pression
+→ Réponse : B (la gravité)
+Quelle planète a la journée la plus longue ?
+A. Mars
+B. Terre
+C. Vénus
+D. Jupiter
+→ Réponse : C (Vénus)
+Qu’est-ce qu’un trou noir ?
+A. Une étoile froide
+B. Un objet très dense
+C. Une planète sombre
+D. Une comète
+→ Réponse : B (un objet très dense)
+Quelle est l’unité de distance en astronomie ?
+A. Mètre
+B. Kilomètre
+C. Année-lumière
+D. Newton
+→ Réponse : C (l’année-lumière)
+Quelle galaxie est la plus proche de la nôtre ?
+A. Orion
+B. Andromède
+C. Sirius
+D. Pluton
+→ Réponse : B (Andromède)
+Quelle étoile est la plus proche de la Terre ?
+A. Sirius
+B. Alpha Centauri
+C. Le Soleil
+D. Polaris
+→ Réponse : C (le Soleil)
+Qu’est-ce qu’une supernova ?
+A. Une planète
+B. Une explosion d’étoile
+C. Une comète
+D. Une galaxie
+→ Réponse : B (une explosion d’étoile)
+Quelle planète tourne le plus vite ?
+A. Terre
+B. Mars
+C. Jupiter
+D. Vénus
+→ Réponse : C (Jupiter)
+Qu’est-ce que la matière noire ?
+A. Visible
+B. Invisible
+C. Liquide
+D. Chaude
+→ Réponse : B (invisible)
+Quelle est la forme de l’univers (selon les connaissances actuelles) ?
+A. Plate
+B. Fermée
+C. En expansion
+D. Fixe
+→ Réponse : C (en expansion)

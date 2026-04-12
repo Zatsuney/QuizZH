@@ -1,0 +1,15 @@
+# Configuration GitHub Pages
+theme: null
+markdown: kramdown
+include: ['.gitignore']
+
+# Titre du site
+title: Quiz ZH
+description: Plateforme de quiz interactive sans mot de passe
+
+# URL du site (à modifier avec votre URL réelle)
+# url: "https://your-username.github.io/sitequizzh"
+# baseurl: "/sitequizzh"
+
+# GitHub Pages
+safe: true

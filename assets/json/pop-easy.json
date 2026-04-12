@@ -1,0 +1,407 @@
+{
+  "theme": "pop",
+  "difficulty": "easy",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel super-héros est connu comme le Chevalier Noir ?",
+      "options": ["Iron Man", "Batman", "Spider-Man", "Superman"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 2,
+      "question": "Dans quel film trouve-t-on Jack Sparrow ?",
+      "options": ["Titanic", "Pirates des Caraïbes", "Avatar", "Gladiator"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 3,
+      "question": "Quelle plateforme diffuse Stranger Things ?",
+      "options": ["Netflix", "Disney+", "HBO", "Amazon Prime"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 4,
+      "question": "Qui chante 'Thriller' ?",
+      "options": ["Prince", "Michael Jackson", "Madonna", "Elvis Presley"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 5,
+      "question": "Quel jeu vidéo met en scène Mario ?",
+      "options": ["Zelda", "Sonic", "Mario Bros", "Halo"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 6,
+      "question": "Qui joue Iron Man dans l'univers Marvel ?",
+      "options": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 7,
+      "question": "Quel est le super-pouvoir de Superman ?",
+      "options": ["L'invisibilité", "La force surhumaine", "La super force et le vol", "La télépathie"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 8,
+      "question": "Quel acteur joue Spider-Man dans les films récents ?",
+      "options": ["Tobey Maguire", "Andrew Garfield", "Tom Holland", "Oscar Isaac"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 9,
+      "question": "Dans Titanic, quel est le nom du navire qui coule ?",
+      "options": ["Lusitania", "Britannic", "Titanic", "Olympic"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 10,
+      "question": "Quel est le film Avatar réalisé par ?",
+      "options": ["Christopher Nolan", "James Cameron", "Steven Spielberg", "Martin Scorsese"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 11,
+      "question": "Qui joue Elsa dans La Reine des Neiges (voix française) ?",
+      "options": ["Martine Combemale", "Audrey Lamy", "Florence Loiret-Caille", "Leïla Bekhti"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Animations"
+    },
+    {
+      "id": 12,
+      "question": "Quel studio a créé Toy Story ?",
+      "options": ["Disney", "Pixar", "DreamWorks", "Illumination"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Animations"
+    },
+    {
+      "id": 13,
+      "question": "Quelle série suit les enquêtes de Sherlock Holmes ?",
+      "options": ["Castle", "Sherlock", "Elementary", "Psych"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 14,
+      "question": "Dans Game of Thrones, quel est le prénom de Daenerys ?",
+      "options": ["Khaleesi", "Daenerys", "Dragon", "Targaryen"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 15,
+      "question": "Qui a chanté 'Let It Go' dans La Reine des Neiges ?",
+      "options": ["Demi Lovato", "Kristen Bell", "Idina Menzel", "Taylor Swift"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 16,
+      "question": "Quel groupe chante 'Bohemian Rhapsody' ?",
+      "options": ["The Beatles", "Queen", "The Rolling Stones", "The Who"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 17,
+      "question": "Qui a chanté 'Shape of You' ?",
+      "options": ["Ed Sheeran", "Shawn Mendes", "Bruno Mars", "The Weeknd"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 18,
+      "question": "Dans quel jeu vidéo jeux-tu un plombier ?",
+      "options": ["Donkey Kong", "Mario Bros", "Sonic", "Pac-Man"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 19,
+      "question": "Quel jeu vidéo est célèbre pour 'It's dangerous to go alone' ?",
+      "options": ["Metroid", "The Legend of Zelda", "Castlevania", "Final Fantasy"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 20,
+      "question": "Quel est le premier Pokémon du Pokédex ?",
+      "options": ["Pikachu", "Charmander", "Bulbizarre", "Carapuce"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 21,
+      "question": "Quel acteur joue Batman dans 'Le Chevalier Noir' (2008) ?",
+      "options": ["Val Kilmer", "George Clooney", "Christian Bale", "Ben Affleck"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 22,
+      "question": "Quel personnage Batman a un pistolet grappin ?",
+      "options": ["Le Joker", "Catwoman", "La Chauve-souris", "Ce n'est pas dans Batman"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 23,
+      "question": "Quel est le vrai nom de Wonder Woman ?",
+      "options": ["Diana Prince", "Lois Lane", "Martha Kent", "Iris West"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 24,
+      "question": "Dans quel film apparaît Katniss Everdeen ?",
+      "options": ["Divergent", "Hunger Games", "Labyrinthe", "Maze Runner"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 25,
+      "question": "Quel est le nom de la princesse dans La Reine des Neiges ?",
+      "options": ["Anna", "Elsa", "Olaf", "Crystal"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Animations"
+    },
+    {
+      "id": 26,
+      "question": "Quel est le nom du lion dans Le Roi Lion ?",
+      "options": ["Scar", "Mufasa", "Simba", "Zazu"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Animations"
+    },
+    {
+      "id": 27,
+      "question": "Combien de films Harry Potter existent-ils ?",
+      "options": ["6", "7", "8", "9"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 28,
+      "question": "Quel est le super-pouvoir de Black Widow ?",
+      "options": ["La super force", "Les arts martiaux", "La télépathie", "L'invisibilité"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 29,
+      "question": "Quel artiste a peint la Joconde ?",
+      "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Culture"
+    },
+    {
+      "id": 30,
+      "question": "Quel est le plus grand parc Disney du monde ?",
+      "options": ["Disneyland Paris", "Disney World", "Tokyo DisneySea", "Disneyland California"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Pop Culture"
+    },
+    {
+      "id": 31,
+      "question": "Quel personnage est le meilleur ami de Mickey Mouse ?",
+      "options": ["Donald Duck", "Minnie Mouse", "Goofy", "Pluto"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Animations"
+    },
+    {
+      "id": 32,
+      "question": "Qui a réalisé Forrest Gump ?",
+      "options": ["Steven Spielberg", "Robert Zemeckis", "James Cameron", "Martin Scorsese"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 33,
+      "question": "Quel est le nom du personnage principal dans Forrest Gump ?",
+      "options": ["Tom Hanks", "Forrest Gump", "Bubba", "Jenny"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 34,
+      "question": "Quel film culte met en scène les frères Wachowski ?",
+      "options": ["The Matrix", "V for Vendetta", "Inception", "Interstellar"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 35,
+      "question": "Quel est le film le plus regardé au cinéma de tous les temps ?",
+      "options": ["Avatar", "Titanic", "Avengers Endgame", "Avatar 2"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 36,
+      "question": "Quel chanteur est connu comme le 'Roi du Pop' ?",
+      "options": ["Elvis Presley", "Michael Jackson", "Prince", "David Bowie"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 37,
+      "question": "Quel groupe est les Beatles composés de ?",
+      "options": ["3 membres", "4 membres", "5 membres", "6 membres"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 38,
+      "question": "Qui a chanté 'Imagine' ?",
+      "options": ["Paul McCartney", "John Lennon", "George Harrison", "Ringo Starr"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 39,
+      "question": "Quel jeu vidéo met en scène Lara Croft ?",
+      "options": ["Uncharted", "Tomb Raider", "Resident Evil", "Metal Gear"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 40,
+      "question": "Quel est le jeu vidéo le plus vendu au monde ?",
+      "options": ["Tetris", "Minecraft", "Wii Sports", "Super Mario"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux Vidéo"
+    },
+    {
+      "id": 41,
+      "question": "Quel personnage apparaît dans la série Friends ?",
+      "options": ["Chandler", "Monica", "Joey", "Tous les trois"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 42,
+      "question": "Quel est le nombre de saisons de Friends ?",
+      "options": ["8", "9", "10", "11"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 43,
+      "question": "Quel est le vrai nom de l'acteur qui joue The Terminator ?",
+      "options": ["Arnold Schwarzenegger", "Jean-Claude Van Damme", "Sylvester Stallone", "Steven Seagal"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 44,
+      "question": "Quel acteur joue dans Rambo ?",
+      "options": ["Arnold Schwarzenegger", "Jean-Claude Van Damme", "Sylvester Stallone", "Steven Seagal"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 45,
+      "question": "Quel est le film de James Bond 007 le plus récent ?",
+      "options": ["Casino Royale", "Skyfall", "Spectre", "No Time to Die"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 46,
+      "question": "Quel acteur a joué James Bond dans les années 1990 ?",
+      "options": ["Pierce Brosnan", "Sean Connery", "Daniel Craig", "Roger Moore"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 47,
+      "question": "Quel est le superhéros le plus ancien ?",
+      "options": ["Batman", "Superman", "Wonder Woman", "Flash"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 48,
+      "question": "Quel est le vrai nom de Flash ?",
+      "options": ["Barry Allen", "Wally West", "Jay Garrick", "Bart Allen"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 49,
+      "question": "Quel groupe de musique a chanté 'Imagine Dragons' ?",
+      "options": ["OneRepublic", "Imagine Dragons", "X Ambassadors", "Bastille"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Musique"
+    },
+    {
+      "id": 50,
+      "question": "Quel est le mème le plus célèbre d'Internet ?",
+      "options": ["Doge", "Loss", "Rickroll", "Troll Face"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Pop Culture"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Choisir votre pseudo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <h1>Quiz<span class="highlight">ZH</span></h1>
+            <p class="subtitle">Choisissez votre pseudo pour le quiz</p>
+            
+            <form id="displayNameForm" class="login-form">
+                <div class="form-group">
+                    <label for="displayName">Pseudo (surnom pour le jeu)</label>
+                    <input 
+                        type="text" 
+                        id="displayName" 
+                        placeholder="Entrez votre pseudo" 
+                        required
+                        autofocus
+                        minlength="2"
+                        maxlength="20"
+                    >
+                    <small>2-20 caractères</small>
+                </div>
+
+                <div class="display-name-preview">
+                    <p>Vous serez affiché comme: <span id="previewName">Mon Pseudo</span></p>
+                </div>
+
+                <button type="submit" class="btn-login">Valider et continuer</button>
+            </form>
+
+            <div class="back-to-login">
+                <a href="index.html">← Retour à la connexion</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/firebase-config.js"></script>
+    <script type="module" src="assets/js/choose-display-name.js"></script>
+</body>
+</html>

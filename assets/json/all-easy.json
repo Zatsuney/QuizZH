@@ -1,0 +1,407 @@
+{
+  "theme": "all",
+  "difficulty": "easy",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel appareil permet de saisir du texte ?",
+      "options": ["Écran", "Clavier", "Souris", "Imprimante"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 2,
+      "question": "À quoi sert une souris d'ordinateur ?",
+      "options": ["Imprimer", "Cliquer et déplacer", "Stocker des données", "Écouter de la musique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 3,
+      "question": "Quel composant est le \"cerveau\" de l'ordinateur ?",
+      "options": ["RAM", "CPU", "Clavier", "Carte graphique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 4,
+      "question": "À quoi sert un disque dur ?",
+      "options": ["Afficher", "Calculer", "Stocker des données", "Imprimer"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 5,
+      "question": "Quel appareil permet d'imprimer des documents ?",
+      "options": ["Scanner", "Écran", "Imprimante", "Routeur"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 6,
+      "question": "Qu'est-ce qu'un navigateur web ?",
+      "options": ["Un antivirus", "Un logiciel pour aller sur Internet", "Un jeu", "Un système d'exploitation"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Tech"
+    },
+    {
+      "id": 7,
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Paris", "Londres", "Rome", "Berlin"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 8,
+      "question": "Quel est le plus grand océan ?",
+      "options": ["Atlantique", "Indien", "Pacifique", "Arctique"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 9,
+      "question": "Dans quel continent se trouve l'Égypte ?",
+      "options": ["Europe", "Afrique", "Asie", "Amérique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 10,
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "options": ["Madrid", "Barcelone", "Lisbonne", "Rome"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 11,
+      "question": "Quel pays a la forme d'une botte ?",
+      "options": ["France", "Italie", "Grèce", "Portugal"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 12,
+      "question": "Quel est le plus grand continent ?",
+      "options": ["Europe", "Afrique", "Asie", "Amérique"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 13,
+      "question": "Quelle est la capitale de l'Allemagne ?",
+      "options": ["Munich", "Berlin", "Hambourg", "Cologne"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Géographie"
+    },
+    {
+      "id": 14,
+      "question": "Quel super-héros est connu comme le Chevalier Noir ?",
+      "options": ["Iron Man", "Batman", "Spider-Man", "Superman"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 15,
+      "question": "Dans quel film trouve-t-on Jack Sparrow ?",
+      "options": ["Titanic", "Pirates des Caraïbes", "Avatar", "Gladiator"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 16,
+      "question": "Quelle plateforme diffuse Stranger Things ?",
+      "options": ["Netflix", "Disney+", "HBO", "Amazon Prime"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Séries TV"
+    },
+    {
+      "id": 17,
+      "question": "Quel est le super-pouvoir de Superman ?",
+      "options": ["L'invisibilité", "La force surhumaine", "La super force et le vol", "La télépathie"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Super-héros"
+    },
+    {
+      "id": 18,
+      "question": "Quel est le film Avatar réalisé par ?",
+      "options": ["Christopher Nolan", "James Cameron", "Steven Spielberg", "Martin Scorsese"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Cinéma"
+    },
+    {
+      "id": 19,
+      "question": "Où se situe l'Égypte antique ?",
+      "options": ["Europe", "Afrique", "Asie", "Amérique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 20,
+      "question": "Qui était le chef de l'Égypte antique ?",
+      "options": ["Empereur", "Roi", "Pharaon", "Président"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 21,
+      "question": "Quelle civilisation a construit les pyramides ?",
+      "options": ["Grecs", "Romains", "Égyptiens", "Mayas"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 22,
+      "question": "Où se trouvait la ville de Rome ?",
+      "options": ["France", "Italie", "Espagne", "Grèce"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 23,
+      "question": "Qui était Jules César ?",
+      "options": ["Un dieu", "Un empereur romain", "Un roi grec", "Un philosophe"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 24,
+      "question": "Qui dirige un royaume au Moyen Âge ?",
+      "options": ["Président", "Roi", "Empereur", "Ministre"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 25,
+      "question": "Qui a peint la Joconde ?",
+      "options": ["Picasso", "Van Gogh", "Léonard de Vinci", "Monet"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 26,
+      "question": "Quel peintre a coupé son oreille ?",
+      "options": ["Monet", "Van Gogh", "Picasso", "Renoir"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 27,
+      "question": "Quel tableau montre des nénuphars flottants ?",
+      "options": ["La Nuit étoilée", "Les Nymphéas", "Guernica", "La Cène"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 28,
+      "question": "Qui a peint Guernica ?",
+      "options": ["Picasso", "Dali", "Monet", "Matisse"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 29,
+      "question": "Quel style utilise beaucoup de formes géométriques ?",
+      "options": ["Cubisme", "Impressionnisme", "Baroque", "Réalisme"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 30,
+      "question": "Qui a peint La Nuit étoilée ?",
+      "options": ["Van Gogh", "Monet", "Renoir", "Cézanne"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 31,
+      "question": "Qui est surnommé le King of Pop ?",
+      "options": ["Elvis Presley", "Michael Jackson", "Prince", "Justin Timberlake"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Chanteurs"
+    },
+    {
+      "id": 32,
+      "question": "Quel groupe britannique a chanté Hey Jude ?",
+      "options": ["Queen", "The Beatles", "Rolling Stones", "Coldplay"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Chanteurs"
+    },
+    {
+      "id": 33,
+      "question": "Qui chante Hello sorti en 2015 ?",
+      "options": ["Adele", "Beyoncé", "Rihanna", "Taylor Swift"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Chanteurs"
+    },
+    {
+      "id": 34,
+      "question": "Quel groupe est connu pour Bohemian Rhapsody ?",
+      "options": ["Queen", "The Beatles", "ABBA", "U2"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Chanteurs"
+    },
+    {
+      "id": 35,
+      "question": "Qui chante Shape of You ?",
+      "options": ["Ed Sheeran", "Shawn Mendes", "Justin Bieber", "Bruno Mars"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Chanteurs"
+    },
+    {
+      "id": 36,
+      "question": "Quel instrument a des touches noires et blanches ?",
+      "options": ["Piano", "Guitare", "Batterie", "Violon"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Instruments"
+    },
+    {
+      "id": 37,
+      "question": "Quel personnage est connu pour sa couleur bleue et sa grande vitesse ?",
+      "options": ["Mario", "Sonic", "Link", "Donkey Kong"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 38,
+      "question": "Quel est le plombier célèbre créé par Nintendo ?",
+      "options": ["Luigi", "Wario", "Mario", "Toad"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 39,
+      "question": "Qui est l'ennemi principal de Mario dans la plupart des jeux ?",
+      "options": ["Bowser", "Wario", "Donkey Kong", "Ganondorf"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 40,
+      "question": "Dans quel jeu contrôle-t-on un héros nommé Link ?",
+      "options": ["Metroid", "The Legend of Zelda", "Pokémon", "Kirby"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 41,
+      "question": "Dans Pokémon, qui est le Pokémon jaune électrique emblématique ?",
+      "options": ["Bulbizarre", "Pikachu", "Salamèche", "Carapuce"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 42,
+      "question": "Dans quel jeu doit-on casser des blocs avec une pioche et construire ?",
+      "options": ["Fortnite", "Minecraft", "Roblox", "Among Us"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 43,
+      "question": "Dans quel jeu peut-on créer ses propres mondes et mini-jeux en ligne ?",
+      "options": ["Roblox", "Minecraft", "Terraria", "Fortnite"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 44,
+      "question": "Quel jeu consiste à empiler des blocs pour former des lignes complètes ?",
+      "options": ["Minecraft", "Tetris", "Fortnite", "Candy Crush"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 45,
+      "question": "Dans Animal Crossing, comment s'appelle le villageois qui vend des objets et meubles ?",
+      "options": ["Tom Nook", "K.K. Slider", "Isabelle", "Blathers"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 46,
+      "question": "Dans Minecraft, quel bloc est utilisé pour miner le diamant ?",
+      "options": ["Pierre", "Fer", "Charbon", "Diamant"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 47,
+      "question": "Dans quel jeu tire-t-on sur des zombies dans un monde post-apocalyptique ?",
+      "options": ["Resident Evil", "Animal Crossing", "Mario Kart", "FIFA"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 48,
+      "question": "Dans quel jeu peut-on combattre en arène avec des cartes magiques ?",
+      "options": ["Hearthstone", "FIFA", "Minecraft", "Tetris"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 49,
+      "question": "Dans Super Smash Bros, qui est un personnage jouable ?",
+      "options": ["Sonic", "Mario", "Link", "Tous les précédents"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Jeux-Vidéos"
+    },
+    {
+      "id": 50,
+      "question": "Quelle chanteuse est célèbre pour Single Ladies ?",
+      "options": ["Rihanna", "Beyoncé", "Adele", "Katy Perry"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Chanteurs"
+    }
+  ]
+}

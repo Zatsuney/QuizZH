@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ZH - Gestion des Joueurs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="admin-container">
+        <div class="admin-card">
+            <div class="admin-header">
+                <div>
+                    <h1>Quiz<span class="highlight">ZH</span> - Gestion des Joueurs</h1>
+                </div>
+                <div class="admin-header-buttons">
+                    <a href="admin-menu.html" class="btn-logout">← Menu Principal</a>
+                    <button id="adminLogoutBtn" class="btn-logout">Déconnexion</button>
+                </div>
+            </div>
+
+            <div class="admin-content">
+                <!-- Players Management -->
+                <div class="admin-section">
+                    <h2>Liste des Joueurs Inscrits</h2>
+                    <p>Gérez les joueurs du système</p>
+
+                    <div class="leaderboard-controls">
+                        <div class="control-group">
+                            <input 
+                                type="text" 
+                                id="searchInput" 
+                                placeholder="Rechercher un joueur..."
+                                style="padding: 10px 15px; border: 2px solid #e5e7eb; border-radius: 6px; font-size: 0.95em; width: 250px;"
+                            >
+                        </div>
+                        <button id="refreshPlayersBtn" class="btn-refresh">🔄 Rafraîchir</button>
+                    </div>
+
+                    <div id="playersDisplay" class="leaderboard-display">
+                        <!-- Players list will be inserted here -->
+                    </div>
+                </div>
+
+                <!-- Statistics -->
+                <div class="admin-section stats-section">
+                    <h2>Statistiques des Joueurs</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <p class="stat-label">Total Joueurs</p>
+                            <h3 id="totalPlayersCount">0</h3>
+                        </div>
+                        <div class="stat-card">
+                            <p class="stat-label">Joueurs Actifs</p>
+                            <h3 id="activePlayersCount">0</h3>
+                        </div>
+                        <div class="stat-card">
+                            <p class="stat-label">XP Moyen</p>
+                            <h3 id="averageXP">0</h3>
+                        </div>
+                        <div class="stat-card">
+                            <p class="stat-label">Niveau Moyen</p>
+                            <h3 id="averageLevel">1</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/admin-players.js"></script>
+</body>
+</html>

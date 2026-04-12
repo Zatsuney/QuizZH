@@ -1,0 +1,657 @@
+﻿{
+    "difficulty":  "easy",
+    "questions":  [
+                      {
+                          "id":  1,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Le cerveau",
+                                          "Le cœur",
+                                          "Les poumons",
+                                          "Le foie"
+                                      ],
+                          "question":  "Quel organe pompe le sang ?"
+                      },
+                      {
+                          "id":  2,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "6",
+                                          "10",
+                                          "8",
+                                          "4"
+                                      ],
+                          "question":  "Combien de jambes a une araignée ?"
+                      },
+                      {
+                          "id":  3,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Azote",
+                                          "Oxygène",
+                                          "CO₂",
+                                          "Hydrogène"
+                                      ],
+                          "question":  "Quel gaz respirons-nous ?"
+                      },
+                      {
+                          "id":  4,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  3,
+                          "options":  [
+                                          "Racines",
+                                          "Tige",
+                                          "Fleurs",
+                                          "Feuilles"
+                                      ],
+                          "question":  "Quelle partie de la plante fait la photosynthèse ?"
+                      },
+                      {
+                          "id":  5,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Lion",
+                                          "Girafe",
+                                          "Éléphant",
+                                          "Rhinocéros"
+                                      ],
+                          "question":  "Quel est le plus grand animal terrestre ?"
+                      },
+                      {
+                          "id":  6,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Poule",
+                                          "Vache",
+                                          "Serpent",
+                                          "Poisson"
+                                      ],
+                          "question":  "Quel animal donne du lait ?"
+                      },
+                      {
+                          "id":  7,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "3",
+                                          "4",
+                                          "5",
+                                          "6"
+                                      ],
+                          "question":  "Combien de sens possède l\u0027humain ?"
+                      },
+                      {
+                          "id":  8,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Cœur",
+                                          "Estomac",
+                                          "Poumons",
+                                          "Rein"
+                                      ],
+                          "question":  "Quel organe sert à respirer ?"
+                      },
+                      {
+                          "id":  9,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Bleu",
+                                          "Rouge",
+                                          "Vert",
+                                          "Jaune"
+                                      ],
+                          "question":  "Quelle est la couleur du sang ?"
+                      },
+                      {
+                          "id":  10,
+                          "subtheme":  "Biologie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Chien",
+                                          "Chat",
+                                          "Poule",
+                                          "Vache"
+                                      ],
+                          "question":  "Quel animal pond des œufs ?"
+                      },
+                      {
+                          "id":  11,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "CO₂",
+                                          "H₂O",
+                                          "O₂",
+                                          "NaCl"
+                                      ],
+                          "question":  "Quelle est la formule de l\u0027eau ?"
+                      },
+                      {
+                          "id":  12,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Oxygène",
+                                          "Azote",
+                                          "Dioxyde de carbone",
+                                          "Hydrogène"
+                                      ],
+                          "question":  "Quel gaz fait les bulles dans les sodas ?"
+                      },
+                      {
+                          "id":  13,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Or",
+                                          "Fer",
+                                          "Mercure",
+                                          "Cuivre"
+                                      ],
+                          "question":  "Quel métal est liquide à température ambiante ?"
+                      },
+                      {
+                          "id":  14,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "10°C",
+                                          "0°C",
+                                          "50°C",
+                                          "-10°C"
+                                      ],
+                          "question":  "L\u0027eau gèle à quelle température ?"
+                      },
+                      {
+                          "id":  15,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "50°C",
+                                          "80°C",
+                                          "100°C",
+                                          "120°C"
+                                      ],
+                          "question":  "L\u0027eau bout à quelle température ?"
+                      },
+                      {
+                          "id":  16,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "5",
+                                          "7",
+                                          "9",
+                                          "3"
+                                      ],
+                          "question":  "Quel est le pH de l\u0027eau pure ?"
+                      },
+                      {
+                          "id":  17,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Liquide",
+                                          "Gaz",
+                                          "Solide",
+                                          "Plasma"
+                                      ],
+                          "question":  "Le sel est-il solide, liquide ou gaz ?"
+                      },
+                      {
+                          "id":  18,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "CO₂",
+                                          "Oxygène",
+                                          "Azote",
+                                          "Hélium"
+                                      ],
+                          "question":  "Quel gaz est nécessaire pour le feu ?"
+                      },
+                      {
+                          "id":  19,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  0,
+                          "options":  [
+                                          "Fe",
+                                          "F",
+                                          "Fr",
+                                          "Ir"
+                                      ],
+                          "question":  "Quel est le symbole du fer ?"
+                      },
+                      {
+                          "id":  20,
+                          "subtheme":  "Chimie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Salé",
+                                          "Amer",
+                                          "Sucré",
+                                          "Acide"
+                                      ],
+                          "question":  "Le sucre est-il sucré ou salé ?"
+                      },
+                      {
+                          "id":  21,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Magnétisme",
+                                          "Électricité",
+                                          "Gravité",
+                                          "Pression"
+                                      ],
+                          "question":  "Quelle force nous attire vers le sol ?"
+                      },
+                      {
+                          "id":  22,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "300 km/s",
+                                          "3 000 km/s",
+                                          "300 000 km/s",
+                                          "3 km/s"
+                                      ],
+                          "question":  "Quelle est la vitesse de la lumière ?"
+                      },
+                      {
+                          "id":  23,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Balance",
+                                          "Thermomètre",
+                                          "Chronomètre",
+                                          "Baromètre"
+                                      ],
+                          "question":  "Quel appareil mesure la température ?"
+                      },
+                      {
+                          "id":  24,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Thermomètre",
+                                          "Horloge",
+                                          "Balance",
+                                          "Loupe"
+                                      ],
+                          "question":  "Quel appareil mesure le temps ?"
+                      },
+                      {
+                          "id":  25,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Non",
+                                          "Oui",
+                                          "Seulement la nuit",
+                                          "Seulement dans l\u0027eau"
+                                      ],
+                          "question":  "L\u0027électricité peut-elle être dangereuse ?"
+                      },
+                      {
+                          "id":  26,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Oui",
+                                          "Non",
+                                          "Parfois",
+                                          "Seulement dans l\u0027eau"
+                                      ],
+                          "question":  "Le son va-t-il plus vite que la lumière ?"
+                      },
+                      {
+                          "id":  27,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Léger",
+                                          "Lourd",
+                                          "Les deux pareil",
+                                          "Aucun"
+                                      ],
+                          "question":  "Sans air, quel objet tombe plus vite ?"
+                      },
+                      {
+                          "id":  28,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Non",
+                                          "Oui",
+                                          "Parfois",
+                                          "Seulement la nuit"
+                                      ],
+                          "question":  "Le Soleil est-il une étoile ?"
+                      },
+                      {
+                          "id":  29,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Solide",
+                                          "Liquide",
+                                          "Gaz",
+                                          "Plasma"
+                                      ],
+                          "question":  "Quel est l\u0027état de l\u0027air ?"
+                      },
+                      {
+                          "id":  30,
+                          "subtheme":  "Physique",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Non",
+                                          "Oui",
+                                          "Parfois",
+                                          "Seulement chaude"
+                                      ],
+                          "question":  "Une pile produit-elle de l\u0027électricité ?"
+                      },
+                      {
+                          "id":  31,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Mars",
+                                          "Terre",
+                                          "Vénus",
+                                          "Jupiter"
+                                      ],
+                          "question":  "Comment s\u0027appelle notre planète ?"
+                      },
+                      {
+                          "id":  32,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "5",
+                                          "6",
+                                          "7",
+                                          "8"
+                                      ],
+                          "question":  "Combien y a-t-il de continents ?"
+                      },
+                      {
+                          "id":  33,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Atlantique",
+                                          "Indien",
+                                          "Pacifique",
+                                          "Arctique"
+                                      ],
+                          "question":  "Quel est le plus grand océan ?"
+                      },
+                      {
+                          "id":  34,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Nuages",
+                                          "Ozone",
+                                          "Eau",
+                                          "Air"
+                                      ],
+                          "question":  "Quelle couche protège la Terre ?"
+                      },
+                      {
+                          "id":  35,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Eau",
+                                          "Glace",
+                                          "Lave",
+                                          "Vent"
+                                      ],
+                          "question":  "Que produit un volcan ?"
+                      },
+                      {
+                          "id":  36,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Tornade",
+                                          "Séisme",
+                                          "Pluie",
+                                          "Neige"
+                                      ],
+                          "question":  "Quel phénomène fait trembler la Terre ?"
+                      },
+                      {
+                          "id":  37,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Lune",
+                                          "Soleil",
+                                          "Étoiles",
+                                          "Feu"
+                                      ],
+                          "question":  "Quelle est la source principale de lumière ?"
+                      },
+                      {
+                          "id":  38,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Non",
+                                          "Oui",
+                                          "Parfois",
+                                          "Rarement"
+                                      ],
+                          "question":  "L\u0027eau de mer est-elle salée ?"
+                      },
+                      {
+                          "id":  39,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Non",
+                                          "Oui",
+                                          "Parfois",
+                                          "Rarement"
+                                      ],
+                          "question":  "Le vent est-il de l\u0027air en mouvement ?"
+                      },
+                      {
+                          "id":  40,
+                          "subtheme":  "Sciences de la Terre",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Lune",
+                                          "Soleil",
+                                          "Mars",
+                                          "Jupiter"
+                                      ],
+                          "question":  "La Terre tourne autour de quoi ?"
+                      },
+                      {
+                          "id":  41,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "7",
+                                          "8",
+                                          "9",
+                                          "10"
+                                      ],
+                          "question":  "Combien de planètes dans le système solaire ?"
+                      },
+                      {
+                          "id":  42,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  2,
+                          "options":  [
+                                          "Vénus",
+                                          "Terre",
+                                          "Mercure",
+                                          "Mars"
+                                      ],
+                          "question":  "Planète la plus proche du Soleil ?"
+                      },
+                      {
+                          "id":  43,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Oui",
+                                          "Non",
+                                          "Parfois",
+                                          "Rarement"
+                                      ],
+                          "question":  "La Lune est-elle une planète ?"
+                      },
+                      {
+                          "id":  44,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Andromède",
+                                          "Voie lactée",
+                                          "Orion",
+                                          "Sirius"
+                                      ],
+                          "question":  "Notre galaxie s\u0027appelle ?"
+                      },
+                      {
+                          "id":  45,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Terre",
+                                          "Mars",
+                                          "Jupiter",
+                                          "Saturne"
+                                      ],
+                          "question":  "Quelle planète est rouge ?"
+                      },
+                      {
+                          "id":  46,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Non",
+                                          "Oui",
+                                          "Un peu",
+                                          "Froid"
+                                      ],
+                          "question":  "Le Soleil est-il chaud ?"
+                      },
+                      {
+                          "id":  47,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Non",
+                                          "Oui",
+                                          "Parfois",
+                                          "Lentement seulement"
+                                      ],
+                          "question":  "La Terre tourne-t-elle sur elle-même ?"
+                      },
+                      {
+                          "id":  48,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "12h",
+                                          "24h",
+                                          "48h",
+                                          "6h"
+                                      ],
+                          "question":  "Temps de rotation de la Terre ?"
+                      },
+                      {
+                          "id":  49,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Non",
+                                          "Oui",
+                                          "Parfois",
+                                          "Rarement"
+                                      ],
+                          "question":  "Les étoiles brillent-elles la nuit ?"
+                      },
+                      {
+                          "id":  50,
+                          "subtheme":  "Astronomie",
+                          "xpReward":  25,
+                          "correctAnswer":  1,
+                          "options":  [
+                                          "Oui",
+                                          "Non",
+                                          "Parfois",
+                                          "Rarement"
+                                      ],
+                          "question":  "Peut-on voir le Soleil la nuit ?"
+                      }
+                  ],
+    "timeLimit":  30,
+    "theme":  "sciences"
+}

@@ -1,0 +1,407 @@
+{
+  "theme": "art",
+  "difficulty": "medium",
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel peintre est connu pour avoir créé le mouvement pointilliste ?",
+      "options": ["Monet", "Seurat", "Van Gogh", "Renoir"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 2,
+      "question": "Quel artiste hollandais a peint La Chambre à Arles ?",
+      "options": ["Rembrandt", "Van Gogh", "Vermeer", "Mondrian"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 3,
+      "question": "Qui est le peintre du célèbre tableau Le Déjeuner sur l'herbe ?",
+      "options": ["Manet", "Renoir", "Cézanne", "Monet"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 4,
+      "question": "Quel mouvement artistique est caractérisé par la capture de la lumière naturelle et des impressions fugitives ?",
+      "options": ["Impressionnisme", "Expressionnisme", "Cubisme", "Surréalisme"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 5,
+      "question": "Quel artiste est associé au Fauvisme, utilisant des couleurs vives et non naturalistes ?",
+      "options": ["Matisse", "Picasso", "Dali", "Van Gogh"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 6,
+      "question": "Qui a peint Le Radeau de la Méduse ?",
+      "options": ["Delacroix", "Géricault", "Ingres", "David"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 7,
+      "question": "Quel artiste est célèbre pour ses toiles abstraites avec des éclaboussures de peinture ?",
+      "options": ["Pollock", "Rothko", "Warhol", "Dali"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 8,
+      "question": "Quel tableau de Van Gogh représente un ciel étoilé tourbillonnant ?",
+      "options": ["La Nuit étoilée", "Les Tournesols", "Champ de blé aux corbeaux", "Le Café de nuit"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 9,
+      "question": "Quel peintre espagnol a influencé le cubisme avec Les Demoiselles d'Avignon ?",
+      "options": ["Dali", "Picasso", "Miró", "Goya"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 10,
+      "question": "Quel peintre a popularisé le surréalisme avec des images oniriques et des objets inattendus ?",
+      "options": ["Dali", "Magritte", "Picasso", "Munch"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 11,
+      "question": "Quel mouvement français a précédé l'impressionnisme et s'est concentré sur la lumière et les paysages ruraux ?",
+      "options": ["Réalisme", "Barbizon", "Fauvisme", "Cubisme"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 12,
+      "question": "Qui a peint La Liberté guidant le peuple ?",
+      "options": ["Delacroix", "Géricault", "Ingres", "Monet"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 13,
+      "question": "Quel artiste est célèbre pour ses natures mortes cubistes ?",
+      "options": ["Cézanne", "Picasso", "Braque", "Matisse"],
+      "correctAnswer": 2,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 14,
+      "question": "Quel mouvement artistique privilégie l'expression des émotions par la couleur et le geste ?",
+      "options": ["Expressionnisme", "Cubisme", "Impressionnisme", "Rococo"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 15,
+      "question": "Qui a peint La Danse avec des couleurs intenses et des figures simplifiées ?",
+      "options": ["Matisse", "Renoir", "Monet", "Picasso"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 16,
+      "question": "Quel sculpteur a créé le monument aux Bourgeois de Calais ?",
+      "options": ["Rodin", "Michel-Ange", "Bernini", "Donatello"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 17,
+      "question": "Quel artiste italien de la Renaissance a sculpté le Moïse ?",
+      "options": ["Michel-Ange", "Donatello", "Bernini", "Canova"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 18,
+      "question": "Qui est connu pour ses formes élancées et filiformes en sculpture moderne ?",
+      "options": ["Giacometti", "Rodin", "Brâncuși", "Bernini"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 19,
+      "question": "Quel sculpteur français est célèbre pour ses bronzes réalistes comme Le Baiser ?",
+      "options": ["Rodin", "Camille Claudel", "Carpeaux", "Houdon"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 20,
+      "question": "La Vénus de Milo représente quelle déesse ?",
+      "options": ["Athéna", "Aphrodite", "Héra", "Déméter"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 21,
+      "question": "Quel matériau Constantin Brâncuși utilisait-il souvent pour ses sculptures ?",
+      "options": ["Marbre et bois", "Bronze uniquement", "Terre cuite uniquement", "Plâtre uniquement"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 22,
+      "question": "Qui a sculpté la célèbre fontaine Les Quatre Fleuves à Rome ?",
+      "options": ["Bernini", "Michel-Ange", "Donatello", "Canova"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 23,
+      "question": "Quel style de sculpture met en avant le mouvement et les drapés dynamiques, typique du XVIIe siècle ?",
+      "options": ["Baroque", "Renaissance", "Gothique", "Rococo"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 24,
+      "question": "Quel sculpteur moderne est célèbre pour ses colonnes et formes épurées comme Endless Column ?",
+      "options": ["Brâncuși", "Giacometti", "Rodin", "Moore"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 25,
+      "question": "Quel sculpteur a souvent collaboré avec Auguste Rodin et a eu une carrière tragique ?",
+      "options": ["Camille Claudel", "Bernini", "Donatello", "Carpeaux"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 26,
+      "question": "Quel architecte moderniste a conçu la Villa Savoye en France ?",
+      "options": ["Le Corbusier", "Frank Lloyd Wright", "Gaudí", "Mies van der Rohe"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 27,
+      "question": "La Sagrada Família est un exemple du style de quel architecte ?",
+      "options": ["Gaudí", "Le Corbusier", "Frank Gehry", "Palladio"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 28,
+      "question": "Quel style architectural est typique des cathédrales du XIIIe siècle avec arcs-boutants et vitraux ?",
+      "options": ["Gothique", "Baroque", "Renaissance", "Roman"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 29,
+      "question": "Le Parthénon est un exemple de quel style architectural ?",
+      "options": ["Dorique grec", "Ionique grec", "Corinthien romain", "Gothique"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 30,
+      "question": "Quel architecte américain a conçu Fallingwater ?",
+      "options": ["Frank Lloyd Wright", "Le Corbusier", "Gaudí", "Frank Gehry"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 31,
+      "question": "Le Colisée à Rome est un exemple d'architecture :",
+      "options": ["Baroque", "Romaine antique", "Renaissance", "Gothique"],
+      "correctAnswer": 1,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 32,
+      "question": "Quel style architectural met en avant l'ornementation excessive et le mouvement des formes ?",
+      "options": ["Baroque", "Gothique", "Roman", "Moderne"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 33,
+      "question": "Quel monument indien est un mausolée en marbre blanc ?",
+      "options": ["Taj Mahal", "Qutb Minar", "Fort Rouge", "Lotus Temple"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 34,
+      "question": "Quel style architectural privilégie la simplicité, les lignes droites et le minimalisme ?",
+      "options": ["Moderne", "Baroque", "Gothique", "Rococo"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 35,
+      "question": "Quelle ville est célèbre pour ses palais de la Renaissance italienne ?",
+      "options": ["Florence", "Venise", "Rome", "Milan"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 36,
+      "question": "Quel mouvement artistique privilégie les rêves et l'inconscient ?",
+      "options": ["Surréalisme", "Cubisme", "Impressionnisme", "Fauvisme"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 37,
+      "question": "Quel style est caractérisé par des formes géométriques et multiples perspectives ?",
+      "options": ["Cubisme", "Impressionnisme", "Baroque", "Rococo"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 38,
+      "question": "Quelle technique consiste à peindre directement sur un mur humide ?",
+      "options": ["Fresque", "Huile sur toile", "Aquarelle", "Gouache"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 39,
+      "question": "Quel artiste est connu pour le pop art et ses portraits colorés de Marilyn Monroe ?",
+      "options": ["Warhol", "Pollock", "Lichtenstein", "Hockney"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 40,
+      "question": "Quel style met l'accent sur les émotions, l'exagération et le mouvement ?",
+      "options": ["Baroque", "Renaissance", "Cubisme", "Minimalisme"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 41,
+      "question": "La technique pastel sec est utilisée pour :",
+      "options": ["Dessiner et colorer sur papier", "Peindre sur toile à l'huile", "Faire des fresques murales", "Graver le bois"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 42,
+      "question": "Quel style artistique met l'accent sur les formes simplifiées et allongées ?",
+      "options": ["Expressionnisme", "Fauvisme", "Impressionnisme", "Rococo"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 43,
+      "question": "Quel style artistique européen est caractérisé par des arabesques et une légèreté décorative ?",
+      "options": ["Rococo", "Baroque", "Gothique", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 44,
+      "question": "Quel terme désigne des scènes de la vie quotidienne dans la peinture ?",
+      "options": ["Peinture de genre", "Portrait", "Nature morte", "Paysage"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 45,
+      "question": "Quel artiste a popularisé le dripping, la peinture par éclaboussures ?",
+      "options": ["Pollock", "Rothko", "Warhol", "Matisse"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 46,
+      "question": "Quelle peinture illustre le cubisme analytique ?",
+      "options": ["Les Demoiselles d'Avignon", "Nuit étoilée", "Les Nymphéas", "La Cène"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 47,
+      "question": "Quel terme désigne une représentation d'objets inanimés ?",
+      "options": ["Nature morte", "Paysage", "Portrait", "Fresque"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 48,
+      "question": "Quel style surréaliste est associé à des objets flottants et à la distorsion des proportions ?",
+      "options": ["Surréalisme", "Cubisme", "Impressionnisme", "Fauvisme"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 49,
+      "question": "Le Fauvisme est apparu au début du :",
+      "options": ["XXe siècle", "XIXe siècle", "XVIIIe siècle", "XVIIe siècle"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 50,
+      "question": "Quel style artistique européen privilégie la grandeur, la théâtralité et le mouvement ?",
+      "options": ["Baroque", "Rococo", "Gothique", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 35,
+      "subtheme": "Styles et Techniques"
+    }
+  ]
+}

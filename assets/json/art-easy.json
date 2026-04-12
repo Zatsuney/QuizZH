@@ -1,0 +1,407 @@
+{
+  "theme": "art",
+  "difficulty": "easy",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qui a peint la Joconde ?",
+      "options": ["Picasso", "Van Gogh", "Léonard de Vinci", "Monet"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 2,
+      "question": "Quel peintre a coupé son oreille ?",
+      "options": ["Monet", "Van Gogh", "Picasso", "Renoir"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 3,
+      "question": "Quel tableau montre des nénuphars flottants ?",
+      "options": ["La Nuit étoilée", "Les Nymphéas", "Guernica", "La Cène"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 4,
+      "question": "Qui a peint Guernica ?",
+      "options": ["Picasso", "Dali", "Monet", "Matisse"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 5,
+      "question": "Quel style utilise beaucoup de formes géométriques ?",
+      "options": ["Cubisme", "Impressionnisme", "Baroque", "Réalisme"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 6,
+      "question": "Qui a peint La Nuit étoilée ?",
+      "options": ["Van Gogh", "Monet", "Renoir", "Cézanne"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 7,
+      "question": "Quel artiste est associé à l'impressionnisme ?",
+      "options": ["Monet", "Picasso", "Dali", "Gauguin"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 8,
+      "question": "Quelle couleur obtient-on en mélangeant bleu et jaune ?",
+      "options": ["Violet", "Orange", "Vert", "Rouge"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 9,
+      "question": "Qui a peint Le Cri ?",
+      "options": ["Edvard Munch", "Picasso", "Van Gogh", "Dali"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 10,
+      "question": "Quel artiste est célèbre pour ses montres molles ?",
+      "options": ["Dali", "Monet", "Picasso", "Warhol"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 11,
+      "question": "Quel peintre américain est associé au pop art ?",
+      "options": ["Pollock", "Warhol", "Hopper", "Rothko"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 12,
+      "question": "Quel tableau représente la Cène ?",
+      "options": ["Léonard de Vinci", "Van Gogh", "Monet", "Picasso"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 13,
+      "question": "Quel artiste peint souvent des tournesols ?",
+      "options": ["Van Gogh", "Monet", "Dali", "Renoir"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 14,
+      "question": "Quel style artistique utilise des taches de couleur et des touches visibles ?",
+      "options": ["Impressionnisme", "Cubisme", "Surréalisme", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 15,
+      "question": "Qui a peint La Liberté guidant le peuple ?",
+      "options": ["Delacroix", "Monet", "Van Gogh", "Renoir"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Peinture"
+    },
+    {
+      "id": 16,
+      "question": "Qui a sculpté Le Penseur ?",
+      "options": ["Rodin", "Michel-Ange", "Bernini", "Donatello"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 17,
+      "question": "Quel artiste a sculpté David ?",
+      "options": ["Rodin", "Michel-Ange", "Bernini", "Picasso"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 18,
+      "question": "Qu'est-ce qu'un bas-relief ?",
+      "options": ["Une sculpture très profonde", "Une peinture", "Une sculpture peu en relief", "Une fresque"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 19,
+      "question": "Quelle sculpture est un symbole de la liberté aux États-Unis ?",
+      "options": ["David", "La Liberté éclairant le monde", "Le Penseur", "Venus de Milo"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 20,
+      "question": "Qui a sculpté Le Baiser ?",
+      "options": ["Rodin", "Michel-Ange", "Bernini", "Giacometti"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 21,
+      "question": "La Vénus de Milo est en :",
+      "options": ["Bronze", "Marbre", "Bois", "Argile"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 22,
+      "question": "Qui a sculpté Apollon et Daphné ?",
+      "options": ["Bernini", "Rodin", "Donatello", "Michel-Ange"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 23,
+      "question": "Quel matériau est souvent utilisé pour la sculpture classique ?",
+      "options": ["Marbre", "Papier", "Plastique", "Tissu"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 24,
+      "question": "Qu'est-ce qu'une statue équestre ?",
+      "options": ["Une sculpture de cheval", "Une peinture de cheval", "Une fresque murale", "Une sculpture en bois"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 25,
+      "question": "Quel sculpteur est célèbre pour ses formes allongées et filiformes ?",
+      "options": ["Giacometti", "Rodin", "Bernini", "Donatello"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Sculpture"
+    },
+    {
+      "id": 26,
+      "question": "Quel monument est à Paris et a été conçu par Gustave Eiffel ?",
+      "options": ["Arc de Triomphe", "Tour Eiffel", "Notre-Dame", "Sacré-Cœur"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 27,
+      "question": "Quel style est caractérisé par de grandes voûtes et des arcs-boutants ?",
+      "options": ["Gothique", "Renaissance", "Baroque", "Roman"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 28,
+      "question": "Quel bâtiment est célèbre pour ses colonnes et sa symétrie ?",
+      "options": ["Palais de Versailles", "Parthénon", "Tour Eiffel", "Colisée"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 29,
+      "question": "Quel architecte a conçu la Sagrada Família à Barcelone ?",
+      "options": ["Gaudí", "Le Corbusier", "Frank Lloyd Wright", "Mies van der Rohe"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 30,
+      "question": "Quel monument est un amphithéâtre romain ?",
+      "options": ["Colisée", "Parthénon", "Tour de Pise", "Pantheon"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 31,
+      "question": "Quelle ville est célèbre pour ses canaux et son architecture Renaissance ?",
+      "options": ["Venise", "Rome", "Florence", "Paris"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 32,
+      "question": "Quel style architectural utilise beaucoup de dorures et de décorations ?",
+      "options": ["Baroque", "Gothique", "Moderne", "Roman"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 33,
+      "question": "Quel monument est un mausolée en Inde ?",
+      "options": ["Taj Mahal", "Colisée", "Louvre", "Parthénon"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 34,
+      "question": "Qui est l'architecte du Fallingwater aux États-Unis ?",
+      "options": ["Frank Lloyd Wright", "Gaudí", "Le Corbusier", "Mies van der Rohe"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 35,
+      "question": "Quelle structure est inclinée et célèbre en Italie ?",
+      "options": ["Tour de Pise", "Colisée", "Duomo", "Parthénon"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Architecture"
+    },
+    {
+      "id": 36,
+      "question": "Quel style utilise des images de rêves et des objets étranges ?",
+      "options": ["Surréalisme", "Cubisme", "Impressionnisme", "Baroque"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 37,
+      "question": "Quel style se concentre sur la lumière et la couleur plutôt que sur le détail précis ?",
+      "options": ["Impressionnisme", "Renaissance", "Cubisme", "Baroque"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 38,
+      "question": "Quel style combine géométrie et abstractions ?",
+      "options": ["Cubisme", "Impressionnisme", "Surréalisme", "Rococo"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 39,
+      "question": "Quel terme désigne une peinture sur mur humide ?",
+      "options": ["Fresque", "Huile sur toile", "Aquarelle", "Gouache"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 40,
+      "question": "Quelle technique utilise des pigments mélangés à l'eau et appliqués sur papier ?",
+      "options": ["Aquarelle", "Huile", "Fresque", "Pastel"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 41,
+      "question": "Quel style artistique est apparu à la fin du XVIIe siècle avec beaucoup d'ornements ?",
+      "options": ["Baroque", "Gothique", "Cubisme", "Impressionnisme"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 42,
+      "question": "Quel mouvement artistique américain est connu pour l'action painting ?",
+      "options": ["Expressionnisme abstrait", "Pop Art", "Cubisme", "Impressionnisme"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 43,
+      "question": "Quel style français est connu pour ses arabesques et sa légèreté ?",
+      "options": ["Rococo", "Baroque", "Gothique", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 44,
+      "question": "Quelle technique consiste à peindre avec des pastels secs ?",
+      "options": ["Pastel", "Aquarelle", "Huile", "Fresque"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 45,
+      "question": "Quel style artistique est associé à Salvador Dali ?",
+      "options": ["Surréalisme", "Cubisme", "Impressionnisme", "Renaissance"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 46,
+      "question": "Quel terme désigne des peintures représentant la vie quotidienne ?",
+      "options": ["Genre", "Portrait", "Paysage", "Nature morte"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 47,
+      "question": "Quelle technique utilise de la peinture à l'huile ?",
+      "options": ["Huile sur toile", "Fresque", "Aquarelle", "Pastel"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 48,
+      "question": "Quel style met en avant le mouvement et l'exagération des formes ?",
+      "options": ["Baroque", "Gothique", "Rococo", "Cubisme"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 49,
+      "question": "Quelle œuvre est un exemple de nature morte ?",
+      "options": ["Un bol de fruits", "Portrait d'une reine", "Scène de bataille", "Paysage montagneux"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    },
+    {
+      "id": 50,
+      "question": "Quel artiste est célèbre pour ses portraits colorés et abstraits de visages ?",
+      "options": ["Picasso", "Monet", "Dali", "Van Gogh"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Styles et Techniques"
+    }
+  ]
+}

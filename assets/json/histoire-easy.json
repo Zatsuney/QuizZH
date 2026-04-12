@@ -1,0 +1,407 @@
+{
+  "theme": "histoire",
+  "difficulty": "easy",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Où se situe l'Égypte antique ?",
+      "options": ["Europe", "Afrique", "Asie", "Amérique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 2,
+      "question": "Qui était le chef de l'Égypte antique ?",
+      "options": ["Empereur", "Roi", "Pharaon", "Président"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 3,
+      "question": "Quelle civilisation a construit les pyramides ?",
+      "options": ["Grecs", "Romains", "Égyptiens", "Mayas"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 4,
+      "question": "Où se trouvait la ville de Rome ?",
+      "options": ["France", "Italie", "Espagne", "Grèce"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 5,
+      "question": "Qui était Jules César ?",
+      "options": ["Un dieu", "Un empereur romain", "Un roi grec", "Un philosophe"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 6,
+      "question": "Quelle langue parlaient les Romains ?",
+      "options": ["Grec", "Latin", "Italien", "Espagnol"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 7,
+      "question": "Qui était Zeus ?",
+      "options": ["Un roi", "Un dieu grec", "Un soldat", "Un philosophe"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 8,
+      "question": "Quelle ville était le centre de la Grèce antique ?",
+      "options": ["Athènes", "Rome", "Sparte", "Troie"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 9,
+      "question": "Les Jeux olympiques viennent de quelle civilisation ?",
+      "options": ["Romains", "Égyptiens", "Grecs", "Perses"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 10,
+      "question": "Qui était Cléopâtre ?",
+      "options": ["Une reine", "Une déesse", "Une guerrière", "Une esclave"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Antiquité"
+    },
+    {
+      "id": 11,
+      "question": "Qui dirige un royaume au Moyen Âge ?",
+      "options": ["Président", "Roi", "Empereur", "Ministre"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 12,
+      "question": "Comment appelle-t-on les guerriers à cheval ?",
+      "options": ["Soldats", "Chevaliers", "Vikings", "Archers"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 13,
+      "question": "Où vivent les seigneurs ?",
+      "options": ["Palais", "Châteaux", "Maisons", "Tours"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 14,
+      "question": "Qui était Jeanne d'Arc ?",
+      "options": ["Une reine", "Une guerrière française", "Une religieuse", "Une princesse"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 15,
+      "question": "Quelle guerre oppose la France et l'Angleterre ?",
+      "options": ["Guerre froide", "Guerre de Cent Ans", "Guerre mondiale", "Guerre civile"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 16,
+      "question": "Comment s'appelle le système avec seigneurs et vassaux ?",
+      "options": ["Monarchie", "Féodalité", "République", "Empire"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 17,
+      "question": "Qui étaient les Vikings ?",
+      "options": ["Paysans", "Explorateurs et guerriers", "Rois", "Prêtres"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 18,
+      "question": "Quel bâtiment sert à prier ?",
+      "options": ["Château", "Église", "Tour", "Fort"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 19,
+      "question": "Qui est Charlemagne ?",
+      "options": ["Un roi franc", "Un empereur romain", "Un pape", "Un chevalier"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 20,
+      "question": "Que portent les chevaliers pour se protéger ?",
+      "options": ["Casque", "Armure", "Bouclier", "Les trois"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Moyen Âge"
+    },
+    {
+      "id": 21,
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": ["Vasco de Gama", "Christophe Colomb", "Magellan", "Cook"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 22,
+      "question": "Qui était le roi de France avant la Révolution ?",
+      "options": ["Louis XIV", "Louis XV", "Louis XVI", "Napoléon"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 23,
+      "question": "Où a lieu la Révolution française ?",
+      "options": ["Angleterre", "Espagne", "France", "Italie"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 24,
+      "question": "Quel symbole représente la Révolution française ?",
+      "options": ["Couronne", "Bastille", "Tour Eiffel", "Église"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 25,
+      "question": "Qui était Napoléon Bonaparte ?",
+      "options": ["Roi", "Empereur", "Général", "Général et Empereur"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 26,
+      "question": "Quelle invention a changé la diffusion des livres ?",
+      "options": ["Internet", "Imprimerie", "Télévision", "Radio"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 27,
+      "question": "Qui était Louis XIV ?",
+      "options": ["Roi Soleil", "Empereur", "Président", "Général"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 28,
+      "question": "Où vivait Louis XIV ?",
+      "options": ["Louvre", "Versailles", "Rome", "Londres"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 29,
+      "question": "Qui étaient les mousquetaires ?",
+      "options": ["Paysans", "Soldats du roi", "Marchands", "Explorateurs"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 30,
+      "question": "Quelle période suit le Moyen Âge ?",
+      "options": ["Antiquité", "Époque moderne", "Renaissance", "Renaissance et Époque moderne"],
+      "correctAnswer": 3,
+      "xpReward": 25,
+      "subtheme": "Époque Moderne"
+    },
+    {
+      "id": 31,
+      "question": "Quand commence la Première Guerre mondiale ?",
+      "options": ["1914", "1918", "1939", "1945"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 32,
+      "question": "Qui s'oppose pendant la Seconde Guerre mondiale ?",
+      "options": ["Deux pays", "Plusieurs pays alliés et ennemis", "Une seule nation", "Aucun"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 33,
+      "question": "Qui était Hitler ?",
+      "options": ["Président", "Dictateur allemand", "Roi", "Général français"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 34,
+      "question": "En quelle année finit la Seconde Guerre mondiale ?",
+      "options": ["1942", "1945", "1950", "1939"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 35,
+      "question": "Quel pays a lancé la bombe atomique sur Hiroshima ?",
+      "options": ["Allemagne", "Japon", "États-Unis", "Russie"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 36,
+      "question": "Que représente l'ONU ?",
+      "options": ["Une armée", "Une organisation internationale", "Un pays", "Une entreprise"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 37,
+      "question": "Qui était Charles de Gaulle ?",
+      "options": ["Roi", "Président français", "Général et président", "Ministre"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 38,
+      "question": "Quel mur séparait Berlin ?",
+      "options": ["Mur de Chine", "Mur de Berlin", "Mur d'Europe", "Mur soviétique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 39,
+      "question": "Quand tombe le mur de Berlin ?",
+      "options": ["1989", "1991", "1975", "2000"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 40,
+      "question": "Quelle guerre oppose USA et URSS indirectement ?",
+      "options": ["Guerre mondiale", "Guerre froide", "Guerre civile", "Guerre antique"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Époque Contemporaine"
+    },
+    {
+      "id": 41,
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Lyon", "Marseille", "Paris", "Lille"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 42,
+      "question": "Qui a construit la Tour Eiffel ?",
+      "options": ["Gustave Eiffel", "Napoléon", "Louis XIV", "De Gaulle"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 43,
+      "question": "En quelle année a lieu la Révolution française ?",
+      "options": ["1789", "1776", "1804", "1815"],
+      "correctAnswer": 0,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 44,
+      "question": "Quel roi a été guillotiné ?",
+      "options": ["Louis XIV", "Louis XV", "Louis XVI", "Henri IV"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 45,
+      "question": "Quel est le symbole de la République française ?",
+      "options": ["Le lion", "Marianne", "L'aigle", "Le dragon"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 46,
+      "question": "Quelle fête nationale est le 14 juillet ?",
+      "options": ["Victoire", "Bastille", "Armistice", "Indépendance"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 47,
+      "question": "Qui est Napoléon Bonaparte ?",
+      "options": ["Roi", "Empereur", "Président", "Général"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 48,
+      "question": "Quelle guerre a lieu entre 1914 et 1918 ?",
+      "options": ["WWII", "WWI", "Guerre froide", "Révolution"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 49,
+      "question": "Quelle ville est célèbre pour le débarquement de 1944 ?",
+      "options": ["Paris", "Nice", "Normandie", "Lyon"],
+      "correctAnswer": 2,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    },
+    {
+      "id": 50,
+      "question": "Quel pays est voisin de la France ?",
+      "options": ["Brésil", "Allemagne", "Japon", "Canada"],
+      "correctAnswer": 1,
+      "xpReward": 25,
+      "subtheme": "Histoire de France"
+    }
+  ]
+}
