@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "question": "Quel est l'algorithme RSA utilisé pour ?",
+      "question": "À quoi sert l'algorithme RSA ?",
       "options": ["Compression de données", "Chiffrement asymétrique", "Détection d'erreurs", "Compression d'images"],
       "correctAnswer": 1,
       "xpReward": 50,
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "question": "Quel est la altitude exacte du Mont Everest en mètres ?",
+      "question": "Quelle est l'altitude exacte du Mont Everest en mètres ?",
       "options": ["8748m", "8849m", "8950m", "9000m"],
       "correctAnswer": 1,
       "xpReward": 50,
@@ -45,7 +45,7 @@
     },
     {
       "id": 6,
-      "question": "Quels sont les deux pôles géographiques et magnétiques différents en raison de la structure ?",
+      "question": "Quels sont les deux pôles géographiques et magnétiques différents en raison de leur structure ?",
       "options": ["Core", "Manteau", "Croûte terrestre", "Noyau externe"],
       "correctAnswer": 3,
       "xpReward": 50,
@@ -53,7 +53,7 @@
     },
     {
       "id": 7,
-      "question": "Quel réalisateur a gagné l'Oscar du meilleur réalisateur 3 fois pour Oscars ?",
+      "question": "Quel réalisateur a remporté 3 Oscars du meilleur réalisateur ?",
       "options": ["Billy Wilder", "Frank Capra", "William Wyler", "Frank Lloyd"],
       "correctAnswer": 2,
       "xpReward": 50,
@@ -69,7 +69,7 @@
     },
     {
       "id": 9,
-      "question": "Combien de films Scorsese a remporté l'Oscar en tant que réalisateur ?",
+      "question": "Combien d'Oscars du meilleur réalisateur Scorsese a-t-il remportés ?",
       "options": ["0", "1", "2", "3"],
       "correctAnswer": 1,
       "xpReward": 50,
@@ -77,7 +77,7 @@
     },
     {
       "id": 10,
-      "question": "En quelle année la Bastille a-t-elle été prise ?",
+      "question": "En quelle année a eu lieu la prise de la Bastille ?",
       "options": ["1787", "1788", "1789", "1790"],
       "correctAnswer": 2,
       "xpReward": 50,
@@ -85,7 +85,7 @@
     },
     {
       "id": 11,
-      "question": "Quel traité a mis fin à la Première Guerre Mondiale ?",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
       "options": ["Traité de Westphalie", "Traité de Versailles", "Traité de Paris", "Traité de Brest-Litovsk"],
       "correctAnswer": 1,
       "xpReward": 50,
@@ -141,7 +141,7 @@
     },
     {
       "id": 18,
-      "question": "Quel compositeur a composé l'opéra The Ring Cycle de 14+ heures ?",
+      "question": "Qui a composé le cycle opératique Der Ring des Nibelungen (The Ring Cycle) ?",
       "options": ["Verdi", "Wagner", "Puccini", "Debussy"],
       "correctAnswer": 1,
       "xpReward": 50,
@@ -149,8 +149,8 @@
     },
     {
       "id": 19,
-      "question": "Dans Dark Souls, quel boss est connu pour sa difficulté extrême de base ?",
-      "options": ["Ornstein and Smough", "O&S", "Artorias", "Kalameet"],
+      "question": "Dans Dark Souls, quel boss est connu pour sa difficulté extrême ?",
+      "options": ["Ornstein et Smough", "Artorias l'Abyssal", "Kalameet le Drake", "Manus, père des abysses"],
       "correctAnswer": 0,
       "xpReward": 50,
       "subtheme": "Jeux-Vidéos"
@@ -173,7 +173,7 @@
     },
     {
       "id": 22,
-      "question": "Quel jeu Metroid Prime a gagné le GameSpot Game of the Year ?",
+      "question": "En quelle année Metroid Prime a-t-il remporté le GameSpot Game of the Year ?",
       "options": ["2002", "2003", "2004", "2005"],
       "correctAnswer": 0,
       "xpReward": 50,
@@ -205,7 +205,7 @@
     },
     {
       "id": 26,
-      "question": "Quel est le système d'exploitation Linux qui a été créé pour les serveurs ?",
+      "question": "Quelle distribution Linux a été créée spécifiquement pour les serveurs ?",
       "options": ["Debian", "Red Hat", "Ubuntu", "Fedora"],
       "correctAnswer": 1,
       "xpReward": 50,
@@ -221,7 +221,7 @@
     },
     {
       "id": 28,
-      "question": "Quel film a gagné Best Picture sans nomination du réalisateur ?",
+      "question": "Quel film a remporté l'Oscar du Meilleur film sans nomination pour la meilleure réalisation ?",
       "options": ["Slumdog Millionaire", "The Artist", "Parasite", "Everything Everywhere All at Once"],
       "correctAnswer": 0,
       "xpReward": 50,
@@ -237,7 +237,7 @@
     },
     {
       "id": 30,
-      "question": "Quel historien français a fondé École des Annales ?",
+      "question": "Quel historien français a fondé l'École des Annales ?",
       "options": ["Bloch", "Braudel", "Febvre", "Le Goff"],
       "correctAnswer": 0,
       "xpReward": 50,
@@ -325,7 +325,7 @@
     },
     {
       "id": 41,
-      "question": "Quel est le classement de profondeur maximale de la Fosse des Mariannes ?",
+      "question": "Quel est la profondeur maximale de la Fosse des Mariannes ?",
       "options": ["10994 m", "10900 m", "11000 m plus", "10800 m"],
       "correctAnswer": 0,
       "xpReward": 50,
@@ -341,7 +341,7 @@
     },
     {
       "id": 43,
-      "question": "Quel est l'intervalle harmanique de quinte juste en cents ?",
+      "question": "Combien de cents représente une quinte juste ?",
       "options": ["700", "800", "900", "1200"],
       "correctAnswer": 0,
       "xpReward": 50,
@@ -389,7 +389,7 @@
     },
     {
       "id": 49,
-      "question": "Quel film Dardenne est désigné comme meilleur film étranger Oscars ?",
+      "question": "Quel film réalisé par les frères Dardenne a remporté l'Oscar du meilleur film en langue étrangère ?",
       "options": ["Rosetta", "Le Gamin au Vélo", "Two Days, One Night", "Liège"],
       "correctAnswer": 0,
       "xpReward": 50,

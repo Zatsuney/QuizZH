@@ -157,8 +157,8 @@
     },
     {
       "id": 20,
-      "question": "Dans quel jeu explore-t-on Skyrim ?",
-      "options": ["Oblivion", "Morrowind", "The Elder Scrolls V", "Fallout 4"],
+      "question": "Dans quel jeu explore-t-on Bordeciel ?",
+      "options": ["Oblivion", "Morrowind", "Skyrim", "Fallout 4"],
       "correctAnswer": 2,
       "xpReward": 35,
       "subtheme": "Jeux-Vidéos"
@@ -174,7 +174,7 @@
     {
       "id": 22,
       "question": "Dans quel jeu commande-t-on une armée de créatures magiques ?",
-      "options": ["Warcraft", "League of Legends", "Dota 2", "Heroes of the Storm"],
+      "options": ["Warcraft III", "League of Legends", "Dota 2", "Heroes of the Storm"],
       "correctAnswer": 0,
       "xpReward": 35,
       "subtheme": "Jeux-Vidéos"
@@ -182,7 +182,7 @@
     {
       "id": 23,
       "question": "Quel est le meilleur-vente de la franchise Pokémon ?",
-      "options": ["Pokémon Red/Blue", "Pokémon Gold/Silver", "Pokémon Ruby/Sapphire", "Pokémon Sword/Shield"],
+      "options": ["Pokémon Rouge/Bleu", "Pokémon Or/Argent", "Pokémon Rubis/Saphir", "Pokémon Épée/Bouclier"],
       "correctAnswer": 0,
       "xpReward": 35,
       "subtheme": "Jeux-Vidéos"
@@ -205,8 +205,8 @@
     },
     {
       "id": 26,
-      "question": "Laquelle est la plus haute montagne du monde ?",
-      "options": ["K2", "Mont Everest", "Kangchenjunga", "Lhotse"],
+      "question": "Quelle est la plus haute montagne du monde ?",
+      "options": ["Mont Blanc", "Mont Everest", "Kangchenjunga", "Lhotse"],
       "correctAnswer": 1,
       "xpReward": 35,
       "subtheme": "Géographie"
@@ -245,7 +245,7 @@
     },
     {
       "id": 31,
-      "question": "Quel est le compositeur du célèbre opéra Carmen ?",
+      "question": "Qui est le compositeur du célèbre opéra Carmen ?",
       "options": ["Puccini", "Verdi", "Bizet", "Gounod"],
       "correctAnswer": 2,
       "xpReward": 35,
@@ -253,7 +253,7 @@
     },
     {
       "id": 32,
-      "question": "Quel est la plus grande console de jeux de tous les temps en ventes ?",
+      "question": "Quel est la plus grande console de jeux de tous les temps en nombres de ventes ?",
       "options": ["PlayStation 2", "Nintendo Wii", "Nintendo DS", "PlayStation 4"],
       "correctAnswer": 0,
       "xpReward": 35,
@@ -293,8 +293,8 @@
     },
     {
       "id": 37,
-      "question": "Quel est le film le plus bankable du réalisateur Spielberg ?",
-      "options": ["Schindler's List", "Jurassic Park", "E.T", "Jaws"],
+      "question": "Quel film de Spielberg a généré les plus hauts revenus au box-office ?",
+      "options": ["La liste de Schindler", "Jurassic Park", "E.T", "Les dents de la mer"],
       "correctAnswer": 2,
       "xpReward": 35,
       "subtheme": "Cinéma"
@@ -325,7 +325,7 @@
     },
     {
       "id": 41,
-      "question": "Quel est le désert le plus grand du monde en surface ?",
+      "question": "Quel est le plus grand désert du monde ?",
       "options": ["Sahara", "Antarctique", "Désert de Gobi", "Kalahari"],
       "correctAnswer": 1,
       "xpReward": 35,
@@ -357,7 +357,7 @@
     },
     {
       "id": 45,
-      "question": "Quel film a remporté le Palme d'Or au Festival de Cannes 2023 ?",
+      "question": "Quel film a remporté la Palme d'Or au Festival de Cannes 2023 ?",
       "options": ["Anatomy of Fall", "The Zone of Interest", "Killers of the Flower Moon", "Social Network"],
       "correctAnswer": 0,
       "xpReward": 35,
@@ -365,7 +365,7 @@
     },
     {
       "id": 46,
-      "question": "Combien de membres fait partie des Avengers originaux ?",
+      "question": "Combien de membres font partie des Avengers originaux ?",
       "options": ["4", "5", "6", "7"],
       "correctAnswer": 2,
       "xpReward": 35,
@@ -381,7 +381,7 @@
     },
     {
       "id": 48,
-      "question": "Quel était le code de la Légion des Anneaux en Tolkien sur la langue des hommes ?",
+      "question": "Quel est le langage parlé par les hommes du Rohan dans l'univers de Tolkien ?",
       "options": ["Sindarin", "Quenya", "Rohirric", "Thalissan"],
       "correctAnswer": 2,
       "xpReward": 35,

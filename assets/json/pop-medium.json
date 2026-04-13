@@ -309,9 +309,9 @@
     },
     {
       "id": 39,
-      "question": "Quel groupe est derrière One Direction ?",
-      "options": ["BTS", "Boyband UK", "One Direction", "5SOS"],
-      "correctAnswer": 2,
+      "question": "Quel chanteur membre de One Direction a lancé une carrière solo réussie ?",
+      "options": ["Niall Horan", "Harry Styles", "Louis Tomlinson", "Tous les trois"],
+      "correctAnswer": 3,
       "xpReward": 35,
       "subtheme": "Musique"
     },

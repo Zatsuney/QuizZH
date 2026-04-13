@@ -253,9 +253,9 @@
     },
     {
       "id": 32,
-      "question": "Quelle est la capitale de l'Italie ?",
-      "options": ["Rome", "Milan", "Turin", "Naples"],
-      "correctAnswer": 0,
+      "question": "Quelle est la capitale de la Suisse ?",
+      "options": ["Zurich", "Berne", "Genève", "Lausanne"],
+      "correctAnswer": 1,
       "xpReward": 25,
       "subtheme": "Capitales"
     },
@@ -309,8 +309,8 @@
     },
     {
       "id": 39,
-      "question": "Quelle est la capitale de l'Espagne ?",
-      "options": ["Madrid", "Valence", "Séville", "Barcelone"],
+      "question": "Quelle est la capitale de la Suède ?",
+      "options": ["Stockholm", "Göteborg", "Malmö", "Uppsala"],
       "correctAnswer": 0,
       "xpReward": 25,
       "subtheme": "Capitales"
@@ -397,9 +397,9 @@
     },
     {
       "id": 50,
-      "question": "Quelle est la capitale de l'Allemagne ?",
-      "options": ["Berlin", "Munich", "Hambourg", "Bonn"],
-      "correctAnswer": 0,
+      "question": "Quelle est la capitale de la Norvège ?",
+      "options": ["Bergen", "Stavanger", "Oslo", "Trondheim"],
+      "correctAnswer": 2,
       "xpReward": 25,
       "subtheme": "Capitales"
     }

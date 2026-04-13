@@ -277,9 +277,9 @@
     },
     {
       "id": 35,
-      "question": "Dans Pokémon, qui est le champion de type électrique à Volucité ?",
-      "options": ["Sacha", "Pierre", "Ondine", "Artie"],
-      "correctAnswer": 3,
+      "question": "Dans Pokémon Noir et Blanc 2, qui est le champion de type électrique à Volucité ?",
+      "options": ["Ondine", "Élésa", "Artie", "Blanche"],
+      "correctAnswer": 2,
       "xpReward": 25,
       "subtheme": "Jeux d'aventure et RPG"
     },

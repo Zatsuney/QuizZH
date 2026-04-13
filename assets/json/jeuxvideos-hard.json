@@ -333,7 +333,7 @@
     },
     {
       "id": 42,
-      "question": "Dans Mario Kart 8 Deluxe, quel objet frappe tous les adversaires en inversant leurs commandes ?",
+      "question": "Dans Mario Kart 8 Deluxe, quel objet frappe tous les adversaires et réduit leur taille ?",
       "options": ["Boo", "Éclair", "Fausse boîte", "Carapace verte"],
       "correctAnswer": 1,
       "xpReward": 50,

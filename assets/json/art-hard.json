@@ -69,7 +69,7 @@
     },
     {
       "id": 9,
-      "question": "Quel peintre espagnol du XVIIe siècle est célèbre pour ses clair-obscur dramatiques ?",
+      "question": "Quel peintre italien du XVIIe siècle est célèbre pour ses clair-obscur dramatiques ?",
       "options": ["Velázquez", "Murillo", "Zurbarán", "Caravage"],
       "correctAnswer": 3,
       "xpReward": 50,
@@ -85,7 +85,7 @@
     },
     {
       "id": 11,
-      "question": "Qui a peint La Tentation de Saint Antoine dans un style surréaliste complexe ?",
+      "question": "Quel peintre des Pays-Bas du XVe siècle a peint La Tentation de Saint Antoine avec des formes fantastiques complexes ?",
       "options": ["Bosch", "Dali", "Magritte", "Goya"],
       "correctAnswer": 0,
       "xpReward": 50,
@@ -173,7 +173,7 @@
     },
     {
       "id": 22,
-      "question": "Quel sculpteur baroque italien est célèbre pour ses statues dynamiques comme Le Bernin ?",
+      "question": "Quel sculpteur baroque italien, également nommé Le Bernin, est célèbre pour ses statues dynamiques ?",
       "options": ["Bernini", "Michel-Ange", "Canova", "Donatello"],
       "correctAnswer": 0,
       "xpReward": 50,
@@ -293,8 +293,8 @@
     },
     {
       "id": 37,
-      "question": "Lequel de ces mouvements est précurseur du cubisme, initié par Cézanne ?",
-      "options": ["Post-impressionnisme", "Fauvisme", "Surréalisme", "Baroque"],
+      "question": "Quel artiste français du XIXe siècle, avec ses compositions structurées, a grandement influencé le développement du cubisme ?",
+      "options": ["Cézanne", "Monet", "Renoir", "Pissarro"],
       "correctAnswer": 0,
       "xpReward": 50,
       "subtheme": "Styles et Techniques"

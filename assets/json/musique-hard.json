@@ -101,9 +101,9 @@
     },
     {
       "id": 13,
-      "question": "Quel instrument de percussion est caractéristique du gamelan balinais ?",
-      "options": ["Gamelan", "Saron", "Bonang", "Gong"],
-      "correctAnswer": 3,
+      "question": "Quel instrument de percussion balinais est un metallophone avec des lames frappées sur des résonateurs ?",
+      "options": ["Saron", "Bonang", "Gong suspendu", "Tam-tam"],
+      "correctAnswer": 0,
       "xpReward": 50,
       "subtheme": "Instruments de musique"
     },

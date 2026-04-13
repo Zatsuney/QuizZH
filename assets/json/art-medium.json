@@ -381,8 +381,8 @@
     },
     {
       "id": 48,
-      "question": "Quel style surréaliste est associé à des objets flottants et à la distorsion des proportions ?",
-      "options": ["Surréalisme", "Cubisme", "Impressionnisme", "Fauvisme"],
+      "question": "Quel artiste surréaliste est célèbre pour ses peintures avec des objets flottants et des proportions distorsionnées ?",
+      "options": ["Dalí", "Magritte", "Miró", "Ernst"],
       "correctAnswer": 0,
       "xpReward": 35,
       "subtheme": "Styles et Techniques"

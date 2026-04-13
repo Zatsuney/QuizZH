@@ -93,7 +93,7 @@
     },
     {
       "id": 12,
-      "question": "Quel tableau représente la Cène ?",
+      "question": "Quel artiste a peint la Cène dans l'église Santa Maria delle Grazie ?",
       "options": ["Léonard de Vinci", "Van Gogh", "Monet", "Picasso"],
       "correctAnswer": 0,
       "xpReward": 25,

@@ -141,7 +141,7 @@
     },
     {
       "id": 18,
-      "question": "Quel est le film Avatar réalisé par ?",
+      "question": "Qui a réalisé le film Avatar ?",
       "options": ["Christopher Nolan", "James Cameron", "Steven Spielberg", "Martin Scorsese"],
       "correctAnswer": 1,
       "xpReward": 25,
@@ -149,7 +149,7 @@
     },
     {
       "id": 19,
-      "question": "Où se situe l'Égypte antique ?",
+      "question": "Où se trouvait l'Égypte antique ?",
       "options": ["Europe", "Afrique", "Asie", "Amérique"],
       "correctAnswer": 1,
       "xpReward": 25,
@@ -157,7 +157,7 @@
     },
     {
       "id": 20,
-      "question": "Qui était le chef de l'Égypte antique ?",
+      "question": "Comment appelait-on le chef de l'Égypte antique ?",
       "options": ["Empereur", "Roi", "Pharaon", "Président"],
       "correctAnswer": 2,
       "xpReward": 25,
@@ -173,7 +173,7 @@
     },
     {
       "id": 22,
-      "question": "Où se trouvait la ville de Rome ?",
+      "question": "Où se trouve la ville de Rome ?",
       "options": ["France", "Italie", "Espagne", "Grèce"],
       "correctAnswer": 1,
       "xpReward": 25,
@@ -365,9 +365,9 @@
     },
     {
       "id": 46,
-      "question": "Dans Minecraft, quel bloc est utilisé pour miner le diamant ?",
-      "options": ["Pierre", "Fer", "Charbon", "Diamant"],
-      "correctAnswer": 3,
+      "question": "Dans Minecraft, quel outil est utilisé pour miner le diamant ?",
+      "options": ["Pioche en pierre", "Pioche en fer", "Pioche en or", "Pioche en diamant"],
+      "correctAnswer": 1,
       "xpReward": 25,
       "subtheme": "Jeux-Vidéos"
     },

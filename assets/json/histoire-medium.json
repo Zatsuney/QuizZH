@@ -317,7 +317,7 @@
     },
     {
       "id": 40,
-      "question": "Qui est le président américain pendant la WWII (fin) ?",
+      "question": "Qui dirige les États-Unis lorsque la bombe atomique est lancée sur Hiroshima ?",
       "options": ["Roosevelt", "Truman", "Kennedy", "Nixon"],
       "correctAnswer": 1,
       "xpReward": 35,

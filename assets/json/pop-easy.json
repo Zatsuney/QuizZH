@@ -173,9 +173,9 @@
     },
     {
       "id": 22,
-      "question": "Quel personnage Batman a un pistolet grappin ?",
-      "options": ["Le Joker", "Catwoman", "La Chauve-souris", "Ce n'est pas dans Batman"],
-      "correctAnswer": 3,
+      "question": "Quel équipement Batman utilise-t-il pour se déplacer rapidement entre les bâtiments ?",
+      "options": ["Un grappling gun", "Une cape volante", "Des ailes de chauve-souris", "Un jetpack"],
+      "correctAnswer": 0,
       "xpReward": 25,
       "subtheme": "Super-héros"
     },
@@ -389,7 +389,7 @@
     },
     {
       "id": 49,
-      "question": "Quel groupe de musique a chanté 'Imagine Dragons' ?",
+      "question": "Quel groupe de musique est célèbre pour la chanson 'Radioactive' ?",
       "options": ["OneRepublic", "Imagine Dragons", "X Ambassadors", "Bastille"],
       "correctAnswer": 1,
       "xpReward": 25,
