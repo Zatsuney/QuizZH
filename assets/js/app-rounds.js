@@ -65,82 +65,19 @@ function updateProgressBar() {
 }
 
 function startTimer() {
-  // Clear any existing timer
-  if (timerInterval) {
-    clearInterval(timerInterval);
-  }
-
+  // TOURNAMENT MODE: NO TIMER - Infinite response time
+  // Just setup the answers watcher to wait for all players
   allPlayersAnswered = false;
   resetAnswerDisplay();
-
-  timerStartTime = Date.now();
-  const timerValue = document.getElementById('timerValue');
+  
+  // Hide the timer badge
   const timerBadge = document.querySelector('.timer-badge');
+  if (timerBadge) {
+    timerBadge.style.display = 'none';
+  }
 
-  if (!timerValue || !timerBadge) return;
-
-  let timeRemaining = TIMER_DURATION;
-
-  // Setup listener to watch for all players answering
+  // Wait for all players to answer (no timeout)
   setupAnswersWatcher();
-
-  // Update every 100ms for smooth animation
-  timerInterval = setInterval(() => {
-    const elapsedMs = Date.now() - timerStartTime;
-    timeRemaining = Math.max(0, TIMER_DURATION - Math.floor(elapsedMs / 1000));
-
-    // Update display
-    timerValue.textContent = timeRemaining;
-
-    // Warning state when < 5 seconds
-    if (timeRemaining <= 5) {
-      timerBadge.classList.add('warning');
-    } else {
-      timerBadge.classList.remove('warning');
-    }
-
-    // Check if all players answered (before time runs out)
-    if (allPlayersAnswered && timerInterval) {
-      clearInterval(timerInterval);
-      timerInterval = null;
-      showWaitingMessage();
-      return;
-    }
-
-    // Time's up!
-    if (timeRemaining <= 0) {
-      clearInterval(timerInterval);
-      timerInterval = null;
-      timerValue.textContent = '0';
-      
-      // Disable answer options and input
-      document.querySelectorAll('input[name="answer"]').forEach(radio => {
-        if (!radio.disabled) {
-          radio.disabled = true;
-        }
-      });
-      document.querySelectorAll('.answer-option').forEach(opt => {
-        opt.style.cursor = 'not-allowed';
-        opt.style.opacity = '0.6';
-      });
-      
-      const answerInput = document.getElementById('answerInput');
-      if (answerInput && answerInput.style.display !== 'none' && !answerInput.disabled) {
-        answerInput.disabled = true;
-        answerInput.style.opacity = '0.7';
-      }
-      
-      const submitButton = document.querySelector('#answerForm button[type="submit"]');
-      if (submitButton && !submitButton.disabled) {
-        submitButton.disabled = true;
-        submitButton.textContent = '⏱️ Temps écoulé';
-        submitButton.style.opacity = '0.6';
-      }
-      
-      showWaitingMessage();
-      showNotification('⏱️ Temps écoulé!', 'info');
-    }
-  }, 100);
 }
 
 function setupAnswersWatcher() {
@@ -566,11 +503,14 @@ async function displayCurrentQuestion() {
     answersUnsubscribe = null;
   }
 
-  // Start timer if answer not submitted yet
-  if (!previousAnswer?.answer) {
-    startTimer();
-  } else {
-    stopTimer();
+  // NO TIMER IN TOURNAMENT MODE - Infinite response time
+  // Players can answer at their own pace
+  stopTimer();
+  
+  // Hide the timer badge
+  const timerBadge = document.querySelector('.timer-badge');
+  if (timerBadge) {
+    timerBadge.style.display = 'none';
   }
 }
 
