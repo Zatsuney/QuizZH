@@ -347,17 +347,29 @@ async function initializeGameState() {
   // Mettre à jour le statut du joueur
   await updatePlayerStatus(playerName, 'waiting', `Manche ${currentRoundNumber}`);
 
-  // Récupérer l'ordre aléatoire des questions (créé par le premier joueur ou l'admin)
+  // Récupérer l'ordre aléatoire des questions (généré par l'admin avec setActiveRound)
   let questionOrder = await getQuestionsOrder(currentRoundNumber);
 
-  // Si pas encore d'ordre (premier joueur arrivé), générer et sauvegarder
+  // Si pas encore d'ordre, attendre que l'admin le génère (ne PAS le générer soi-même pour éviter la désync)
+  let retries = 0;
+  const maxRetries = 30; // 30 secondes d'attente max (tous les 1000ms)
+  
+  while ((!questionOrder || questionOrder.length === 0) && retries < maxRetries) {
+    console.log(`⏳ Waiting for admin to generate questions order... (${retries}/${maxRetries})`);
+    await new Promise(resolve => setTimeout(resolve, 1000)); // Attendre 1 seconde
+    questionOrder = await getQuestionsOrder(currentRoundNumber);
+    retries++;
+  }
+
   if (!questionOrder || questionOrder.length === 0) {
+    // Fallback SEULEMENT si vraiment rien (ce ne devrait pas arriver)
+    console.warn('⚠️ Questions order still not found after waiting. Using fallback generation.');
     questionOrder = generateQuestionOrder(currentRoundNumber);
     await setQuestionsOrder(currentRoundNumber, questionOrder);
-    shuffledQuestionOrder = questionOrder;
-  } else {
-    shuffledQuestionOrder = questionOrder;
   }
+  
+  shuffledQuestionOrder = questionOrder;
+  console.log('✅ Questions order retrieved:', shuffledQuestionOrder);
 
   // Récupérer les réponses existantes du joueur
   try {
@@ -423,6 +435,9 @@ async function displayCurrentQuestion() {
   // Récupérer le numéro de question selon l'ordre aléatoire
   const questionNumberFromOrder = shuffledQuestionOrder[currentQuestionNumber - 1];
   const question = getQuestion(currentRoundNumber, questionNumberFromOrder);
+
+  // Log de vérification: afficher quel numéro de question on affiche
+  console.log(`📋 Displaying Question ${currentQuestionNumber}/${totalQuestionsInRound} | Order ID: ${questionNumberFromOrder} | All players should see this same order`);
 
   if (!question) {
     if (questionContainer) questionContainer.innerHTML = '<p>Question non trouvée</p>';
